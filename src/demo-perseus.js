@@ -42,7 +42,7 @@ const question = query.content ? JSON.parse(query.content) : defaultQuestion;
 const problemNum = Math.floor(Math.random() * 100);
 
 // React router v20XX
-const path = window.location.search.substring(1);
+const path = 'renderer';//window.location.search.substring(1);
 const routes = { // The value is spread across a React.createElement call
     'renderer': [RendererDemo, {question, problemNum}],
     'article': [ArticleDemo, {content: question}],
