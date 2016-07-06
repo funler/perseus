@@ -29,15 +29,15 @@ const question = query.content && JSON.parse(query.content);
 const problemNum = Math.floor(Math.random() * 100);
 
 // React router v20XX
-const path = window.location.search.substring(1);
+const path = 'renderer';//window.location.search.substring(1);
 const routes = {
     // The value is spread across a React.createElement call
-    renderer: [RendererDemo, {question, problemNum}],
-    article: [ArticleDemo, {content: question}],
-    multirenderer: [MultirendererDemo, {item: question}],
-    "item-diff": [ItemDiffDemo, {}],
-    "article-diff": [ArticleDiffDemo, {}],
-    "": [EditorDemo, {question, problemNum}],
+    'renderer': [RendererDemo, {question, problemNum}],
+    'article': [ArticleDemo, {content: question}],
+    'multirenderer': [MultirendererDemo, {item: question}],
+    'item-diff': [ItemDiffDemo, {}],
+    'article-diff': [ArticleDiffDemo, {}],
+    '': [EditorDemo, {question, problemNum}],
 };
 
 Perseus.init({skipMathJax: false, loadExtraWidgets: true})
