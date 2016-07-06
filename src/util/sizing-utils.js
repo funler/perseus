@@ -24,7 +24,7 @@ const containerSizeClass = {
 module.exports = {
     containerSizeClass: containerSizeClass,
     containerSizeClassPropType: React.PropTypes.oneOf(
-            Object.values(containerSizeClass)),
+            _.values(containerSizeClass)),
 
     getClassFromWidth: (width) => {
         if (!width) {
