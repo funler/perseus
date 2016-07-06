@@ -202,4 +202,6 @@ const styles = StyleSheet.create({
     },
 });
 
-module.exports = RendererDemo;
+define(function (require, exports, module) {
+  module.exports = RendererDemo;
+})
