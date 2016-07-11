@@ -79,6 +79,7 @@ const RendererDemo = React.createClass({
 
     takeHint: function() {
         this.refs.itemRenderer.showHint();
+        window.khanExerciseLoader.useHint();
     },
 
     _handleResize() {
