@@ -1,5 +1,5 @@
 /* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
-/* eslint-disable comma-dangle, indent, no-undef, no-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/sort-comp */
+/* eslint-disable comma-dangle, indent, no-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/sort-comp */
 /* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 var React = require("react");
@@ -79,7 +79,13 @@ var Explanation = React.createClass({
     },
 
     componentDidUpdate: function(prevProps, prevState) {
-        this._updateHeight();
+        if (prevProps !== this.props) {
+            // Internal state only changes on height changes itself (which
+            // we wouldn't want to call _updateHeight() on), or on toggling
+            // expansion (which also doesn't affect the content height), so
+            // we only care about prop changes.
+            this._updateHeight();
+        }
     },
 
     render: function() {

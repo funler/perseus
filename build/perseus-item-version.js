@@ -1,10 +1,26 @@
 // Perseus Version File
-// commit 16471e9045f06198b5486a56482bb031ea424b8c
+// commit 85f405e0accbe94eb32b142082813f8a95a25ff1
 // branch master
 // @generated
 /* eslint-disable comma-dangle */
 
 module.exports = {
+    "radio": {
+        "major": 1,
+        "minor": 0
+    },
+    "input-number": {
+        "major": 0,
+        "minor": 0
+    },
+    "numeric-input": {
+        "major": 0,
+        "minor": 0
+    },
+    "expression": {
+        "major": 1,
+        "minor": 0
+    },
     "categorizer": {
         "major": 0,
         "minor": 0
@@ -19,10 +35,6 @@ module.exports = {
     },
     "explanation": {
         "major": 0,
-        "minor": 0
-    },
-    "expression": {
-        "major": 1,
         "minor": 0
     },
     "grapher": {
@@ -42,10 +54,6 @@ module.exports = {
         "minor": 0
     },
     "image": {
-        "major": 0,
-        "minor": 0
-    },
-    "input-number": {
         "major": 0,
         "minor": 0
     },
@@ -81,10 +89,6 @@ module.exports = {
         "major": 0,
         "minor": 0
     },
-    "numeric-input": {
-        "major": 0,
-        "minor": 0
-    },
     "orderer": {
         "major": 0,
         "minor": 0
@@ -103,10 +107,6 @@ module.exports = {
     },
     "plotter": {
         "major": 0,
-        "minor": 0
-    },
-    "radio": {
-        "major": 1,
         "minor": 0
     },
     "reaction-diagram": {

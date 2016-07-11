@@ -9,11 +9,11 @@ const React = require('react');
 const _ = require("underscore");
 
 const ApiOptions = require("./perseus-api.jsx").Options;
-const ArticleRenderer = require("./article-renderer.jsx");
 const Editor = require("./editor.jsx");
 const EnabledFeatures = require("./enabled-features.jsx");
 const JsonEditor = require("./json-editor.jsx");
 const DeviceFramer = require("./components/device-framer.jsx");
+const IframeContentRenderer = require("./iframe-content-renderer.jsx");
 
 const rendererProps = React.PropTypes.shape({
     content: React.PropTypes.string,
@@ -52,6 +52,7 @@ const ArticleEditor = React.createClass({
     propTypes: {
         apiOptions: React.PropTypes.shape({}),
         enabledFeatures: EnabledFeatures.propTypes,
+        frameSource: React.PropTypes.string.isRequired,
         imageUploader: React.PropTypes.func,
         json: React.PropTypes.oneOfType([
             rendererProps,
@@ -59,7 +60,13 @@ const ArticleEditor = React.createClass({
         ]),
         mode: React.PropTypes.oneOf(["diff", "edit", "json", "preview"]),
         onChange: React.PropTypes.func.isRequired,
-        screen: React.PropTypes.oneOf(["desktop", "phone"]),
+        screen: React.PropTypes.oneOf([
+            "noframe",
+            "noframe-wide",
+            "phone",
+            "tablet",
+            "desktop",
+        ]),
         sectionImageUploadGenerator: React.PropTypes.func,
         useNewStyles: React.PropTypes.bool,
     },
@@ -78,6 +85,41 @@ const ArticleEditor = React.createClass({
         };
     },
 
+    componentDidUpdate: function() {
+        if (this.props.mode === "preview") {
+            this.refs["frame-all"].sendNewData({
+                type: "article-all",
+                data: this._sections().map((section) => {
+                    return this._apiOptionsForSection(section);
+                }),
+            });
+        } else {
+            this._sections().forEach((section, i) => {
+                this.refs["frame-" + i].sendNewData({
+                    type: "article",
+                    data: this._apiOptionsForSection(section),
+                });
+            });
+        }
+    },
+
+    _apiOptionsForSection: function(section) {
+        return {
+            apiOptions: {
+                ...ApiOptions.defaults,
+                ...this.props.apiOptions,
+
+                // Alignment options are always available in article
+                // editors
+                showAlignmentOptions: true,
+                isArticle: true,
+            },
+            enabledFeatures: this.props.enabledFeatures,
+            json: section,
+            useNewStyles: this.props.useNewStyles,
+        };
+    },
+
     _sections: function() {
         return _.isArray(this.props.json) ?
             this.props.json :
@@ -88,9 +130,7 @@ const ArticleEditor = React.createClass({
         const {
             enabledFeatures,
             imageUploader,
-            screen,
             sectionImageUploadGenerator,
-            useNewStyles,
         } = this.props;
 
         const apiOptions = {
@@ -176,15 +216,7 @@ const ArticleEditor = React.createClass({
 
 
                         <div className={"editor-preview"}>
-                            <DeviceFramer deviceType={screen}>
-                                <ArticleRenderer
-                                    apiOptions={apiOptions}
-                                    enabledFeatures={enabledFeatures}
-                                    json={section}
-                                    ref={"renderer" + i}
-                                    useNewStyles={useNewStyles}
-                                />
-                            </DeviceFramer>
+                            {this._renderIframePreview(i)}
                         </div>
                     </div>,
                 ];
@@ -211,16 +243,27 @@ const ArticleEditor = React.createClass({
         </div>;
     },
 
+    _renderIframePreview: function(i) {
+        const isMobile = this.props.screen === "phone" ||
+            this.props.screen === "tablet";
+
+        return <DeviceFramer deviceType={this.props.screen}>
+            <IframeContentRenderer
+                ref={"frame-" + i}
+                content={this.props.frameSource}
+                datasetKey="mobile"
+                datasetValue={isMobile}
+                seamless={
+                    this.props.screen === "noframe" ||
+                    this.props.screen === "noframe-wide"
+                }
+            />
+        </DeviceFramer>;
+    },
+
     _renderPreviewMode: function() {
         return <div className="standalone-preview">
-            <DeviceFramer deviceType={this.props.screen}>
-                <ArticleRenderer
-                    apiOptions={this.props.apiOptions}
-                    enabledFeatures={this.props.enabledFeatures}
-                    json={this.props.json}
-                    useNewStyles={this.props.useNewStyles}
-                />
-            </DeviceFramer>
+            {this._renderIframePreview("all")}
         </div>;
     },
 
