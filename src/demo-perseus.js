@@ -44,7 +44,7 @@ const ArticleDiffDemo = require("./article-diff-demo.jsx");
 Perseus.init({skipMathJax: false, loadExtraWidgets: true})
     .then(function() {
       $(Exercises).bind("readyForNextProblem", function() {
-        var question = window.khanExerciseLoader.currentExercise;
+        var question = JSON.parse(window.khanExerciseLoader.currentExercise.data.json);
         var problemNum = Math.floor(Math.random() * 100);
         var questinInfo = [RendererDemo, {question, problemNum}];
         DemoComponent = ReactDOM.render(
