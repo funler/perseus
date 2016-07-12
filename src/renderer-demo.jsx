@@ -21,6 +21,7 @@ const SimpleButton = require('./simple-button.jsx');
 
 const RendererDemo = React.createClass({
 
+    hintsUsed: 0,
     propTypes: {
         problemNum: React.PropTypes.number,
         question: React.PropTypes.any.isRequired,
@@ -49,7 +50,15 @@ const RendererDemo = React.createClass({
     },
 
     checkAnswer: function() {
-        this.setState({answer: this.refs.itemRenderer.scoreInput()});
+        var input = this.refs.itemRenderer.scoreInput();
+        this.setState({answer: input});
+        window.khanExerciseLoader.sendKhanScoreToServer({
+          'correct': input.correct ? 1 : 0,
+          'wrong': input.correct ? 0 : 1,
+          'hintsUsed': 0,
+          'totalHints': 0,
+          'scratchpadUsed': false
+        });
     },
 
     takeHint: function() {

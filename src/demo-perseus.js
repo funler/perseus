@@ -37,7 +37,7 @@ const defaultQuestion = {
     "hints": [],
 };
 
-const query = Perseus.Util.parseQueryString(window.location.hash.substring(1));
+// const query = Perseus.Util.parseQueryString(window.location.hash.substring(1));
 const question = query.content ? JSON.parse(query.content) : defaultQuestion;
 const problemNum = Math.floor(Math.random() * 100);
 
