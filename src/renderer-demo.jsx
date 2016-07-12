@@ -80,8 +80,8 @@ const RendererDemo = React.createClass({
         window.khanExerciseLoader.sendKhanScoreToServer({
           'correct': input.correct ? 1 : 0,
           'wrong': input.correct ? 0 : 1,
-          'hintsUsed': 0,
-          'totalHints': 0,
+          'hintsUsed': this.refs.itemRenderer.hintsRenderer.props.hintsVisible,
+          'totalHints': this.refs.itemRenderer.getNumHints(),
           'scratchpadUsed': false
         });
     },
@@ -118,7 +118,6 @@ const RendererDemo = React.createClass({
         };
 
         const answer = this.state.answer;
-
         const rendererComponent = (
             <ItemRenderer
                 item={this.props.question}
@@ -146,7 +145,7 @@ const RendererDemo = React.createClass({
                         styles.smiley,
                         !showSmiley && styles.hideSmiley
                     )}
-                    src="/images/face-smiley.png"
+                    src="perseus/images/face-smiley.png"
                 />
             </div>
         );
