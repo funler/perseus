@@ -24,31 +24,39 @@ const MultirendererDemo = require("./multirenderer-demo.jsx");
 const ItemDiffDemo = require("./item-diff-demo.jsx");
 const ArticleDiffDemo = require("./article-diff-demo.jsx");
 
-// const query = Perseus.Util.parseQueryString(window.location.hash.substring(1));
-const question = query.content ? JSON.parse(query.content) : defaultQuestion;
-const problemNum = Math.floor(Math.random() * 100);
-
-// React router v20XX
-const path = 'renderer';//window.location.search.substring(1);
-const routes = {
-    // The value is spread across a React.createElement call
-    'renderer': [RendererDemo, {question, problemNum}],
-    'article': [ArticleDemo, {content: question}],
-    'multirenderer': [MultirendererDemo, {item: question}],
-    'item-diff': [ItemDiffDemo, {}],
-    'article-diff': [ArticleDiffDemo, {}],
-    '': [EditorDemo, {question, problemNum}],
-};
+<<<<<<< HEAD
+// // const query = Perseus.Util.parseQueryString(window.location.hash.substring(1));
+// const question = query.content ? JSON.parse(query.content) : defaultQuestion;
+// const problemNum = Math.floor(Math.random() * 100);
+//
+// // React router v20XX
+// const path = 'renderer';//window.location.search.substring(1);
+// const routes = {
+//     // The value is spread across a React.createElement call
+//     'renderer': [RendererDemo, {question, problemNum}],
+//     'article': [ArticleDemo, {content: question}],
+//     'multirenderer': [MultirendererDemo, {item: question}],
+//     'item-diff': [ItemDiffDemo, {}],
+//     'article-diff': [ArticleDiffDemo, {}],
+//     '': [EditorDemo, {question, problemNum}],
+// };
 
 Perseus.init({skipMathJax: false, loadExtraWidgets: true})
     .then(function() {
-        ReactDOM.render(
-            React.createElement(...(routes[path] || routes[""])),
+      $(Exercises).bind("readyForNextProblem", function() {
+        var question = window.khanExerciseLoader.currentExercise;
+        var problemNum = Math.floor(Math.random() * 100);
+        var questinInfo = [RendererDemo, {question, problemNum}];
+        DemoComponent = ReactDOM.render(
+            React.createElement(...(questinInfo)),
             document.getElementById("perseus-container")
         );
+      })
     })
     .then(
-        function() {},
+        function() {
+          hideExerciseLoadingBar();
+        },
         function(err) {
             console.error(err); // @Nolint
         }
