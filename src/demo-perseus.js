@@ -69,7 +69,7 @@ const defaultQuestion = {
 
 Perseus.init({skipMathJax: false}).then(function() {
     $(Exercises).bind("readyForNextProblem", function() {
-      var question = window.khanExerciseLoader.currentExercise;
+      var question = JSON.parse(window.khanExerciseLoader.currentExercise.data.json);
       var problemNum = Math.floor(Math.random() * 100);
       var questinInfo = [RendererDemo, {question, problemNum}];
       DemoComponent = ReactDOM.render(
