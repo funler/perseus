@@ -30,6 +30,7 @@ const defaultQuestion = {
 };
 
 const RendererDemo = React.createClass({
+    hintsUsed: 0,
     propTypes: {
         problemNum: React.PropTypes.number,
         question: React.PropTypes.any.isRequired,
@@ -67,14 +68,22 @@ const RendererDemo = React.createClass({
 
     checkAnswer: function() {
         this.refs.itemRenderer.showRationalesForCurrentlySelectedChoices();
+        var input = this.refs.itemRenderer.scoreInput();
         this.setState(
             {
-                answer: this.refs.itemRenderer.scoreInput(),
+                answer: input,
             },
             () => {
                 this.refs.itemRenderer.deselectIncorrectSelectedChoices();
             }
         );
+        window.khanExerciseLoader.sendKhanScoreToServer({
+          'correct': input.correct ? 1 : 0,
+          'wrong': input.correct ? 0 : 1,
+          'hintsUsed': 0,
+          'totalHints': 0,
+          'scratchpadUsed': false
+        });
     },
 
     takeHint: function() {
