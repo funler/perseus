@@ -24,8 +24,13 @@ window.iframeDataStore = {};
 // This is only called once per iframe, after Perseus is loaded and the frame
 // is ready to render content.
 window.addEventListener("message", (event) => {
+
     if (typeof event.data === "string") {
-        requestIframeData[event.data]();
+        try {
+          JSON.parse(event.data); // If it parse its code for Angular not for Perseus FW.
+        } catch(e) {
+          requestIframeData[event.data]();
+        }
     } else if (event.data.id) {
         updateIframeHeight[event.data.id](event.data.height);
     }
