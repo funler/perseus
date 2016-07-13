@@ -29,9 +29,13 @@ window.addEventListener("message", event => {
         // event listener also gets added in Manticore (since we include Perseus
         // from there), and Crowdin fires its own "message" events. So we'll
         // just have to ignore the event when we can't find the callback.
-        const callback = requestIframeData[event.data];
-        if (callback) {
-            callback();
+        try {
+          JSON.parse(event.data); // If it parse its code for Angular not for Perseus FW.
+        } catch(e) {
+          const callback = requestIframeData[event.data];
+          if (callback) {
+              callback();
+          }
         }
     } else if (event.data.id) {
         if (event.data.height !== undefined) {
