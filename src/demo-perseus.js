@@ -68,10 +68,8 @@ const defaultQuestion = {
 // };
 
 Perseus.init({skipMathJax: false}).then(function() {
-    // $(Exercises).bind("readyForNextProblem gotoNextProblem", function() {
     $(Exercises).bind("gotoNextProblem", function() {
-
-      window.ReactDOM.unmountComponentAtNode(document.getElementById("perseus-container"));
+      ReactDOM.unmountComponentAtNode(document.getElementById("perseus-container"));
       hideExerciseLoadingBar();
       var question = JSON.parse(window.khanExerciseLoader.currentExercise.data.json);
       var problemNum = Math.floor(Math.random() * 100);
@@ -81,8 +79,11 @@ Perseus.init({skipMathJax: false}).then(function() {
           React.createElement(...(questinInfo)),
           document.getElementById("perseus-container")
       );
+    });
 
-    })
+    $(Exercises).bind("useHintFromFunler", function() {
+      DemoComponent.takeHint();
+    });
 }).then(function() {
  // hideExerciseLoadingBar();
 }, function(err) {
