@@ -66,6 +66,12 @@ const RendererDemo = React.createClass({
         console.log(this.refs.itemRenderer.scoreInput()); // eslint-disable-line no-console
     },
 
+    clearScratchpad: function() {
+      if(this.pad) {
+        this.pad.clear();
+      }
+    },
+
     toggleScratchpad: function() {
       if(this.scratchpadVisible)
         this.hideScratchpad();
