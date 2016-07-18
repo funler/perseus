@@ -24,7 +24,6 @@ const MultirendererDemo = require("./multirenderer-demo.jsx");
 const ItemDiffDemo = require("./item-diff-demo.jsx");
 const ArticleDiffDemo = require("./article-diff-demo.jsx");
 
-<<<<<<< HEAD
 // // const query = Perseus.Util.parseQueryString(window.location.hash.substring(1));
 // const question = query.content ? JSON.parse(query.content) : defaultQuestion;
 // const problemNum = Math.floor(Math.random() * 100);
