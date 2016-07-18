@@ -66,6 +66,53 @@ const RendererDemo = React.createClass({
         console.log(this.refs.itemRenderer.scoreInput()); // eslint-disable-line no-console
     },
 
+    toggleScratchpad: function() {
+      if(this.scratchpadVisible)
+        this.hideScratchpad();
+      else
+        this.showScratchpad();
+    },
+
+    hideScratchpad: function() {
+      if(!this.scratchpadVisible) return;
+
+      $("#scratchpad").hide();
+      // Un-outline things floating on top of the scratchpad
+      $(".above-scratchpad").css("border", "");
+      $("#scratchpad-show").text(i18n._("Show scratchpad"));
+      this.scratchpadVisible = false;
+    },
+
+    showScratchpad: function() {
+      if(this.scratchpadVisible) return;
+
+      if (!$("#scratchpad").length) {
+          // Scratchpad's gone! The exercise template
+          // probably isn't on screen right now, so let's
+          // just not try and initialize stuff otherwise
+          // Raphael will attach an <svg> to the body.
+          return;
+      }
+
+      $("#scratchpad").show();
+      $("#scratchpad-show").text(i18n._("Hide scratchpad"));
+
+      // If pad has never been created or if it's empty
+      // because it was removed from the DOM, recreate a new
+      // scratchpad.
+      if (!this.pad || !$("#scratchpad div").children().length) {
+          this.pad = new DrawingScratchpad(
+              $("#scratchpad div")[0]);
+      }
+
+      // Outline things floating on top of the scratchpad
+      $(".above-scratchpad").css("border", "1px solid #ccc");
+
+      this.scratchpadVisible = true;
+    },
+    pad : undefined,
+    scratchpadVisible: false,
+
     checkAnswer: function() {
         this.refs.itemRenderer.showRationalesForCurrentlySelectedChoices();
         var input = this.refs.itemRenderer.scoreInput();
@@ -194,12 +241,9 @@ const RendererDemo = React.createClass({
                         <div style={{clear: "both"}} />
                     </div>
                     <div className="extras" style={{margin: 20}}>
-                        <button onClick={this.onScore}>Score</button>
-                        <span style={{marginLeft: 15}}>
-                            Scratchpad
-                            {scratchpadEnabled ? "" : "not "}
-                            available
-                        </span>
+                        <button className={scratchpadEnabled ? '' : 'hide'} onClick={this.toggleScratchpad}>
+                        {this.scratchpadVisible ? 'Hide' : 'Show'} Scratchpad
+                        </button>
                     </div>
                     {rendererComponent}
                 </div>
