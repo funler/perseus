@@ -53,6 +53,7 @@ Perseus.init({skipMathJax: false, loadExtraWidgets: true})
             React.createElement(...(questinInfo)),
             document.getElementById("perseus-container")
         );
+        DemoComponent.clearScratchpad();
       });
 
       $(Exercises).bind("useHintFromFunler", function() {
