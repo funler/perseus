@@ -44,6 +44,12 @@ const RendererDemo = React.createClass({
         console.log(this.refs.itemRenderer.scoreInput());
     },
 
+    clearScratchpad: function() {
+      if(this.pad) {
+        this.pad.clear();
+      }
+    },
+
     toggleScratchpad: function() {
       if(this.scratchpadVisible)
         this.hideScratchpad();
