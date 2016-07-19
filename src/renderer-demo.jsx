@@ -183,33 +183,29 @@ const RendererDemo = React.createClass({
                 <div className="renderer-demo framework-perseus">
                     <div className={css(styles.problemAndAnswer)}>
                         <div id="problem-area">
+                            <div id="scratchpad">
+                              <div style={{zIndex:1, left:0}}></div>
+                            </div>
                             <div id="workarea"/>
                             <div id="hintsarea"/>
                         </div>
                         <div className={css(styles.answerAreaWrap)}>
-                            <div id="answer-area">
-                                <div className={css(styles.infoBox)}>
+                            <div id="answer_area">
+                                <div className={"info-box " + css(styles.infoBox)}>
                                     <div id="solutionarea"></div>
                                     <div className={css(styles.answerButtons)}>
                                     {answerButton}
                                     </div>
                                 </div>
                                 <div className={css(styles.infoBox)}>
-                                    <SimpleButton
-                                        color={'orange'}
-                                        onClick={this.takeHint}
-                                    >
-                                        Hint
-                                    </SimpleButton>
+                                  <SimpleButton color={'orange'} onClick={this.takeHint}>Need Help?</SimpleButton>
                                 </div>
+                                <button className={scratchpadEnabled ? '' : 'hide'} onClick={this.toggleScratchpad}>
+                                  {this.scratchpadVisible ? 'Hide' : 'Show'} Scratchpad
+                                </button>
                             </div>
                         </div>
                         <div style={{clear: "both"}}/>
-                    </div>
-                    <div className="extras" style={{margin: 20}}>
-                        <button className={scratchpadEnabled ? '' : 'hide'} onClick={this.toggleScratchpad}>
-                        {this.scratchpadVisible ? 'Hide' : 'Show'} Scratchpad
-                        </button>
                     </div>
                     {rendererComponent}
                 </div>
