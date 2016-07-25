@@ -68,7 +68,7 @@ const RendererDemo = React.createClass({
       $("#scratchpad").hide();
       // Un-outline things floating on top of the scratchpad
       $(".above-scratchpad").css("border", "");
-      $("#scratchpad-show").text(i18n._("Show scratchpad"));
+      $('#scratchpad-show')[0].value = "Scratchpad";
       this.scratchpadVisible = false;
     },
 
@@ -84,7 +84,7 @@ const RendererDemo = React.createClass({
       }
 
       $("#scratchpad").show();
-      $("#scratchpad-show").text(i18n._("Hide scratchpad"));
+      $('#scratchpad-show')[0].value = "Hide";
 
       // If pad has never been created or if it's empty
       // because it was removed from the DOM, recreate a new
@@ -191,27 +191,38 @@ const RendererDemo = React.createClass({
                         </div>
                         <div className={css(styles.answerAreaWrap)}>
                             <div id="answer_area">
-                                <div className={"info-box " + css(styles.infoBox)}>
-                                    <div id="solutionarea"></div>
-                                    <div className={css(styles.answerButtons)}>
-                                    {answerButton}
+                                <div className="action-buttons">
+                                  <div className="hint-box">
+                                    <div id="get-hint-button-container">
+                                      <input type="button" onClick={this.takeHint} className="simple-button orange full-width" id="hint" name="hint" value="Hint"></input>
                                     </div>
+                                    <span id="hint-remainder"></span>
+                                  </div>
+
+                                  <div className={'scratchpad-box ' + (scratchpadEnabled ? '' : 'hide')}>
+                                    <div id="get-hint-button-container">
+                                      <input type="button" onClick={this.toggleScratchpad} className="simple-button blue full-width" id="scratchpad-show" value={this.scratchpadVisible?'Hide':'Scratchpad'}></input>
+                                      <span id="scratchpad-not-available" style={{display:true}}>Scratchpad not available</span>
+                                    </div>
+                                  </div>
                                 </div>
-                                <div className={css(styles.infoBox)}>
-                                  <SimpleButton color={'orange'} onClick={this.takeHint}>Need Help?</SimpleButton>
+
+                                <div className="answer-buttons">
+                                  <div className="check-answer-wrapper">
+                                    <input onClick={this.checkAnswer} type="button" className="submit-answer blue-action" id="check-answer-button" value="Send Answer"></input>
+                                  </div>
+                                  <span id="show-solution-button-container"></span>
+                                  <div id="check-answer-results">
+                                    <p className="check-answer-message info-box-sub-description"></p>
+                                  </div>
                                 </div>
-                                <button className={scratchpadEnabled ? '' : 'hide'} onClick={this.toggleScratchpad}>
-                                  {this.scratchpadVisible ? 'Hide' : 'Show'} Scratchpad
-                                </button>
 
-
-
-
-                                <div className="info-box related-video-box">
+                                <div className="related-video-box">
                                   <div id="related-video-content">
                                     <button type="button" onclick='window.khanExerciseLoader.showHelpVideo()' className="btn btn-default resolve" id="helpme">Helpful Video</button>
                                   </div>
                                 </div>
+
                                 <div className="info-box" id="calculator" style={{display:"none"}}>
                                   <span className="info-box-header">Calculator</span>
                                   <div className="calculator">
