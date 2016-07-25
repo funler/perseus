@@ -211,7 +211,7 @@ const RendererDemo = React.createClass({
                 <div className={className}>
                     <div className={css(styles.problemAndAnswer)}>
                         {rendererComponent}
-                        <div id="problem-area">
+                        <div id="problemarea">
                             <div id="workarea" style={{marginLeft: 0}} />
                             <div id="hintsarea" />
                         </div>
@@ -222,7 +222,7 @@ const RendererDemo = React.createClass({
             return (
                 <div className="renderer-demo framework-perseus">
                     <div className={css(styles.problemAndAnswer)}>
-                        <div id="problem-area">
+                        <div id="problemarea">
                             <div id="scratchpad">
                               <div style={{zIndex:1, left:0}}></div>
                             </div>
@@ -248,6 +248,58 @@ const RendererDemo = React.createClass({
                                 <button className={scratchpadEnabled ? '' : 'hide'} onClick={this.toggleScratchpad}>
                                   {this.scratchpadVisible ? 'Hide' : 'Show'} Scratchpad
                                 </button>
+
+
+
+
+                                <div className="info-box related-video-box">
+                                  <div id="related-video-content">
+                                    <button type="button" onclick='window.khanExerciseLoader.showHelpVideo()' className="btn btn-default resolve" id="helpme">Helpful Video</button>
+                                  </div>
+                                </div>
+                                <div className="info-box" id="calculator" style={{display:"none"}}>
+                                  <span className="info-box-header">Calculator</span>
+                                  <div className="calculator">
+                                      <div className="history">
+                                          <div id="calc-output">
+                                              <div id="calc-output-content" className="fancy-scrollbar"></div>
+                                          </div>
+                                          <div className="calc-row input">
+                                            <input type="text"></input>
+                                            <div className="status">
+                                              <a href="#" className="calculator-angle-mode" data-behavior="angle-mode"><br></br></a>
+                                            </div>
+                                          </div>
+                                      </div>
+                                      <div className="keypad">
+                                          <div className="calc-row">
+                                          <a href="#" data-text="asin(">sin<sup>-1</sup></a><a href="#" data-text="acos(">cos<sup>-1</sup></a><a href="#" data-text="atan(">tan<sup>-1</sup></a><a href="#" data-behavior="bs">del</a><a href="#" className="dark" data-behavior="clear">ac</a>
+                                          </div>
+                                          <div className="calc-row">
+                                          <a href="#" data-text="sin(">sin</a><a href="#" data-text="cos(">cos</a><a href="#" data-text="tan(">tan</a><a href="#" data-text="sqrt(">√</a><a href="#" data-text="^">x<sup>y</sup></a>
+                                          </div>
+                                          <div className="calc-row">
+                                          <a href="#" data-text="e^">e<sup>x</sup></a><a href="#" data-text="ln(">ln</a><a href="#" data-text="log(">log</a><a href="#" data-text="pi">&pi;</a>
+                                          </div>
+                                          <div className="calc-row">
+                                          <a href="#" className="dark">7</a><a href="#" className="dark">8</a><a href="#" className="dark">9</a><a href="#">(</a><a href="#">)</a>
+                                          </div>
+                                          <div className="calc-row">
+                                          <a href="#" className="dark">4</a><a href="#" className="dark">5</a><a href="#" className="dark">6</a><a href="#" data-text="*">×</a><a href="#" data-text="/">÷</a>
+                                          </div>
+                                          <div className="calc-row">
+                                          <a href="#" className="dark">1</a><a href="#" className="dark">2</a><a href="#" className="dark">3</a><a href="#">+</a><a href="#" data-text="-">−</a>
+                                          </div>
+                                          <div className="calc-row">
+                                          <a href="#" className="dark">0</a><a href="#" className="dark">.</a><a href="#" data-text="ans">ans</a><a href="#" className="wide" data-behavior="evaluate">=</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                                </div>
+
+
+
+
                             </div>
                         </div>
                         <div style={{clear: "both"}} />
