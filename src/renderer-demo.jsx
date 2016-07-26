@@ -122,21 +122,36 @@ const RendererDemo = React.createClass({
     checkAnswer: function() {
         this.refs.itemRenderer.showRationalesForCurrentlySelectedChoices();
         var input = this.refs.itemRenderer.scoreInput();
-        this.setState(
-            {
-                answer: input,
-            },
-            () => {
-                this.refs.itemRenderer.deselectIncorrectSelectedChoices();
-            }
-        );
-        window.khanExerciseLoader.sendKhanScoreToServer({
-          'correct': input.correct ? 1 : 0,
-          'wrong': input.correct ? 0 : 1,
-          'hintsUsed': this.refs.itemRenderer.hintsRenderer.props.hintsVisible,
-          'totalHints': this.refs.itemRenderer.getNumHints(),
-          'scratchpadUsed': false
-        });
+        var EMPTY_MESSAGE = i18n._("There are still more parts of this question to answer.");
+        if(input.empty) {
+            setTimeout(function() {
+              var first = $('.widget-highlight').addClass('animated bounce').first();
+              if(first){
+                $('html, body').animate({
+                  scrollTop: first.offset().top - (window.innerHeight * 0.7)
+                }, 500);
+              }
+            }, 1);
+            var attemptMessage = (input.message != null)  ? input.message : EMPTY_MESSAGE;
+            $("#check-answer-results > p").html(attemptMessage).show()
+        } else {
+          $("#check-answer-results > p").hide();
+          this.setState(
+              {
+                  answer: input,
+              },
+              () => {
+                  this.refs.itemRenderer.deselectIncorrectSelectedChoices();
+              }
+          );
+          window.khanExerciseLoader.sendKhanScoreToServer({
+            'correct': input.correct ? 1 : 0,
+            'wrong': input.correct ? 0 : 1,
+            'hintsUsed': this.refs.itemRenderer.hintsRenderer.props.hintsVisible,
+            'totalHints': this.refs.itemRenderer.getNumHints(),
+            'scratchpadUsed': false
+          });
+        }
     },
 
     takeHint: function() {
