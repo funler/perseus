@@ -213,7 +213,7 @@ const RendererDemo = React.createClass({
                         styles.smiley,
                         !showSmiley && styles.hideSmiley
                     )}
-                    src="perseus/images/face-smiley.png"
+                    src="images/face-smiley.png"
                 />
             </div>
         );
