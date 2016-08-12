@@ -234,7 +234,7 @@ const RendererDemo = React.createClass({
 
                                 <div className="related-video-box">
                                   <div id="related-video-content">
-                                    <button type="button" onclick='window.khanExerciseLoader.showHelpVideo()' className="btn btn-default resolve" id="helpme">Helpful Video</button>
+                                    <button type="button" onClick={window.khanExerciseLoader.showHelpVideo} className="btn btn-default resolve" id="helpme">Helpful Video</button>
                                   </div>
                                 </div>
 
