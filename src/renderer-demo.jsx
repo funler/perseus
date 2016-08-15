@@ -277,7 +277,7 @@ const RendererDemo = React.createClass({
                                   </div>
                                 </div>
 
-                                <div className="info-box" id="calculator" style={{display:"none"}}>
+                                <div className="info-box" id="calculator2" style={{display:"none"}}>
                                   <span className="info-box-header">Calculator</span>
                                   <div className="calculator">
                                       <div className="history">
