@@ -38,6 +38,7 @@ Perseus.init({skipMathJax: false, loadExtraWidgets: true})
             document.getElementById("perseus-container")
         );
         DemoComponent.clearScratchpad();
+        Calculator.init();
       });
 
       $(Exercises).bind("useHintFromFunler", function() {
@@ -46,7 +47,6 @@ Perseus.init({skipMathJax: false, loadExtraWidgets: true})
     })
     .then(
         function() {
-          // hideExerciseLoadingBar();
         },
         function(err) {
             console.error(err); // @Nolint
