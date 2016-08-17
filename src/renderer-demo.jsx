@@ -126,6 +126,9 @@ const RendererDemo = React.createClass({
         if(input.empty) {
             setTimeout(function() {
               var first = $('.widget-highlight').addClass('animated bounce').first();
+              setTimeout(function() {
+                $('.widget-highlight').removeClass('animated bounce');
+              }, 1000)
               if(first){
                 $('html, body').animate({
                   scrollTop: first.offset().top - (window.innerHeight * 0.7)
