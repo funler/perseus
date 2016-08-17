@@ -271,14 +271,19 @@ const RendererDemo = React.createClass({
                                   </div>
                                 </div>
 
-                                <div className="related-video-box">
+                                <div className="extra-button-box">
                                   <div id="related-video-content">
                                     <button type="button" onClick={window.khanExerciseLoader.showHelpVideo} className="btn btn-default resolve" id="helpme">Helpful Video</button>
                                   </div>
                                 </div>
 
-                                <div className="info-box" id="calculator2" style={{display:"none"}}>
+                                <div className="extra-button-box">
+                                  <button type="button" id="calc-show-button" onClick={$('#calculator').toggle} className="show_calculator">Show calculator</button>
+                                </div>
+
+                                <div className="info-box" id="calculator" style={{display:"none"}}>
                                   <span className="info-box-header">Calculator</span>
+                                  <button type="button" id="calc-hide-button" onClick={$('#calculator').toggle} className="hide_calculator">Hide</button>
                                   <div className="calculator">
                                       <div className="history">
                                           <div id="calc-output">
