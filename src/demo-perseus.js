@@ -50,13 +50,14 @@ Perseus.init({skipMathJax: false}).then(function() {
           document.getElementById("perseus-container")
       );
       DemoComponent.clearScratchpad();
+      Calculator.init();
     });
 
     $(Exercises).bind("useHintFromFunler", function() {
       DemoComponent.takeHint();
     });
 }).then(function() {
- // hideExerciseLoadingBar();
+
 }, function(err) {
     console.error(err); // @Nolint
 });
