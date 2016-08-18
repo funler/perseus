@@ -230,12 +230,14 @@ const RendererDemo = React.createClass({
                                 </div>
 
                                 <div className="extra-button-box">
-                                  <button type="button" id="calc-show-button" onClick={$('#calculator').toggle} className="show_calculator">Show calculator</button>
+                                  <button type="button" id="calc-show-button" onClick={(function() {$('#calculator').show()})} className="show_calculator">calculator</button>
                                 </div>
 
                                 <div className="info-box" id="calculator" style={{display:"none"}}>
-                                  <span className="info-box-header">Calculator</span>
-                                  <button type="button" id="calc-hide-button" onClick={$('#calculator').toggle} className="hide_calculator">Hide</button>
+                                  <div className="calculator-header">
+                                      <span className="info-box-header inline">Calculator</span>
+                                      <button type="button" id="calc-hide-button" onClick={(function() {$('#calculator').hide()})} className="hide-calculator btn btn-default glyphicon glyphicon-remove"></button>
+                                  </div>
                                   <div className="calculator">
                                       <div className="history">
                                           <div id="calc-output">
