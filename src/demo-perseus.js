@@ -7,6 +7,7 @@
 
 require("./perseus-env.js");
 
+let DemoComponent = null;
 window.Khan = {
     Util: KhanUtil,
     error: function() {},
