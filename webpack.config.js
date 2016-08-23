@@ -70,11 +70,10 @@ function getEntryPoints() {
         return {"editor-perseus": "./src/editor-perseus.js"};
     } else if (forFrame) {
         return {"frame-perseus": "./src/perseus-frame.js"};
+    } else if (slim) {
+        return {"perseus-slim": "./src/perseus.js"}
     } else {
-        const name = slim ? "perseus-slim" : "perseus";
-        return {
-            [name]: slim ? "./src/perseus.js" : "./src/perseus-full.js",
-        };
+        return {"perseus": "./src/perseus-full.js"}
     }
 }
 
