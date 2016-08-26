@@ -3199,33 +3199,6 @@ a.control:hover { color: #DD6900; }
     padding: 0;
 }
 
-
-
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url('/fonts/Proxima-Nova-Regular.woff2?1c9ac9a7') format('woff2'),
-         url('/fonts/Proxima-Nova-Regular.woff?934549e7') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url('/fonts/Proxima-Nova-Semibold.woff2?4151c287') format('woff2'),
-         url('/fonts/Proxima-Nova-Semibold.woff?6227bce7') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Proxima Nova Semibold';
-    src: url('/fonts/Proxima-Nova-Semibold.woff2?4151c287') format('woff2'),
-         url('/fonts/Proxima-Nova-Semibold.woff?6227bce7') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 /* Fall back colors? Eg coach-res, talks & interviews */
 .clearfix {
   *zoom: 1;
