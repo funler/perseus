@@ -57,6 +57,7 @@ var MathInput = React.createClass({
                       onFocus={this.handleFocus}
                       onBlur={this.handleBlur} />
             </div>
+            <div className="btn btn-danger clear-expression" onClick={this.handleClear}>clear</div>
             <div style={{position: "relative"}}>
                 {buttons}
             </div>
@@ -78,8 +79,12 @@ var MathInput = React.createClass({
         // }
     },
 
+    handleClear: function() {
+      this.props.onChange('');
+    },
+
     handleMouseDown: function(event) {
-        var focused = ReactDOM.findDOMNode(this).contains(event.target);
+        var focused = ReactDOM.findDOMNode(this).contains(event.target) && !event.target.classList.contains('clear-expression');
         this.mouseDown = focused;
         if (!focused) {
             this.setState({ focused: false });
