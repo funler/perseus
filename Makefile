@@ -21,7 +21,8 @@ help:
 	@echo "make test                     # run all tests"
 	@echo "# NOTE: you can append SUPPRESSINSTALL=TRUE to avoid running npm install. Useful if you temporarily have no internet."
 
-build: clean install lint shorttest $(PERSEUS_SLIM_JS) $(PERSEUS_BUILD_JS) $(PERSEUS_NODE_BUILD_JS) $(PERSEUS_EDITOR_BUILD_JS) $(PERSEUS_FRAME_BUILD_JS) $(PERSEUS_BUILD_CSS) $(PERSEUS_VERSION_FILE) shortnodetest shorteditortest
+//build: clean install lint shorttest $(PERSEUS_SLIM_JS) $(PERSEUS_BUILD_JS) $(PERSEUS_NODE_BUILD_JS) $(PERSEUS_EDITOR_BUILD_JS) $(PERSEUS_FRAME_BUILD_JS) $(PERSEUS_BUILD_CSS) $(PERSEUS_VERSION_FILE) shortnodetest shorteditortest
+build: clean install $(PERSEUS_DEMO_BUILD_JS) $(PERSEUS_BUILD_CSS)
 watch: install
 	./watch.sh
 
