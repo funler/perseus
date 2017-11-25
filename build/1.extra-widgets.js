@@ -1,20 +1,65 @@
-webpackJsonp([1],{
-
-/***/ 60:
+webpackJsonp([1],Array(71).concat([
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* globals true */
 
 	// As new widgets get added here, please also make sure they get added in
 	// webapp perseus/traversal.py so they can be properly translated.
-	module.exports = [[__webpack_require__(113), true && __webpack_require__(114)], [__webpack_require__(115), true && __webpack_require__(116)], [__webpack_require__(117), true && __webpack_require__(118)], [__webpack_require__(119), true && __webpack_require__(120)], [__webpack_require__(121), true && __webpack_require__(122)], [__webpack_require__(123), true && __webpack_require__(124)], [__webpack_require__(125), true && __webpack_require__(126)], [__webpack_require__(127), true && __webpack_require__(128)], [__webpack_require__(129), true && __webpack_require__(130)], [__webpack_require__(131), true && __webpack_require__(132)], [__webpack_require__(133), true && __webpack_require__(134)], [__webpack_require__(135), true && __webpack_require__(136)], [__webpack_require__(137), true && __webpack_require__(138)], [__webpack_require__(139), true && __webpack_require__(140)], [__webpack_require__(141), true && __webpack_require__(142)], [__webpack_require__(143), true && __webpack_require__(144)], [__webpack_require__(145), true && __webpack_require__(146)], [__webpack_require__(147), true && __webpack_require__(148)], [__webpack_require__(149), true && __webpack_require__(150)], [__webpack_require__(151), true && __webpack_require__(152)], [__webpack_require__(153), true && __webpack_require__(154)], [__webpack_require__(155), true && __webpack_require__(156)], [__webpack_require__(157), true && __webpack_require__(158)], [__webpack_require__(159), true && __webpack_require__(160)], [__webpack_require__(161), true && __webpack_require__(162)], [__webpack_require__(163), true && __webpack_require__(164)], [__webpack_require__(165), true && __webpack_require__(166)], [__webpack_require__(167), true && __webpack_require__(168)], [__webpack_require__(169), true && __webpack_require__(170)], [__webpack_require__(171), true && __webpack_require__(172)], [__webpack_require__(173), true && __webpack_require__(174)], [__webpack_require__(175), true && __webpack_require__(176)],
+	module.exports = [[__webpack_require__(119), true && __webpack_require__(120)], [__webpack_require__(121), true && __webpack_require__(122)], [__webpack_require__(123), true && __webpack_require__(124)], [__webpack_require__(125), true && __webpack_require__(126)], [__webpack_require__(127), true && __webpack_require__(128)], [__webpack_require__(129), true && __webpack_require__(130)], [__webpack_require__(131), true && __webpack_require__(132)], [__webpack_require__(133), true && __webpack_require__(134)], [__webpack_require__(135), true && __webpack_require__(136)], [__webpack_require__(137), true && __webpack_require__(138)], [__webpack_require__(139), true && __webpack_require__(140)], [__webpack_require__(141), true && __webpack_require__(142)], [__webpack_require__(143), true && __webpack_require__(144)], [__webpack_require__(145), true && __webpack_require__(146)], [__webpack_require__(147), true && __webpack_require__(148)], [__webpack_require__(149), true && __webpack_require__(150)], [__webpack_require__(151), true && __webpack_require__(152)], [__webpack_require__(153), true && __webpack_require__(154)], [__webpack_require__(155), true && __webpack_require__(156)], [__webpack_require__(157), true && __webpack_require__(158)], [__webpack_require__(159), true && __webpack_require__(160)], [__webpack_require__(161), true && __webpack_require__(162)], [__webpack_require__(163), true && __webpack_require__(164)], [__webpack_require__(165), true && __webpack_require__(166)], [__webpack_require__(167), true && __webpack_require__(168)], [__webpack_require__(169), true && __webpack_require__(170)], [__webpack_require__(171), true && __webpack_require__(172)], [__webpack_require__(173), true && __webpack_require__(174)], [__webpack_require__(175), true && __webpack_require__(176)], [__webpack_require__(177), true && __webpack_require__(178)], [__webpack_require__(179), true && __webpack_require__(180)], [__webpack_require__(181), true && __webpack_require__(182)],
 	// These widgets are only used when testing things, so remove them in the
 	// non-editor bundle.
-	true && [__webpack_require__(177), __webpack_require__(178)], true && [__webpack_require__(179), __webpack_require__(180)], true && [__webpack_require__(181), __webpack_require__(182)]];
+	true && [__webpack_require__(183), __webpack_require__(184)], true && [__webpack_require__(185), __webpack_require__(186)], true && [__webpack_require__(187), __webpack_require__(188)]];
 
 /***/ },
-
-/***/ 113:
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */,
+/* 81 */,
+/* 82 */,
+/* 83 */,
+/* 84 */,
+/* 85 */,
+/* 86 */,
+/* 87 */,
+/* 88 */,
+/* 89 */,
+/* 90 */,
+/* 91 */,
+/* 92 */,
+/* 93 */,
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
+/* 98 */,
+/* 99 */,
+/* 100 */,
+/* 101 */,
+/* 102 */,
+/* 103 */,
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */,
+/* 112 */,
+/* 113 */,
+/* 114 */,
+/* 115 */,
+/* 116 */,
+/* 117 */,
+/* 118 */,
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _fullBleedContainer;
@@ -25,28 +70,28 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var React = __webpack_require__(81);
-	var classNames = __webpack_require__(103);
-	var Changeable = __webpack_require__(200);
-	var WidgetJsonifyDeprecated = __webpack_require__(257);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var classNames = __webpack_require__(104);
+	var Changeable = __webpack_require__(199);
+	var WidgetJsonifyDeprecated = __webpack_require__(255);
+	var _ = __webpack_require__(54);
 
-	var ApiClassNames = __webpack_require__(15).ClassNames;
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiClassNames = __webpack_require__(12).ClassNames;
+	var ApiOptions = __webpack_require__(12).Options;
 
-	var _require2 = __webpack_require__(45),
+	var _require2 = __webpack_require__(46),
 	    iconCircle = _require2.iconCircle,
 	    iconCircleThin = _require2.iconCircleThin;
 
-	var InlineIcon = __webpack_require__(46);
-	var Renderer = __webpack_require__(37);
+	var InlineIcon = __webpack_require__(47);
+	var Renderer = __webpack_require__(28);
 	var Util = __webpack_require__(16);
-	var mediaQueries = __webpack_require__(91);
-	var sharedStyles = __webpack_require__(92);
+	var mediaQueries = __webpack_require__(83);
+	var sharedStyles = __webpack_require__(85);
 
 	var _require3 = __webpack_require__(58),
 	    linterContextProps = _require3.linterContextProps,
@@ -312,8 +357,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 114:
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -322,16 +366,16 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var Changeable = __webpack_require__(200);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var Changeable = __webpack_require__(199);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var EditorJsonify = __webpack_require__(201);
-	var PropCheckBox = __webpack_require__(52);
-	var TextListEditor = __webpack_require__(104);
+	var ApiOptions = __webpack_require__(12).Options;
+	var EditorJsonify = __webpack_require__(200);
+	var PropCheckBox = __webpack_require__(68);
+	var TextListEditor = __webpack_require__(105);
 
-	var Categorizer = __webpack_require__(113).widget;
+	var Categorizer = __webpack_require__(119).widget;
 
 	var CategorizerEditor = React.createClass({
 	    displayName: "CategorizerEditor",
@@ -426,8 +470,7 @@ webpackJsonp([1],{
 	module.exports = CategorizerEditor;
 
 /***/ },
-
-/***/ 115:
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -440,10 +483,10 @@ webpackJsonp([1],{
 	 * This widget is for embedding Khan Academy CS programs.
 	 */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 	var updateQueryString = __webpack_require__(16).updateQueryString;
 
 	var PADDING_WIDTH = 2;
@@ -626,8 +669,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 116:
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -636,15 +678,15 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var BlurInput = __webpack_require__(199);
-	var InfoTip = __webpack_require__(110);
-	var PropCheckBox = __webpack_require__(52);
+	var BlurInput = __webpack_require__(194);
+	var InfoTip = __webpack_require__(103);
+	var PropCheckBox = __webpack_require__(68);
 
 	var DEFAULT_WIDTH = 400;
 	var DEFAULT_HEIGHT = 400;
@@ -900,8 +942,7 @@ webpackJsonp([1],{
 	module.exports = CSProgramEditor;
 
 /***/ },
-
-/***/ 117:
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -910,21 +951,21 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var classNames = __webpack_require__(103);
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var classNames = __webpack_require__(104);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var ApiClassNames = __webpack_require__(15).ClassNames;
-	var ApiOptions = __webpack_require__(15).Options;
-	var InlineIcon = __webpack_require__(46);
-	var styleConstants = __webpack_require__(93);
+	var ApiClassNames = __webpack_require__(12).ClassNames;
+	var ApiOptions = __webpack_require__(12).Options;
+	var InlineIcon = __webpack_require__(47);
+	var styleConstants = __webpack_require__(84);
 
-	var _require2 = __webpack_require__(45),
+	var _require2 = __webpack_require__(46),
 	    iconDropdownArrow = _require2.iconDropdownArrow;
 
 	var dropdownArrowSize = 24;
@@ -1095,25 +1136,24 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 118:
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, max-len, no-var, react/jsx-closing-bracket-location, react/jsx-indent-props, react/prop-types, react/sort-comp, semi, space-before-function-paren */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconPlus = _require.iconPlus,
 	    iconTrash = _require.iconTrash;
 
-	var InfoTip = __webpack_require__(110);
-	var InlineIcon = __webpack_require__(46);
-	var EditorJsonify = __webpack_require__(201);
+	var InfoTip = __webpack_require__(103);
+	var InlineIcon = __webpack_require__(47);
+	var EditorJsonify = __webpack_require__(200);
 
 	var DropdownEditor = React.createClass({
 	    displayName: "DropdownEditor",
@@ -1296,8 +1336,7 @@ webpackJsonp([1],{
 	module.exports = DropdownEditor;
 
 /***/ },
-
-/***/ 119:
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _explanationLink, _mobileExplanationLin;
@@ -1308,18 +1347,18 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var PerseusApi = __webpack_require__(15);
-	var Renderer = __webpack_require__(37);
-	var mediaQueries = __webpack_require__(91);
-	var styleConstants = __webpack_require__(93);
+	var Changeable = __webpack_require__(199);
+	var PerseusApi = __webpack_require__(12);
+	var Renderer = __webpack_require__(28);
+	var mediaQueries = __webpack_require__(83);
+	var styleConstants = __webpack_require__(84);
 
 	var _require2 = __webpack_require__(58),
 	    linterContextProps = _require2.linterContextProps,
@@ -1580,8 +1619,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 120:
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -1590,14 +1628,14 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(23);
-	var TextInput = __webpack_require__(204);
+	var Editor = __webpack_require__(38);
+	var TextInput = __webpack_require__(203);
 
 	var defaultExplanationProps = {
 	    showPrompt: "Explain",
@@ -1700,26 +1738,25 @@ webpackJsonp([1],{
 	module.exports = ExplanationEditor;
 
 /***/ },
-
-/***/ 121:
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _mobileDefinitionLink;
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var PerseusApi = __webpack_require__(15);
-	var Renderer = __webpack_require__(37);
-	var mediaQueries = __webpack_require__(91);
-	var styleConstants = __webpack_require__(93);
+	var Changeable = __webpack_require__(199);
+	var PerseusApi = __webpack_require__(12);
+	var Renderer = __webpack_require__(28);
+	var mediaQueries = __webpack_require__(83);
+	var styleConstants = __webpack_require__(84);
 
 	var Definition = React.createClass({
 	    displayName: "Definition",
@@ -2146,20 +2183,19 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 122:
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(23);
-	var TextInput = __webpack_require__(204);
+	var Editor = __webpack_require__(38);
+	var TextInput = __webpack_require__(203);
 
 	var DefinitionEditor = React.createClass({
 	    displayName: "DefinitionEditor",
@@ -2242,8 +2278,7 @@ webpackJsonp([1],{
 	module.exports = DefinitionEditor;
 
 /***/ },
-
-/***/ 123:
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -2252,40 +2287,40 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Interactive2 = __webpack_require__(258);
-	var SvgImage = __webpack_require__(44);
+	var Interactive2 = __webpack_require__(261);
+	var SvgImage = __webpack_require__(50);
 	var Util = __webpack_require__(16);
-	var ButtonGroup = __webpack_require__(97);
+	var ButtonGroup = __webpack_require__(98);
 
 	/* Graphie and relevant components. */
-	var Graphie = __webpack_require__(106);
+	var Graphie = __webpack_require__(107);
 	var MovablePoint = Graphie.MovablePoint;
 	var MovableLine = Graphie.MovableLine;
-	var WrappedLine = __webpack_require__(259);
+	var WrappedLine = __webpack_require__(262);
 
-	var knumber = __webpack_require__(318).number;
-	var kvector = __webpack_require__(318).vector;
-	var kpoint = __webpack_require__(318).point;
-	var KhanColors = __webpack_require__(260);
+	var knumber = __webpack_require__(289).number;
+	var kvector = __webpack_require__(289).vector;
+	var kpoint = __webpack_require__(289).point;
+	var KhanColors = __webpack_require__(263);
 
-	var _require = __webpack_require__(183),
+	var _require = __webpack_require__(190),
 	    containerSizeClassPropType = _require.containerSizeClassPropType;
 
-	var _require2 = __webpack_require__(93),
+	var _require2 = __webpack_require__(84),
 	    interactiveSizes = _require2.interactiveSizes;
 
-	var _require3 = __webpack_require__(183),
+	var _require3 = __webpack_require__(190),
 	    getInteractiveBoxFromSizeClass = _require3.getInteractiveBoxFromSizeClass;
 
 	/* Mixins. */
 
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 
-	var _require4 = __webpack_require__(287),
+	var _require4 = __webpack_require__(271),
 	    GrapherUtil = _require4.GrapherUtil,
 	    typeToButton = _require4.typeToButton,
 	    functionForType = _require4.functionForType,
@@ -2776,8 +2811,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 124:
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -2786,24 +2820,24 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 
-	var GraphSettings = __webpack_require__(261);
-	var InfoTip = __webpack_require__(110);
-	var MultiButtonGroup = __webpack_require__(202);
+	var GraphSettings = __webpack_require__(260);
+	var InfoTip = __webpack_require__(103);
+	var MultiButtonGroup = __webpack_require__(201);
 
-	var Grapher = __webpack_require__(123).widget;
+	var Grapher = __webpack_require__(129).widget;
 
-	var _require = __webpack_require__(287),
+	var _require = __webpack_require__(271),
 	    GrapherUtil = _require.GrapherUtil,
 	    allTypes = _require.allTypes,
 	    typeToButton = _require.typeToButton,
 	    DEFAULT_GRAPHER_PROPS = _require.DEFAULT_GRAPHER_PROPS;
 
-	var _require2 = __webpack_require__(183),
+	var _require2 = __webpack_require__(190),
 	    containerSizeClass = _require2.containerSizeClass,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
@@ -2946,8 +2980,7 @@ webpackJsonp([1],{
 	module.exports = GrapherEditor;
 
 /***/ },
-
-/***/ 125:
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -2956,29 +2989,29 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	/* globals i18n */
-	var classNames = __webpack_require__(103);
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var classNames = __webpack_require__(104);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconOk = _require.iconOk,
 	    iconRemove = _require.iconRemove;
 
-	var InlineIcon = __webpack_require__(46);
-	var Renderer = __webpack_require__(37);
-	var GradedGroupAnswerBar = __webpack_require__(262);
+	var InlineIcon = __webpack_require__(47);
+	var Renderer = __webpack_require__(28);
+	var GradedGroupAnswerBar = __webpack_require__(259);
 
-	var _require2 = __webpack_require__(93),
+	var _require2 = __webpack_require__(84),
 	    gray76 = _require2.gray76,
 	    phoneMargin = _require2.phoneMargin,
 	    negativePhoneMargin = _require2.negativePhoneMargin,
 	    tableBackgroundAccent = _require2.tableBackgroundAccent,
 	    kaGreen = _require2.kaGreen;
 
-	var _require3 = __webpack_require__(101),
+	var _require3 = __webpack_require__(72),
 	    StyleSheet = _require3.StyleSheet,
 	    css = _require3.css;
 
@@ -3327,8 +3360,7 @@ webpackJsonp([1],{
 	});
 
 /***/ },
-
-/***/ 126:
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3337,20 +3369,20 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
-	var Editor = __webpack_require__(23);
-	var TextInput = __webpack_require__(204);
-	var InlineIcon = __webpack_require__(46);
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
+	var Editor = __webpack_require__(38);
+	var TextInput = __webpack_require__(203);
+	var InlineIcon = __webpack_require__(47);
 
-	var _require2 = __webpack_require__(45),
+	var _require2 = __webpack_require__(46),
 	    iconPlus = _require2.iconPlus,
 	    iconTrash = _require2.iconTrash;
 
@@ -3510,8 +3542,7 @@ webpackJsonp([1],{
 	module.exports = GradedGroupEditor;
 
 /***/ },
-
-/***/ 127:
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3519,18 +3550,18 @@ webpackJsonp([1],{
 	/* eslint-disable react/forbid-prop-types */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
-	var GradedGroup = __webpack_require__(125).widget;
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
+	var GradedGroup = __webpack_require__(131).widget;
 
-	var _require2 = __webpack_require__(93),
+	var _require2 = __webpack_require__(84),
 	    grayLight = _require2.grayLight,
 	    gray76 = _require2.gray76,
 	    tableBackgroundAccent = _require2.tableBackgroundAccent,
@@ -3757,8 +3788,7 @@ webpackJsonp([1],{
 	});
 
 /***/ },
-
-/***/ 128:
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3766,12 +3796,12 @@ webpackJsonp([1],{
 	/* eslint-disable react/forbid-prop-types */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
-	var GradedGroupEditor = __webpack_require__(126);
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
+	var GradedGroupEditor = __webpack_require__(132);
 
 	var GradedGroupSetEditor = React.createClass({
 	    displayName: "GradedGroupSetEditor",
@@ -3856,8 +3886,7 @@ webpackJsonp([1],{
 	module.exports = GradedGroupSetEditor;
 
 /***/ },
-
-/***/ 129:
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3866,13 +3895,13 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var classNames = __webpack_require__(103);
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var classNames = __webpack_require__(104);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
-	var Renderer = __webpack_require__(37);
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
+	var Renderer = __webpack_require__(28);
 
 	var _require = __webpack_require__(58),
 	    linterContextProps = _require.linterContextProps,
@@ -4061,8 +4090,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 130:
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4071,13 +4099,13 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
 
-	var Editor = __webpack_require__(23);
+	var Editor = __webpack_require__(38);
 
 	var GroupEditor = React.createClass({
 	    displayName: "GroupEditor",
@@ -4154,8 +4182,7 @@ webpackJsonp([1],{
 	module.exports = GroupEditor;
 
 /***/ },
-
-/***/ 131:
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4174,11 +4201,11 @@ webpackJsonp([1],{
 	 */
 
 	/* globals KA */
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var WidgetJsonifyDeprecated = __webpack_require__(257);
+	var Changeable = __webpack_require__(199);
+	var WidgetJsonifyDeprecated = __webpack_require__(255);
 	var updateQueryString = __webpack_require__(16).updateQueryString;
 
 	/* This renders the iframe and handles validation via window.postMessage */
@@ -4360,8 +4387,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 132:
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4370,14 +4396,14 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var BlurInput = __webpack_require__(199);
-	var PropCheckBox = __webpack_require__(52);
+	var BlurInput = __webpack_require__(194);
+	var PropCheckBox = __webpack_require__(68);
 
 	/**
 	 * This is used for editing a name/value pair.
@@ -4600,8 +4626,7 @@ webpackJsonp([1],{
 	module.exports = IframeEditor;
 
 /***/ },
-
-/***/ 133:
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _caption;
@@ -4617,24 +4642,24 @@ webpackJsonp([1],{
 	    react/jsx-closing-bracket-location
 	*/
 
-	var classNames = __webpack_require__(103);
+	var classNames = __webpack_require__(104);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiOptions = __webpack_require__(12).Options;
 
-	var _require2 = __webpack_require__(93),
+	var _require2 = __webpack_require__(84),
 	    baseUnitPx = _require2.baseUnitPx;
 
-	var Changeable = __webpack_require__(200);
-	var mediaQueries = __webpack_require__(91);
-	var Renderer = __webpack_require__(37);
-	var SvgImage = __webpack_require__(44);
+	var Changeable = __webpack_require__(199);
+	var mediaQueries = __webpack_require__(83);
+	var Renderer = __webpack_require__(28);
+	var SvgImage = __webpack_require__(50);
 
 	var _require3 = __webpack_require__(58),
 	    linterContextProps = _require3.linterContextProps,
@@ -4941,8 +4966,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 134:
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4951,22 +4975,22 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconTrash = _require.iconTrash;
 
 	var Util = __webpack_require__(16);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var BlurInput = __webpack_require__(199);
-	var Editor = __webpack_require__(23);
-	var InfoTip = __webpack_require__(110);
-	var InlineIcon = __webpack_require__(46);
-	var RangeInput = __webpack_require__(263);
+	var BlurInput = __webpack_require__(194);
+	var Editor = __webpack_require__(38);
+	var InfoTip = __webpack_require__(103);
+	var InlineIcon = __webpack_require__(47);
+	var RangeInput = __webpack_require__(264);
 
 	var defaultBoxSize = 400;
 	var defaultRange = [0, 10];
@@ -5283,8 +5307,7 @@ webpackJsonp([1],{
 	module.exports = ImageEditor;
 
 /***/ },
-
-/***/ 135:
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -5293,12 +5316,12 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 
-	var Graphie = __webpack_require__(106);
+	var Graphie = __webpack_require__(107);
 
 	var Label = Graphie.Label;
 	var Line = Graphie.Line;
@@ -5309,7 +5332,7 @@ webpackJsonp([1],{
 	var Point = Graphie.Point;
 	var Rect = Graphie.Rect;
 
-	var kvector = __webpack_require__(318).vector;
+	var kvector = __webpack_require__(289).vector;
 
 	// Memoize KAS parsing
 	var KAShashFunc = function KAShashFunc(expr, options) {
@@ -5771,8 +5794,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 136:
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -5781,24 +5803,24 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var ArrowPicker = __webpack_require__(288);
-	var ColorPicker = __webpack_require__(289);
-	var ConstraintEditor = __webpack_require__(290);
-	var DashPicker = __webpack_require__(291);
-	var ElementContainer = __webpack_require__(292);
-	var GraphSettings = __webpack_require__(261);
-	var MathInput = __webpack_require__(206);
-	var NumberInput = __webpack_require__(203);
-	var TeX = __webpack_require__(99);
-	var TextInput = __webpack_require__(204);
+	var ArrowPicker = __webpack_require__(272);
+	var ColorPicker = __webpack_require__(273);
+	var ConstraintEditor = __webpack_require__(274);
+	var DashPicker = __webpack_require__(275);
+	var ElementContainer = __webpack_require__(276);
+	var GraphSettings = __webpack_require__(260);
+	var MathInput = __webpack_require__(209);
+	var NumberInput = __webpack_require__(202);
+	var TeX = __webpack_require__(100);
+	var TextInput = __webpack_require__(203);
 
-	var KhanColors = __webpack_require__(260);
+	var KhanColors = __webpack_require__(263);
 
 	var defaultInteractionProps = {
 	    graph: {
@@ -7261,8 +7283,7 @@ webpackJsonp([1],{
 	module.exports = InteractionEditor;
 
 /***/ },
-
-/***/ 137:
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -7271,28 +7292,28 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Graph = __webpack_require__(264);
-	var InfoTip = __webpack_require__(110);
-	var Interactive2 = __webpack_require__(258);
-	var NumberInput = __webpack_require__(203);
+	var Graph = __webpack_require__(265);
+	var InfoTip = __webpack_require__(103);
+	var Interactive2 = __webpack_require__(261);
+	var NumberInput = __webpack_require__(202);
 	var Util = __webpack_require__(16);
 
-	var knumber = __webpack_require__(318).number;
-	var kpoint = __webpack_require__(318).point;
-	var KhanColors = __webpack_require__(260);
-	var GraphUtils = __webpack_require__(254);
+	var knumber = __webpack_require__(289).number;
+	var kpoint = __webpack_require__(289).point;
+	var KhanColors = __webpack_require__(263);
+	var GraphUtils = __webpack_require__(253);
 
-	var _require = __webpack_require__(93),
+	var _require = __webpack_require__(84),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var _require2 = __webpack_require__(183),
+	var _require2 = __webpack_require__(190),
 	    containerSizeClassPropType = _require2.containerSizeClassPropType,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
-	var WrappedLine = __webpack_require__(259);
+	var WrappedLine = __webpack_require__(262);
 
 	var DeprecationMixin = Util.DeprecationMixin;
 
@@ -9611,8 +9632,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 138:
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -9621,22 +9641,22 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
 	var Util = __webpack_require__(16);
 
 	var DeprecationMixin = Util.DeprecationMixin;
 
-	var GraphSettings = __webpack_require__(261);
-	var InfoTip = __webpack_require__(110);
+	var GraphSettings = __webpack_require__(260);
+	var InfoTip = __webpack_require__(103);
 
-	var InteractiveGraph = __webpack_require__(137).widget;
+	var InteractiveGraph = __webpack_require__(143).widget;
 
-	var _require = __webpack_require__(93),
+	var _require = __webpack_require__(84),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var _require2 = __webpack_require__(183),
+	var _require2 = __webpack_require__(190),
 	    containerSizeClass = _require2.containerSizeClass,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
@@ -9962,8 +9982,7 @@ webpackJsonp([1],{
 	module.exports = InteractiveGraphEditor;
 
 /***/ },
-
-/***/ 139:
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -9972,11 +9991,11 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var WidgetJsonifyDeprecated = __webpack_require__(257);
+	var Changeable = __webpack_require__(199);
+	var WidgetJsonifyDeprecated = __webpack_require__(255);
 
 	var MAX_SIZE = 8;
 
@@ -10315,8 +10334,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 140:
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -10325,15 +10343,15 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var NumberInput = __webpack_require__(203);
-	var PropCheckBox = __webpack_require__(52);
-	var InfoTip = __webpack_require__(110);
+	var NumberInput = __webpack_require__(202);
+	var PropCheckBox = __webpack_require__(68);
+	var InfoTip = __webpack_require__(103);
 
 	var MAX_SIZE = 8;
 
@@ -10605,8 +10623,7 @@ webpackJsonp([1],{
 	module.exports = LightsPuzzleEditor;
 
 /***/ },
-
-/***/ 141:
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -10615,23 +10632,23 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var classNames = __webpack_require__(103);
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var classNames = __webpack_require__(104);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var NumberInput = __webpack_require__(203);
-	var Renderer = __webpack_require__(37);
-	var TextInput = __webpack_require__(204);
-	var MathOutput = __webpack_require__(265);
+	var NumberInput = __webpack_require__(202);
+	var Renderer = __webpack_require__(28);
+	var TextInput = __webpack_require__(203);
+	var MathOutput = __webpack_require__(267);
 	var SimpleKeypadInput = __webpack_require__(196);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var KhanAnswerTypes = __webpack_require__(69);
+	var ApiOptions = __webpack_require__(12).Options;
+	var KhanAnswerTypes = __webpack_require__(55);
 
-	var keypadElementPropType = __webpack_require__(185).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
 
-	var assert = __webpack_require__(253).assert;
+	var assert = __webpack_require__(252).assert;
 	var stringArrayOfSize = __webpack_require__(16).stringArrayOfSize;
 
 	var _require = __webpack_require__(58),
@@ -11152,8 +11169,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 142:
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -11162,16 +11178,16 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(23);
-	var RangeInput = __webpack_require__(263);
+	var Editor = __webpack_require__(38);
+	var RangeInput = __webpack_require__(264);
 
-	var Matrix = __webpack_require__(141).widget;
+	var Matrix = __webpack_require__(147).widget;
 
 	// Really large matrices will cause issues with question formatting, so we
 	// have to cap it at some point.
@@ -11322,26 +11338,25 @@ webpackJsonp([1],{
 	module.exports = MatrixEditor;
 
 /***/ },
-
-/***/ 143:
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/forbid-prop-types, react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _ = __webpack_require__(94);
+	var _ = __webpack_require__(54);
 
-	var Renderer = __webpack_require__(37);
+	var Renderer = __webpack_require__(28);
 	var Sortable = __webpack_require__(266);
 
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiOptions = __webpack_require__(12).Options;
 	var shuffle = __webpack_require__(16).shuffle;
 	var seededRNG = __webpack_require__(16).seededRNG;
 
@@ -11560,20 +11575,19 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 144:
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/prop-types, react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var InfoTip = __webpack_require__(110);
-	var PropCheckBox = __webpack_require__(52);
-	var TextListEditor = __webpack_require__(104);
+	var InfoTip = __webpack_require__(103);
+	var PropCheckBox = __webpack_require__(68);
+	var TextListEditor = __webpack_require__(105);
 
 	var MatcherEditor = React.createClass({
 	    displayName: "MatcherEditor",
@@ -11731,20 +11745,19 @@ webpackJsonp([1],{
 	module.exports = MatcherEditor;
 
 /***/ },
-
-/***/ 145:
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, indent, no-var, react/jsx-closing-bracket-location, react/jsx-indent-props, react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _2 = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _2 = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var GraphUtils = __webpack_require__(254);
+	var ApiOptions = __webpack_require__(12).Options;
+	var GraphUtils = __webpack_require__(253);
 
 	var defaultImage = {
 	    url: null,
@@ -11909,8 +11922,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 146:
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -11919,16 +11931,16 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(110);
-	var NumberInput = __webpack_require__(203);
-	var PropCheckBox = __webpack_require__(52);
-	var RangeInput = __webpack_require__(263);
+	var InfoTip = __webpack_require__(103);
+	var NumberInput = __webpack_require__(202);
+	var PropCheckBox = __webpack_require__(68);
+	var RangeInput = __webpack_require__(264);
 
 	var defaultImage = {
 	    url: null,
@@ -12214,22 +12226,21 @@ webpackJsonp([1],{
 	module.exports = MeasurerEditor;
 
 /***/ },
-
-/***/ 147:
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style, object-curly-spacing */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var draw = __webpack_require__(293);
+	var draw = __webpack_require__(277);
 
-	var _require = __webpack_require__(294),
+	var _require = __webpack_require__(278),
 	    layout = _require.layout;
 
-	var SmilesParser = __webpack_require__(295);
+	var SmilesParser = __webpack_require__(279);
 
 	var parse = SmilesParser.parse;
 	var ParseError = SmilesParser.ParseError;
@@ -12397,18 +12408,17 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 148:
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var EditorJsonify = __webpack_require__(201);
-	var Changeable = __webpack_require__(200);
-	var NumberInput = __webpack_require__(203);
-	var TextInput = __webpack_require__(204);
+	var EditorJsonify = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
+	var NumberInput = __webpack_require__(202);
+	var TextInput = __webpack_require__(203);
 
 	var MoleculeWidgetEditor = React.createClass({
 	    displayName: "MoleculeWidgetEditor",
@@ -12477,8 +12487,7 @@ webpackJsonp([1],{
 	module.exports = MoleculeWidgetEditor;
 
 /***/ },
-
-/***/ 149:
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -12488,32 +12497,32 @@ webpackJsonp([1],{
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	/* globals i18n, $_ */
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 
-	var NumberInput = __webpack_require__(203);
-	var MathOutput = __webpack_require__(265);
+	var NumberInput = __webpack_require__(202);
+	var MathOutput = __webpack_require__(267);
 	var SimpleKeypadInput = __webpack_require__(196);
 
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiOptions = __webpack_require__(12).Options;
 
-	var keypadElementPropType = __webpack_require__(185).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
 
-	var Graphie = __webpack_require__(106);
+	var Graphie = __webpack_require__(107);
 	var MovablePoint = Graphie.MovablePoint;
 	var Line = Graphie.Line;
 
-	var knumber = __webpack_require__(318).number;
-	var KhanMath = __webpack_require__(187);
-	var KhanColors = __webpack_require__(260);
+	var knumber = __webpack_require__(289).number;
+	var KhanMath = __webpack_require__(114);
+	var KhanColors = __webpack_require__(263);
 
 	var bound = function bound(x, gt, lt) {
 	    return Math.min(Math.max(x, gt), lt);
 	};
-	var assert = __webpack_require__(253).assert;
+	var assert = __webpack_require__(252).assert;
 
 	var EN_DASH = "\u2013";
 	var horizontalPadding = 30;
@@ -13182,26 +13191,25 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 150:
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable no-var */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var EditorJsonify = __webpack_require__(201);
+	var EditorJsonify = __webpack_require__(200);
 
-	var ButtonGroup = __webpack_require__(97);
-	var InfoTip = __webpack_require__(110);
-	var NumberInput = __webpack_require__(203);
-	var PropCheckBox = __webpack_require__(52);
-	var RangeInput = __webpack_require__(263);
+	var ButtonGroup = __webpack_require__(98);
+	var InfoTip = __webpack_require__(103);
+	var NumberInput = __webpack_require__(202);
+	var PropCheckBox = __webpack_require__(68);
+	var RangeInput = __webpack_require__(264);
 
-	var knumber = __webpack_require__(318).number;
+	var knumber = __webpack_require__(289).number;
 	var bound = function bound(x, gt, lt) {
 	    return Math.min(Math.max(x, gt), lt);
 	};
@@ -13745,8 +13753,7 @@ webpackJsonp([1],{
 	module.exports = NumberLineEditor;
 
 /***/ },
-
-/***/ 151:
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -13755,14 +13762,14 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var Renderer = __webpack_require__(37);
+	var Renderer = __webpack_require__(28);
 	var Util = __webpack_require__(16);
 
-	var ApiClassNames = __webpack_require__(15).ClassNames;
+	var ApiClassNames = __webpack_require__(12).ClassNames;
 
 	var _require = __webpack_require__(58),
 	    linterContextProps = _require.linterContextProps,
@@ -14331,19 +14338,18 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 152:
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style, comma-dangle, max-len, no-var, object-curly-spacing, one-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/jsx-indent-props, react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var InfoTip = __webpack_require__(110);
-	var TextListEditor = __webpack_require__(104);
+	var InfoTip = __webpack_require__(103);
+	var TextListEditor = __webpack_require__(105);
 
 	var NORMAL = "normal",
 	    AUTO = "auto",
@@ -14540,8 +14546,7 @@ webpackJsonp([1],{
 	module.exports = OrdererEditor;
 
 /***/ },
-
-/***/ 153:
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -14552,25 +14557,25 @@ webpackJsonp([1],{
 
 	/* globals KA */
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
-	var $ = __webpack_require__(96);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
+	var $ = __webpack_require__(95);
 
-	var HighlightableContent = __webpack_require__(296);
-	var Renderer = __webpack_require__(37);
-	var PassageMarkdown = __webpack_require__(298);
+	var HighlightableContent = __webpack_require__(280);
+	var Renderer = __webpack_require__(28);
+	var PassageMarkdown = __webpack_require__(282);
 
 	var _require2 = __webpack_require__(58),
 	    linterContextDefault = _require2.linterContextDefault;
 
-	var babelPluginFlowReactPropTypes_proptype_ChangeableProps = __webpack_require__(200).babelPluginFlowReactPropTypes_proptype_ChangeableProps || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_ChangeableProps = __webpack_require__(199).babelPluginFlowReactPropTypes_proptype_ChangeableProps || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(43).PropTypes.any;
 
 	// A fake paragraph to measure the line height of the passage. In CSS we always
 	// set the line height to 22 pixels, but when using the browser zoom feature,
@@ -15099,8 +15104,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 154:
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15109,15 +15113,15 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(23);
-	var InfoTip = __webpack_require__(110);
-	var PropCheckBox = __webpack_require__(52);
+	var Editor = __webpack_require__(38);
+	var InfoTip = __webpack_require__(103);
+	var PropCheckBox = __webpack_require__(68);
 
 	var PassageEditor = React.createClass({
 	    displayName: "PassageEditor",
@@ -15241,8 +15245,8 @@ webpackJsonp([1],{
 	module.exports = PassageEditor;
 
 /***/ },
-
-/***/ 156:
+/* 161 */,
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15251,14 +15255,14 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(110);
-	var NumberInput = __webpack_require__(203);
-	var TextInput = __webpack_require__(204);
+	var InfoTip = __webpack_require__(103);
+	var NumberInput = __webpack_require__(202);
+	var TextInput = __webpack_require__(203);
 
 	var PassageRefEditor = React.createClass({
 	    displayName: "PassageRefEditor",
@@ -15354,8 +15358,7 @@ webpackJsonp([1],{
 	module.exports = PassageRefEditor;
 
 /***/ },
-
-/***/ 157:
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15364,12 +15367,12 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var WidgetJsonifyDeprecated = __webpack_require__(257);
-	var Renderer = __webpack_require__(37);
+	var Changeable = __webpack_require__(199);
+	var WidgetJsonifyDeprecated = __webpack_require__(255);
+	var Renderer = __webpack_require__(28);
 
 	var _require = __webpack_require__(58),
 	    linterContextProps = _require.linterContextProps,
@@ -15442,8 +15445,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 158:
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15452,11 +15454,11 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
 	var PassageRefTargetEditor = React.createClass({
 	    displayName: "PassageRefTargetEditor",
@@ -15505,26 +15507,25 @@ webpackJsonp([1],{
 	module.exports = PassageRefTargetEditor;
 
 /***/ },
-
-/***/ 159:
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, indent, max-lines, no-redeclare, no-unused-vars, no-var, object-curly-spacing, one-var, react/prop-types, react/sort-comp, space-before-function-paren */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var ApiClassNames = __webpack_require__(15).ClassNames;
+	var ApiClassNames = __webpack_require__(12).ClassNames;
 
 	var deepEq = __webpack_require__(16).deepEq;
-	var KhanMath = __webpack_require__(187);
-	var KhanColors = __webpack_require__(260);
-	var GraphUtils = __webpack_require__(254);
-	var Interactive2 = __webpack_require__(258);
-	var WrappedLine = __webpack_require__(259);
+	var KhanMath = __webpack_require__(114);
+	var KhanColors = __webpack_require__(263);
+	var GraphUtils = __webpack_require__(253);
+	var Interactive2 = __webpack_require__(261);
+	var WrappedLine = __webpack_require__(262);
 
 	var BAR = "bar",
 	    LINE = "line",
@@ -16398,8 +16399,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 160:
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -16408,20 +16408,20 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var BlurInput = __webpack_require__(199);
-	var InfoTip = __webpack_require__(110);
-	var NumberInput = __webpack_require__(203);
-	var RangeInput = __webpack_require__(263);
-	var SvgImage = __webpack_require__(44);
-	var TextListEditor = __webpack_require__(104);
+	var BlurInput = __webpack_require__(194);
+	var InfoTip = __webpack_require__(103);
+	var NumberInput = __webpack_require__(202);
+	var RangeInput = __webpack_require__(264);
+	var SvgImage = __webpack_require__(50);
+	var TextListEditor = __webpack_require__(105);
 
-	var Plotter = __webpack_require__(159).widget;
+	var Plotter = __webpack_require__(165).widget;
 
-	var knumber = __webpack_require__(318).number;
+	var knumber = __webpack_require__(289).number;
 
 	var BAR = "bar",
 	    LINE = "line",
@@ -16951,13 +16951,12 @@ webpackJsonp([1],{
 	module.exports = PlotterEditor;
 
 /***/ },
-
-/***/ 161:
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var Molecule = __webpack_require__(147).molecule;
+	var Molecule = __webpack_require__(153).molecule;
 
 	var Separator = React.createClass({
 	    displayName: "Separator",
@@ -17098,8 +17097,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 162:
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -17108,13 +17106,13 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var NumberInput = __webpack_require__(203);
-	var TextInput = __webpack_require__(204);
+	var NumberInput = __webpack_require__(202);
+	var TextInput = __webpack_require__(203);
 
 	var ReactionDiagramWidgetEditor = React.createClass({
 	    displayName: "ReactionDiagramWidgetEditor",
@@ -17265,8 +17263,7 @@ webpackJsonp([1],{
 	module.exports = ReactionDiagramWidgetEditor;
 
 /***/ },
-
-/***/ 163:
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -17275,17 +17272,17 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconOk = _require.iconOk;
 
-	var InlineIcon = __webpack_require__(46);
-	var Renderer = __webpack_require__(37);
+	var InlineIcon = __webpack_require__(47);
+	var Renderer = __webpack_require__(28);
 	var Util = __webpack_require__(16);
 
 	var _require2 = __webpack_require__(58),
@@ -17415,27 +17412,26 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 164:
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-alert, no-var, react/jsx-closing-bracket-location, react/jsx-indent-props, react/prop-types, react/sort-comp, space-infix-ops */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var Editor = __webpack_require__(23);
+	var ApiOptions = __webpack_require__(12).Options;
+	var Editor = __webpack_require__(38);
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconCircleArrowDown = _require.iconCircleArrowDown,
 	    iconCircleArrowUp = _require.iconCircleArrowUp,
 	    iconPlus = _require.iconPlus,
 	    iconTrash = _require.iconTrash;
 
-	var InlineIcon = __webpack_require__(46);
+	var InlineIcon = __webpack_require__(47);
 
 	var StepControlButton = React.createClass({
 	    displayName: "StepControlButton",
@@ -17617,8 +17613,7 @@ webpackJsonp([1],{
 	module.exports = SequenceEditor;
 
 /***/ },
-
-/***/ 165:
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -17628,17 +17623,17 @@ webpackJsonp([1],{
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	/* globals $_, i18n */
-	var InfoTip = __webpack_require__(110);
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var InfoTip = __webpack_require__(103);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var assert = __webpack_require__(253).assert;
+	var ApiOptions = __webpack_require__(12).Options;
+	var assert = __webpack_require__(252).assert;
 
-	var Graphie = __webpack_require__(106);
+	var Graphie = __webpack_require__(107);
 	var Path = Graphie.Path,
 	    Arc = Graphie.Arc,
 	    Circle = Graphie.Circle,
@@ -17647,13 +17642,13 @@ webpackJsonp([1],{
 	    MovablePoint = Graphie.MovablePoint,
 	    MovableLine = Graphie.MovableLine;
 
-	var NumberInput = __webpack_require__(203);
-	var MathOutput = __webpack_require__(265);
+	var NumberInput = __webpack_require__(202);
+	var MathOutput = __webpack_require__(267);
 	var seededRNG = __webpack_require__(16).seededRNG;
 	var Util = __webpack_require__(16);
-	var knumber = __webpack_require__(318).number;
-	var KhanColors = __webpack_require__(260);
-	var KhanMath = __webpack_require__(187);
+	var knumber = __webpack_require__(289).number;
+	var KhanColors = __webpack_require__(263);
+	var KhanMath = __webpack_require__(114);
 
 	var defaultBoxSize = 400;
 	var maxSampleSize = 1000;
@@ -18398,8 +18393,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 166:
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -18409,14 +18403,14 @@ webpackJsonp([1],{
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	/* globals i18n */
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(110);
-	var NumberInput = __webpack_require__(203);
+	var InfoTip = __webpack_require__(103);
+	var NumberInput = __webpack_require__(202);
 
 	var maxTrials = 5000;
 
@@ -18569,20 +18563,19 @@ webpackJsonp([1],{
 	module.exports = SimulatorEditor;
 
 /***/ },
-
-/***/ 167:
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, one-var, react/forbid-prop-types, react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
 	var Sortable = __webpack_require__(266);
 
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiOptions = __webpack_require__(12).Options;
 	var shuffle = __webpack_require__(16).shuffle;
 
 	var _require = __webpack_require__(58),
@@ -18673,20 +18666,19 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 168:
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/jsx-indent-props, react/prop-types, react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var InfoTip = __webpack_require__(110);
-	var PropCheckBox = __webpack_require__(52);
-	var TextListEditor = __webpack_require__(104);
+	var InfoTip = __webpack_require__(103);
+	var PropCheckBox = __webpack_require__(68);
+	var TextListEditor = __webpack_require__(105);
 
 	var HORIZONTAL = "horizontal";
 	var VERTICAL = "vertical";
@@ -18807,33 +18799,32 @@ webpackJsonp([1],{
 	module.exports = SorterEditor;
 
 /***/ },
-
-/***/ 169:
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/jsx-closing-bracket-location, react/prop-types, react/sort-comp, space-before-function-paren */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var MathOutput = __webpack_require__(265);
+	var MathOutput = __webpack_require__(267);
 	var SimpleKeypadInput = __webpack_require__(196);
-	var Renderer = __webpack_require__(37);
+	var Renderer = __webpack_require__(28);
 	var Util = __webpack_require__(16);
 
-	var keypadElementPropType = __webpack_require__(185).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
 
-	var ApiOptions = __webpack_require__(15).Options;
-	var KhanAnswerTypes = __webpack_require__(69);
+	var ApiOptions = __webpack_require__(12).Options;
+	var KhanAnswerTypes = __webpack_require__(55);
 
 	var _require = __webpack_require__(58),
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
-	var assert = __webpack_require__(253).assert;
+	var assert = __webpack_require__(252).assert;
 
 	/* Input handling: Maps a (row, column) pair to a unique ref used by React,
 	 * and extracts (row, column) pairs from input paths, used to allow outsiders
@@ -19176,25 +19167,24 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 170:
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/jsx-closing-bracket-location, react/prop-types, react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
 	var Util = __webpack_require__(16);
 
-	var InfoTip = __webpack_require__(110);
-	var NumberInput = __webpack_require__(203);
-	var Editor = __webpack_require__(23);
+	var InfoTip = __webpack_require__(103);
+	var NumberInput = __webpack_require__(202);
+	var Editor = __webpack_require__(38);
 
-	var Table = __webpack_require__(169).widget;
+	var Table = __webpack_require__(175).widget;
 
 	var TableEditor = React.createClass({
 	    displayName: "TableEditor",
@@ -19356,8 +19346,7 @@ webpackJsonp([1],{
 	module.exports = TableEditor;
 
 /***/ },
-
-/***/ 171:
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -19366,20 +19355,20 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var Graph = __webpack_require__(264);
-	var InlineIcon = __webpack_require__(46);
-	var NumberInput = __webpack_require__(203);
-	var MathOutput = __webpack_require__(265);
-	var TeX = __webpack_require__(99);
+	var Graph = __webpack_require__(265);
+	var InlineIcon = __webpack_require__(47);
+	var NumberInput = __webpack_require__(202);
+	var MathOutput = __webpack_require__(267);
+	var TeX = __webpack_require__(100);
 	var SimpleKeypadInput = __webpack_require__(196);
 
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiOptions = __webpack_require__(12).Options;
 
-	var keypadElementPropType = __webpack_require__(185).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
 
 	var ROTATE_SNAP_DEGREES = 15;
 	var DEGREE_SIGN = "\xB0";
@@ -19388,7 +19377,7 @@ webpackJsonp([1],{
 	var REFLECT_ROTATE_HANDLE_DIST = 2;
 	var REFLECT_BUTTON_SIZE = 1;
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconPlus = _require.iconPlus,
 	    iconUndo = _require.iconUndo;
 
@@ -19396,15 +19385,15 @@ webpackJsonp([1],{
 	var getGridStep = __webpack_require__(16).getGridStep;
 	var captureScratchpadTouchStart = __webpack_require__(16).captureScratchpadTouchStart;
 
-	var knumber = __webpack_require__(318).number;
-	var kvector = __webpack_require__(318).vector;
-	var kpoint = __webpack_require__(318).point;
-	var kray = __webpack_require__(318).ray;
-	var kline = __webpack_require__(318).line;
-	var KhanMath = __webpack_require__(187);
-	var KhanColors = __webpack_require__(260);
+	var knumber = __webpack_require__(289).number;
+	var kvector = __webpack_require__(289).vector;
+	var kpoint = __webpack_require__(289).point;
+	var kray = __webpack_require__(289).ray;
+	var kline = __webpack_require__(289).line;
+	var KhanMath = __webpack_require__(114);
+	var KhanColors = __webpack_require__(263);
 
-	var assert = __webpack_require__(253).assert;
+	var assert = __webpack_require__(252).assert;
 
 	var defaultBoxSize = 400;
 	var defaultBackgroundImage = {
@@ -21809,8 +21798,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 172:
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -21819,26 +21807,26 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiOptions = __webpack_require__(12).Options;
 
-	var Graph = __webpack_require__(264);
-	var GraphSettings = __webpack_require__(261);
-	var InfoTip = __webpack_require__(110);
-	var PropCheckBox = __webpack_require__(52);
+	var Graph = __webpack_require__(265);
+	var GraphSettings = __webpack_require__(260);
+	var InfoTip = __webpack_require__(103);
+	var PropCheckBox = __webpack_require__(68);
 
-	var Transformer = __webpack_require__(171).widget;
+	var Transformer = __webpack_require__(177).widget;
 
 	var deepEq = __webpack_require__(16).deepEq;
 	var getGridStep = __webpack_require__(16).getGridStep;
-	var kline = __webpack_require__(318).line;
-	var knumber = __webpack_require__(318).number;
-	var kpoint = __webpack_require__(318).point;
-	var kray = __webpack_require__(318).ray;
-	var kvector = __webpack_require__(318).vector;
-	var KhanColors = __webpack_require__(260);
+	var kline = __webpack_require__(289).line;
+	var knumber = __webpack_require__(289).number;
+	var kpoint = __webpack_require__(289).point;
+	var kray = __webpack_require__(289).ray;
+	var kvector = __webpack_require__(289).vector;
+	var KhanColors = __webpack_require__(263);
 
 	function arraySum(array) {
 	    return _.reduce(array, function (memo, arg) {
@@ -22826,8 +22814,7 @@ webpackJsonp([1],{
 	module.exports = TransformerEditor;
 
 /***/ },
-
-/***/ 173:
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -22842,16 +22829,16 @@ webpackJsonp([1],{
 	// value?
 
 	var lens = __webpack_require__(102);
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var ApiClassNames = __webpack_require__(15).ClassNames;
-	var ApiOptions = __webpack_require__(15).Options;
-	var Changeable = __webpack_require__(200);
-	var MathOutput = __webpack_require__(265);
+	var ApiClassNames = __webpack_require__(12).ClassNames;
+	var ApiOptions = __webpack_require__(12).Options;
+	var Changeable = __webpack_require__(199);
+	var MathOutput = __webpack_require__(267);
 
-	var _require = __webpack_require__(267),
+	var _require = __webpack_require__(268),
 	    SignificantFigures = _require.SignificantFigures,
 	    displaySigFigs = _require.displaySigFigs;
 
@@ -23116,8 +23103,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 174:
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23131,20 +23117,20 @@ webpackJsonp([1],{
 	// TODO(joel): Allow sigfigs within a range rather than an exact expected
 	// value?
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var InlineIcon = __webpack_require__(46);
-	var NumberInput = __webpack_require__(203);
+	var InlineIcon = __webpack_require__(47);
+	var NumberInput = __webpack_require__(202);
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconOk = _require.iconOk,
 	    iconRemove = _require.iconRemove;
 
-	var _require2 = __webpack_require__(267),
+	var _require2 = __webpack_require__(268),
 	    displaySigFigs = _require2.displaySigFigs;
 
 	var ALL = "all";
@@ -23452,8 +23438,7 @@ webpackJsonp([1],{
 	module.exports = UnitInputEditor;
 
 /***/ },
-
-/***/ 175:
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23466,11 +23451,11 @@ webpackJsonp([1],{
 	 * This is a video widget for embedding videos in articles.
 	 */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var FixedToResponsive = __webpack_require__(105);
+	var Changeable = __webpack_require__(199);
+	var FixedToResponsive = __webpack_require__(106);
 
 	// Current default is 720p, based on the typical videos we upload currently
 	var DEFAULT_WIDTH = 1280;
@@ -23574,8 +23559,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 176:
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23584,14 +23568,14 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(110);
-	var BlurInput = __webpack_require__(199);
+	var InfoTip = __webpack_require__(103);
+	var BlurInput = __webpack_require__(194);
 
 	var KA_VIDEO_URL = /khanacademy\.org\/.*\/v\/(.*)$/;
 
@@ -23668,8 +23652,7 @@ webpackJsonp([1],{
 	module.exports = VideoEditor;
 
 /***/ },
-
-/***/ 177:
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23684,19 +23667,19 @@ webpackJsonp([1],{
 	 * TODO(jack): Add more comments
 	 */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var ApiOptions = __webpack_require__(15).Options;
+	var ApiOptions = __webpack_require__(12).Options;
 	var Util = __webpack_require__(16);
-	var Changeable = __webpack_require__(200);
-	var WidgetJsonifyDeprecated = __webpack_require__(257);
+	var Changeable = __webpack_require__(199);
+	var WidgetJsonifyDeprecated = __webpack_require__(255);
 
-	var Graphie = __webpack_require__(106);
+	var Graphie = __webpack_require__(107);
 	var MovablePoint = Graphie.MovablePoint;
 
-	var knumber = __webpack_require__(318).number;
-	var kpoint = __webpack_require__(318).point;
+	var knumber = __webpack_require__(289).number;
+	var kpoint = __webpack_require__(289).point;
 
 	/**
 	 * This is the widget's renderer. It shows up in the right column
@@ -23839,8 +23822,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 178:
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23849,12 +23831,12 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
-	var ExampleGraphieWidget = __webpack_require__(177).widget;
+	var ExampleGraphieWidget = __webpack_require__(183).widget;
 
 	/**
 	 * This is the widget's editor. This is what shows up on the left side
@@ -23920,8 +23902,7 @@ webpackJsonp([1],{
 	module.exports = ExampleGraphieWidgetEditor;
 
 /***/ },
-
-/***/ 179:
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23939,9 +23920,9 @@ webpackJsonp([1],{
 	 * TODO(jack): Add more comments
 	 */
 
-	var React = __webpack_require__(81);
-	var Changeable = __webpack_require__(200);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var Changeable = __webpack_require__(199);
+	var _ = __webpack_require__(54);
 
 	var TextInput = React.createClass({
 	    displayName: "TextInput",
@@ -24085,8 +24066,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 180:
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24095,10 +24075,10 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
 	/**
 	 * This is the widget's editor. This is what shows up on the left side
@@ -24160,8 +24140,7 @@ webpackJsonp([1],{
 	module.exports = ExampleWidgetEditor;
 
 /***/ },
-
-/***/ 181:
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24170,12 +24149,12 @@ webpackJsonp([1],{
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 
-	var PerseusMarkdown = __webpack_require__(48);
+	var PerseusMarkdown = __webpack_require__(66);
 	var mdParse = PerseusMarkdown.parse;
 	var mdOutput = PerseusMarkdown.basicOutput;
 
@@ -24274,8 +24253,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 182:
+/* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24289,10 +24267,10 @@ webpackJsonp([1],{
 	 * up on the left side of the screen in the demo. Only the question writer
 	 * sees this.
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var Changeable = __webpack_require__(200);
-	var EditorJsonify = __webpack_require__(201);
+	var Changeable = __webpack_require__(199);
+	var EditorJsonify = __webpack_require__(200);
 
 	var TextArea = React.createClass({
 	    displayName: "TextArea",
@@ -24375,29 +24353,299 @@ webpackJsonp([1],{
 	module.exports = SimpleMarkdownTesterEditor;
 
 /***/ },
+/* 189 */,
+/* 190 */,
+/* 191 */,
+/* 192 */,
+/* 193 */,
+/* 194 */,
+/* 195 */,
+/* 196 */,
+/* 197 */,
+/* 198 */,
+/* 199 */,
+/* 200 */,
+/* 201 */,
+/* 202 */,
+/* 203 */,
+/* 204 */,
+/* 205 */,
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */,
+/* 211 */,
+/* 212 */,
+/* 213 */,
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */,
+/* 249 */,
+/* 250 */,
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */,
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */,
+/* 259 */
+/***/ function(module, exports, __webpack_require__) {
 
-/***/ 261:
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	/* globals i18n */
+	/**
+	 * Renders answer bar for mobile graded groups. [STATELESS]
+	 */
+	var React = __webpack_require__(43);
+
+	var ApiOptions = __webpack_require__(12).Options;
+	var InlineIcon = __webpack_require__(47);
+
+	var _require = __webpack_require__(46),
+	    iconStar = _require.iconStar,
+	    iconTryAgain = _require.iconTryAgain;
+
+	var _require2 = __webpack_require__(84),
+	    boldFontFamily = _require2.boldFontFamily,
+	    gray68 = _require2.gray68,
+	    gray76 = _require2.gray76,
+	    gray85 = _require2.gray85,
+	    gray95 = _require2.gray95,
+	    kaGreen = _require2.kaGreen,
+	    phoneMargin = _require2.phoneMargin,
+	    negativePhoneMargin = _require2.negativePhoneMargin;
+
+	var ANSWER_BAR_STATES = {
+	    // Initial state before the question is answerable.  The user must complete
+	    // each of the widgets before the answer bar becomes visible.
+	    HIDDEN: Symbol("HIDDEN"),
+
+	    // The 'Check' button is active whenever the question is answerable or any
+	    // of the input widgets have been modified after getting the answer wrong.
+	    ACTIVE: Symbol("ACTIVE"),
+
+	    // The 'Check' button is disabled and there is no message.  This occurs when
+	    // some of the widgets haven't been filled in after the has already become
+	    // visible.
+	    INACTIVE: Symbol("INACTIVE"),
+
+	    // This happens immediately after clicking 'Check' with a wrong answer.
+	    // The 'Check' button is disabled and the 'Try Again' message is displayed.
+	    INCORRECT: Symbol("INCORRECT"),
+
+	    // Final state.  This occurs after the user submits the correct answer.
+	    // The widgets in this grade-group are disabled.
+	    CORRECT: Symbol("CORRECT")
+	};
+
+	var GradedGroupAnswerBar = React.createClass({
+	    displayName: "GradedGroupAnswerBar",
+
+	    propTypes: {
+	        // TODO(kevinb) update to oneOf once we update to 15.2
+	        answerBarState: React.PropTypes.any.isRequired,
+	        apiOptions: ApiOptions.propTypes,
+	        onCheckAnswer: React.PropTypes.func.isRequired,
+
+	        // The function to call when clicking "Next question" after correctly
+	        // answering one graded group out of a set. If this is null, the
+	        // "Next question" button will not appear.
+	        onNextQuestion: React.PropTypes.func
+	    },
+
+	    render: function render() {
+	        var _props = this.props,
+	            apiOptions = _props.apiOptions,
+	            answerBarState = _props.answerBarState,
+	            onCheckAnswer = _props.onCheckAnswer,
+	            onNextQuestion = _props.onNextQuestion;
+
+
+	        var answerBarStyle = _extends({}, styles.answerBar, {
+	            backgroundColor: answerBarState === ANSWER_BAR_STATES.CORRECT ? gray95 : "white",
+	            // Center the "Correct!" message only when there's no next question
+	            justifyContent: answerBarState === ANSWER_BAR_STATES.CORRECT && !onNextQuestion ? "center" : "space-between"
+	        });
+
+	        var buttonStyle = _extends({}, styles.button, {
+	            // "Check" and "Next question" buttons should both be green
+	            backgroundColor: answerBarState === ANSWER_BAR_STATES.ACTIVE || answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray85
+	        });
+
+	        var textStyle = _extends({}, styles.text, {
+	            color: answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray68
+	        });
+
+	        var message = answerBarState === ANSWER_BAR_STATES.INCORRECT ? React.createElement(
+	            "span",
+	            { style: textStyle },
+	            React.createElement(
+	                "span",
+	                { style: styles.tryAgainIcon },
+	                React.createElement(InlineIcon, iconTryAgain)
+	            ),
+	            React.createElement(
+	                "span",
+	                { style: { marginLeft: 8 } },
+	                i18n._("Keep trying")
+	            )
+	        ) : React.createElement("span", null); // empty span keeps the button on the right side
+
+	        if (answerBarState !== ANSWER_BAR_STATES.CORRECT) {
+	            var buttonLabel = answerBarState === ANSWER_BAR_STATES.INCORRECT ? i18n._("Try again") : i18n._("Check");
+
+	            // Use <button> instead of <input> b/c iOS 9.3 on iPhone 6 renders
+	            // the <input> as a faded out green button instead of using our
+	            // styles.
+	            return React.createElement(
+	                "div",
+	                { style: answerBarStyle },
+	                message,
+	                React.createElement(
+	                    "button",
+	                    {
+	                        style: buttonStyle,
+	                        disabled: apiOptions.readOnly || answerBarState !== ANSWER_BAR_STATES.ACTIVE,
+	                        onClick: onCheckAnswer
+	                    },
+	                    buttonLabel
+	                )
+	            );
+	        } else {
+	            return React.createElement(
+	                "div",
+	                { style: answerBarStyle },
+	                React.createElement(
+	                    "span",
+	                    { style: textStyle },
+	                    React.createElement(
+	                        "span",
+	                        { style: { fontSize: 28, color: "#FFB300" } },
+	                        React.createElement(InlineIcon, _extends({}, iconStar, {
+	                            style: { marginBottom: 5 }
+	                        }))
+	                    ),
+	                    React.createElement(
+	                        "span",
+	                        { style: { marginLeft: 8 } },
+	                        i18n._("Correct!")
+	                    )
+	                ),
+	                onNextQuestion && React.createElement(
+	                    "button",
+	                    { style: buttonStyle, onClick: onNextQuestion },
+	                    i18n._("Next question")
+	                )
+	            );
+	        }
+	    }
+	});
+
+	var fontSize = 17;
+
+	var styles = {
+	    answerBar: {
+	        display: "flex",
+	        alignItems: "center",
+	        height: 68, // so that we don't have calculate the vertical padding
+	        marginLeft: negativePhoneMargin,
+	        marginRight: negativePhoneMargin,
+	        marginBottom: negativePhoneMargin,
+	        marginTop: phoneMargin,
+	        paddingLeft: phoneMargin,
+	        paddingRight: 10,
+	        borderTop: "1px solid " + gray76
+	    },
+
+	    // TODO(kevinb) figure out a way inject styles/components from webapp
+	    button: {
+	        height: 48,
+	        width: 143,
+	        borderRadius: 4,
+	        color: "white",
+	        fontFamily: boldFontFamily,
+	        fontSize: fontSize,
+	        border: "none"
+	    },
+
+	    tryAgainIcon: {
+	        fontSize: 28,
+	        color: "#63D9EA",
+	        transform: "scale(-1,1) rotate(-268deg)"
+	    },
+
+	    text: {
+	        display: "flex",
+	        flexDirection: "row",
+	        alignItems: "center",
+	        fontFamily: boldFontFamily,
+	        fontSize: fontSize
+	    }
+	};
+
+	GradedGroupAnswerBar.ANSWER_BAR_STATES = ANSWER_BAR_STATES;
+
+	module.exports = GradedGroupAnswerBar;
+
+/***/ },
+/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	/* eslint-disable react/forbid-prop-types */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
-	var Changeable = __webpack_require__(200);
+	var Changeable = __webpack_require__(199);
 
-	var ButtonGroup = __webpack_require__(97);
-	var InfoTip = __webpack_require__(110);
-	var PropCheckBox = __webpack_require__(52);
-	var RangeInput = __webpack_require__(263);
-	var TeX = __webpack_require__(99);
+	var ButtonGroup = __webpack_require__(98);
+	var InfoTip = __webpack_require__(103);
+	var PropCheckBox = __webpack_require__(68);
+	var RangeInput = __webpack_require__(264);
+	var TeX = __webpack_require__(100);
 	var Util = __webpack_require__(16);
-	var KhanMath = __webpack_require__(187);
+	var KhanMath = __webpack_require__(114);
 
-	var _require = __webpack_require__(93),
+	var _require = __webpack_require__(84),
 	    interactiveSizes = _require.interactiveSizes;
 
 	var defaultBackgroundImage = {
@@ -25021,218 +25269,18 @@ webpackJsonp([1],{
 	module.exports = GraphSettings;
 
 /***/ },
-
-/***/ 262:
-/***/ function(module, exports, __webpack_require__) {
-
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	/* globals i18n */
-	/**
-	 * Renders answer bar for mobile graded groups. [STATELESS]
-	 */
-	var React = __webpack_require__(81);
-
-	var ApiOptions = __webpack_require__(15).Options;
-	var InlineIcon = __webpack_require__(46);
-
-	var _require = __webpack_require__(45),
-	    iconStar = _require.iconStar,
-	    iconTryAgain = _require.iconTryAgain;
-
-	var _require2 = __webpack_require__(93),
-	    boldFontFamily = _require2.boldFontFamily,
-	    gray68 = _require2.gray68,
-	    gray76 = _require2.gray76,
-	    gray85 = _require2.gray85,
-	    gray95 = _require2.gray95,
-	    kaGreen = _require2.kaGreen,
-	    phoneMargin = _require2.phoneMargin,
-	    negativePhoneMargin = _require2.negativePhoneMargin;
-
-	var ANSWER_BAR_STATES = {
-	    // Initial state before the question is answerable.  The user must complete
-	    // each of the widgets before the answer bar becomes visible.
-	    HIDDEN: Symbol("HIDDEN"),
-
-	    // The 'Check' button is active whenever the question is answerable or any
-	    // of the input widgets have been modified after getting the answer wrong.
-	    ACTIVE: Symbol("ACTIVE"),
-
-	    // The 'Check' button is disabled and there is no message.  This occurs when
-	    // some of the widgets haven't been filled in after the has already become
-	    // visible.
-	    INACTIVE: Symbol("INACTIVE"),
-
-	    // This happens immediately after clicking 'Check' with a wrong answer.
-	    // The 'Check' button is disabled and the 'Try Again' message is displayed.
-	    INCORRECT: Symbol("INCORRECT"),
-
-	    // Final state.  This occurs after the user submits the correct answer.
-	    // The widgets in this grade-group are disabled.
-	    CORRECT: Symbol("CORRECT")
-	};
-
-	var GradedGroupAnswerBar = React.createClass({
-	    displayName: "GradedGroupAnswerBar",
-
-	    propTypes: {
-	        // TODO(kevinb) update to oneOf once we update to 15.2
-	        answerBarState: React.PropTypes.any.isRequired,
-	        apiOptions: ApiOptions.propTypes,
-	        onCheckAnswer: React.PropTypes.func.isRequired,
-
-	        // The function to call when clicking "Next question" after correctly
-	        // answering one graded group out of a set. If this is null, the
-	        // "Next question" button will not appear.
-	        onNextQuestion: React.PropTypes.func
-	    },
-
-	    render: function render() {
-	        var _props = this.props,
-	            apiOptions = _props.apiOptions,
-	            answerBarState = _props.answerBarState,
-	            onCheckAnswer = _props.onCheckAnswer,
-	            onNextQuestion = _props.onNextQuestion;
-
-
-	        var answerBarStyle = _extends({}, styles.answerBar, {
-	            backgroundColor: answerBarState === ANSWER_BAR_STATES.CORRECT ? gray95 : "white",
-	            // Center the "Correct!" message only when there's no next question
-	            justifyContent: answerBarState === ANSWER_BAR_STATES.CORRECT && !onNextQuestion ? "center" : "space-between"
-	        });
-
-	        var buttonStyle = _extends({}, styles.button, {
-	            // "Check" and "Next question" buttons should both be green
-	            backgroundColor: answerBarState === ANSWER_BAR_STATES.ACTIVE || answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray85
-	        });
-
-	        var textStyle = _extends({}, styles.text, {
-	            color: answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray68
-	        });
-
-	        var message = answerBarState === ANSWER_BAR_STATES.INCORRECT ? React.createElement(
-	            "span",
-	            { style: textStyle },
-	            React.createElement(
-	                "span",
-	                { style: styles.tryAgainIcon },
-	                React.createElement(InlineIcon, iconTryAgain)
-	            ),
-	            React.createElement(
-	                "span",
-	                { style: { marginLeft: 8 } },
-	                i18n._("Keep trying")
-	            )
-	        ) : React.createElement("span", null); // empty span keeps the button on the right side
-
-	        if (answerBarState !== ANSWER_BAR_STATES.CORRECT) {
-	            var buttonLabel = answerBarState === ANSWER_BAR_STATES.INCORRECT ? i18n._("Try again") : i18n._("Check");
-
-	            // Use <button> instead of <input> b/c iOS 9.3 on iPhone 6 renders
-	            // the <input> as a faded out green button instead of using our
-	            // styles.
-	            return React.createElement(
-	                "div",
-	                { style: answerBarStyle },
-	                message,
-	                React.createElement(
-	                    "button",
-	                    {
-	                        style: buttonStyle,
-	                        disabled: apiOptions.readOnly || answerBarState !== ANSWER_BAR_STATES.ACTIVE,
-	                        onClick: onCheckAnswer
-	                    },
-	                    buttonLabel
-	                )
-	            );
-	        } else {
-	            return React.createElement(
-	                "div",
-	                { style: answerBarStyle },
-	                React.createElement(
-	                    "span",
-	                    { style: textStyle },
-	                    React.createElement(
-	                        "span",
-	                        { style: { fontSize: 28, color: "#FFB300" } },
-	                        React.createElement(InlineIcon, _extends({}, iconStar, {
-	                            style: { marginBottom: 5 }
-	                        }))
-	                    ),
-	                    React.createElement(
-	                        "span",
-	                        { style: { marginLeft: 8 } },
-	                        i18n._("Correct!")
-	                    )
-	                ),
-	                onNextQuestion && React.createElement(
-	                    "button",
-	                    { style: buttonStyle, onClick: onNextQuestion },
-	                    i18n._("Next question")
-	                )
-	            );
-	        }
-	    }
-	});
-
-	var fontSize = 17;
-
-	var styles = {
-	    answerBar: {
-	        display: "flex",
-	        alignItems: "center",
-	        height: 68, // so that we don't have calculate the vertical padding
-	        marginLeft: negativePhoneMargin,
-	        marginRight: negativePhoneMargin,
-	        marginBottom: negativePhoneMargin,
-	        marginTop: phoneMargin,
-	        paddingLeft: phoneMargin,
-	        paddingRight: 10,
-	        borderTop: "1px solid " + gray76
-	    },
-
-	    // TODO(kevinb) figure out a way inject styles/components from webapp
-	    button: {
-	        height: 48,
-	        width: 143,
-	        borderRadius: 4,
-	        color: "white",
-	        fontFamily: boldFontFamily,
-	        fontSize: fontSize,
-	        border: "none"
-	    },
-
-	    tryAgainIcon: {
-	        fontSize: 28,
-	        color: "#63D9EA",
-	        transform: "scale(-1,1) rotate(-268deg)"
-	    },
-
-	    text: {
-	        display: "flex",
-	        flexDirection: "row",
-	        alignItems: "center",
-	        fontFamily: boldFontFamily,
-	        fontSize: fontSize
-	    }
-	};
-
-	GradedGroupAnswerBar.ANSWER_BAR_STATES = ANSWER_BAR_STATES;
-
-	module.exports = GradedGroupAnswerBar;
-
-/***/ },
-
-/***/ 263:
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	/* eslint-disable react/forbid-prop-types, react/sort-comp */
 
-	var React = __webpack_require__(81);
-	var NumberInput = __webpack_require__(203);
+	var React = __webpack_require__(43);
+	var NumberInput = __webpack_require__(202);
 
 	var truth = function truth() {
 	    return true;
@@ -25296,23 +25344,22 @@ webpackJsonp([1],{
 	module.exports = RangeInput;
 
 /***/ },
-
-/***/ 264:
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable react/forbid-prop-types, react/prop-types, react/sort-comp */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
+	var _ = __webpack_require__(54);
 
 	var Util = __webpack_require__(16);
-	var GraphUtils = __webpack_require__(254);
+	var GraphUtils = __webpack_require__(253);
 
-	var _require = __webpack_require__(93),
+	var _require = __webpack_require__(84),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var SvgImage = __webpack_require__(44);
+	var SvgImage = __webpack_require__(50);
 
 	var defaultBackgroundImage = {
 	    url: null
@@ -25643,27 +25690,26 @@ webpackJsonp([1],{
 	module.exports = Graph;
 
 /***/ },
-
-/***/ 266:
+/* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable react/forbid-prop-types, react/prop-types, react/sort-comp */
 
-	var React = __webpack_require__(81);
-	var ReactDOM = __webpack_require__(57);
+	var React = __webpack_require__(43);
+	var ReactDOM = __webpack_require__(44);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _ = __webpack_require__(94);
+	var _ = __webpack_require__(54);
 
 	var Util = __webpack_require__(16);
-	var Renderer = __webpack_require__(37);
+	var Renderer = __webpack_require__(28);
 
-	var ApiClassNames = __webpack_require__(15).ClassNames;
+	var ApiClassNames = __webpack_require__(12).ClassNames;
 
-	var Gorgon = __webpack_require__(41);
+	var Gorgon = __webpack_require__(42);
 
 	var _require2 = __webpack_require__(58),
 	    linterContextProps = _require2.linterContextProps,
@@ -26252,8 +26298,8 @@ webpackJsonp([1],{
 	module.exports = Sortable;
 
 /***/ },
-
-/***/ 267:
+/* 267 */,
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable eqeqeq, indent, keyword-spacing, max-len, no-mixed-spaces-and-tabs, no-unused-vars, no-var, semi, space-infix-ops */
@@ -26735,20 +26781,21 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 287:
+/* 269 */,
+/* 270 */,
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style, comma-dangle, no-var, one-var, space-unary-ops */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _ = __webpack_require__(94);
+	var _ = __webpack_require__(54);
 
 	var Util = __webpack_require__(16);
-	var Graphie = __webpack_require__(106);
+	var Graphie = __webpack_require__(107);
 	var Plot = Graphie.Plot;
-	var kpoint = __webpack_require__(318).point;
+	var kpoint = __webpack_require__(289).point;
 
 	var DEFAULT_BACKGROUND_IMAGE = {
 	    url: null
@@ -27414,8 +27461,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 288:
+/* 272 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27427,10 +27473,10 @@ webpackJsonp([1],{
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var ButtonGroup = __webpack_require__(97);
-	var React = __webpack_require__(81);
+	var ButtonGroup = __webpack_require__(98);
+	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(200),
+	var _require = __webpack_require__(199),
 	    ChangeableProps = _require.ChangeableProps;
 
 	var ArrowPicker = function (_React$Component) {
@@ -27470,8 +27516,7 @@ webpackJsonp([1],{
 	module.exports = ArrowPicker;
 
 /***/ },
-
-/***/ 289:
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27483,14 +27528,14 @@ webpackJsonp([1],{
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var ButtonGroup = __webpack_require__(97);
-	var React = __webpack_require__(81);
-	var _ = __webpack_require__(94);
+	var ButtonGroup = __webpack_require__(98);
+	var React = __webpack_require__(43);
+	var _ = __webpack_require__(54);
 
-	var _require = __webpack_require__(200),
+	var _require = __webpack_require__(199),
 	    ChangeableProps = _require.ChangeableProps;
 
-	var KhanColors = __webpack_require__(260);
+	var KhanColors = __webpack_require__(263);
 
 	var COLORS = [KhanColors.BLACK, KhanColors.BLUE, KhanColors.GREEN, KhanColors.PINK, KhanColors.PURPLE, KhanColors.RED, KhanColors.GRAY];
 
@@ -27540,8 +27585,7 @@ webpackJsonp([1],{
 	module.exports = ColorPicker;
 
 /***/ },
-
-/***/ 290:
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27553,17 +27597,17 @@ webpackJsonp([1],{
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var React = __webpack_require__(81);
-	var TeX = __webpack_require__(99);
+	var React = __webpack_require__(43);
+	var TeX = __webpack_require__(100);
 
-	var ButtonGroup = __webpack_require__(97);
+	var ButtonGroup = __webpack_require__(98);
 
-	var _require = __webpack_require__(200),
+	var _require = __webpack_require__(199),
 	    ChangeableProps = _require.ChangeableProps,
 	    change = _require.change;
 
-	var MathInput = __webpack_require__(206);
-	var NumberInput = __webpack_require__(203);
+	var MathInput = __webpack_require__(209);
+	var NumberInput = __webpack_require__(202);
 
 	var ConstraintEditor = function (_React$Component) {
 	    _inherits(ConstraintEditor, _React$Component);
@@ -27755,8 +27799,7 @@ webpackJsonp([1],{
 	module.exports = ConstraintEditor;
 
 /***/ },
-
-/***/ 291:
+/* 275 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27768,10 +27811,10 @@ webpackJsonp([1],{
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var ButtonGroup = __webpack_require__(97);
-	var React = __webpack_require__(81);
+	var ButtonGroup = __webpack_require__(98);
+	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(200),
+	var _require = __webpack_require__(199),
 	    ChangeableProps = _require.ChangeableProps;
 
 	var DashPicker = function (_React$Component) {
@@ -27832,8 +27875,7 @@ webpackJsonp([1],{
 	module.exports = DashPicker;
 
 /***/ },
-
-/***/ 292:
+/* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27845,16 +27887,16 @@ webpackJsonp([1],{
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(45),
+	var _require = __webpack_require__(46),
 	    iconChevronDown = _require.iconChevronDown,
 	    iconChevronRight = _require.iconChevronRight,
 	    iconCircleArrowDown = _require.iconCircleArrowDown,
 	    iconCircleArrowUp = _require.iconCircleArrowUp,
 	    iconTrash = _require.iconTrash;
 
-	var InlineIcon = __webpack_require__(46);
+	var InlineIcon = __webpack_require__(47);
 
 	var ElementContainer = function (_React$Component) {
 	    _inherits(ElementContainer, _React$Component);
@@ -27926,20 +27968,19 @@ webpackJsonp([1],{
 	    title: "More"
 	};
 	ElementContainer.propTypes = {
-	    children: __webpack_require__(81).PropTypes.oneOfType([__webpack_require__(81).PropTypes.any, __webpack_require__(81).PropTypes.node]).isRequired,
-	    initiallyVisible: __webpack_require__(81).PropTypes.bool.isRequired,
-	    onDelete: __webpack_require__(81).PropTypes.func,
-	    onDown: __webpack_require__(81).PropTypes.func,
-	    onUp: __webpack_require__(81).PropTypes.func,
-	    title: __webpack_require__(81).PropTypes.oneOfType([__webpack_require__(81).PropTypes.string, __webpack_require__(81).PropTypes.any]).isRequired
+	    children: __webpack_require__(43).PropTypes.oneOfType([__webpack_require__(43).PropTypes.any, __webpack_require__(43).PropTypes.node]).isRequired,
+	    initiallyVisible: __webpack_require__(43).PropTypes.bool.isRequired,
+	    onDelete: __webpack_require__(43).PropTypes.func,
+	    onDown: __webpack_require__(43).PropTypes.func,
+	    onUp: __webpack_require__(43).PropTypes.func,
+	    title: __webpack_require__(43).PropTypes.oneOfType([__webpack_require__(43).PropTypes.string, __webpack_require__(43).PropTypes.any]).isRequired
 	};
 
 
 	module.exports = ElementContainer;
 
 /***/ },
-
-/***/ 293:
+/* 277 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style */
@@ -28118,8 +28159,7 @@ webpackJsonp([1],{
 	module.exports = draw;
 
 /***/ },
-
-/***/ 294:
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style */
@@ -28444,8 +28484,7 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 295:
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -28730,8 +28769,7 @@ webpackJsonp([1],{
 	module.exports = { parse: parse, ParseError: ParseError };
 
 /***/ },
-
-/***/ 296:
+/* 280 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -28756,28 +28794,28 @@ webpackJsonp([1],{
 	 * new set of serialized highlights, which you can then persist and send back
 	 * down to this component. Easy peasy!
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var HighlightingUI = __webpack_require__(409);
-	var WordIndexer = __webpack_require__(391);
+	var HighlightingUI = __webpack_require__(335);
+	var WordIndexer = __webpack_require__(298);
 
-	var _require2 = __webpack_require__(392),
+	var _require2 = __webpack_require__(299),
 	    addHighlight = _require2.addHighlight,
 	    buildHighlight = _require2.buildHighlight,
 	    deserializeHighlight = _require2.deserializeHighlight,
 	    serializeHighlight = _require2.serializeHighlight;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
 
 	var HighlightableContent = function (_React$PureComponent) {
 	    _inherits(HighlightableContent, _React$PureComponent);
@@ -28955,10 +28993,10 @@ webpackJsonp([1],{
 	}(React.PureComponent);
 
 	HighlightableContent.propTypes = {
-	    children: __webpack_require__(81).PropTypes.any,
-	    editable: __webpack_require__(81).PropTypes.bool.isRequired,
-	    enabled: __webpack_require__(81).PropTypes.bool.isRequired,
-	    onSerializedHighlightsUpdate: __webpack_require__(81).PropTypes.func.isRequired,
+	    children: __webpack_require__(43).PropTypes.any,
+	    editable: __webpack_require__(43).PropTypes.bool.isRequired,
+	    enabled: __webpack_require__(43).PropTypes.bool.isRequired,
+	    onSerializedHighlightsUpdate: __webpack_require__(43).PropTypes.func.isRequired,
 	    serializedHighlights: babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet
 	};
 
@@ -28998,8 +29036,7 @@ webpackJsonp([1],{
 	module.exports = HighlightableContent;
 
 /***/ },
-
-/***/ 297:
+/* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -29022,10 +29059,10 @@ webpackJsonp([1],{
 	 * A DOMRange is inherently coupled to a particular DOM session, and must be
 	 * serialized into a SerializedRange before being persisted.
 	 */
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_SerializedRange", __webpack_require__(81).PropTypes.shape({
-	  type: __webpack_require__(81).PropTypes.oneOf(["word-indexes"]).isRequired,
-	  firstWordIndex: __webpack_require__(81).PropTypes.number.isRequired,
-	  lastWordIndex: __webpack_require__(81).PropTypes.number.isRequired
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_SerializedRange", __webpack_require__(43).PropTypes.shape({
+	  type: __webpack_require__(43).PropTypes.oneOf(["word-indexes"]).isRequired,
+	  firstWordIndex: __webpack_require__(43).PropTypes.number.isRequired,
+	  lastWordIndex: __webpack_require__(43).PropTypes.number.isRequired
 	}));
 
 	/**
@@ -29052,10 +29089,10 @@ webpackJsonp([1],{
 	 *     changed sufficiently radically.
 	 */
 
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_DOMHighlight", __webpack_require__(81).PropTypes.shape({
-	  firstWordIndex: __webpack_require__(81).PropTypes.number.isRequired,
-	  lastWordIndex: __webpack_require__(81).PropTypes.number.isRequired,
-	  domRange: __webpack_require__(81).PropTypes.any.isRequired
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_DOMHighlight", __webpack_require__(43).PropTypes.shape({
+	  firstWordIndex: __webpack_require__(43).PropTypes.number.isRequired,
+	  lastWordIndex: __webpack_require__(43).PropTypes.number.isRequired,
+	  domRange: __webpack_require__(43).PropTypes.any.isRequired
 	}));
 
 
@@ -29063,19 +29100,18 @@ webpackJsonp([1],{
 	 * A highlight, serialized into a DOM-independent format so that it can be
 	 * restored in subsequent browser sessions.
 	 */
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_DOMHighlightSet", __webpack_require__(81).PropTypes.shape({}));
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_SerializedHighlight", __webpack_require__(81).PropTypes.shape({
-	  range: __webpack_require__(81).PropTypes.shape({
-	    type: __webpack_require__(81).PropTypes.oneOf(["word-indexes"]).isRequired,
-	    firstWordIndex: __webpack_require__(81).PropTypes.number.isRequired,
-	    lastWordIndex: __webpack_require__(81).PropTypes.number.isRequired
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_DOMHighlightSet", __webpack_require__(43).PropTypes.shape({}));
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_SerializedHighlight", __webpack_require__(43).PropTypes.shape({
+	  range: __webpack_require__(43).PropTypes.shape({
+	    type: __webpack_require__(43).PropTypes.oneOf(["word-indexes"]).isRequired,
+	    firstWordIndex: __webpack_require__(43).PropTypes.number.isRequired,
+	    lastWordIndex: __webpack_require__(43).PropTypes.number.isRequired
 	  }).isRequired
 	}));
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet", __webpack_require__(81).PropTypes.shape({}));
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet", __webpack_require__(43).PropTypes.shape({}));
 
 /***/ },
-
-/***/ 298:
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -29085,9 +29121,9 @@ webpackJsonp([1],{
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	/* globals $_ */
-	var React = __webpack_require__(81);
-	var SimpleMarkdown = __webpack_require__(255);
-	var _ = __webpack_require__(94);
+	var React = __webpack_require__(43);
+	var SimpleMarkdown = __webpack_require__(254);
+	var _ = __webpack_require__(54);
 
 	var START_REF_PREFIX = "start-ref-";
 	var END_REF_PREFIX = "end-ref-";
@@ -29469,8 +29505,22 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 391:
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */,
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */,
+/* 295 */,
+/* 296 */,
+/* 297 */,
+/* 298 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29492,9 +29542,9 @@ webpackJsonp([1],{
 	 * The words yielded by WordIndexer are sorted in document order, which makes
 	 * them amenable to binary search - see `findBoundaryWordIndex` in ranges.js.
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
 	var WordIndexer = function (_React$PureComponent) {
 	    _inherits(WordIndexer, _React$PureComponent);
@@ -29623,23 +29673,22 @@ webpackJsonp([1],{
 	}(React.PureComponent);
 
 	WordIndexer.propTypes = {
-	    children: __webpack_require__(81).PropTypes.any,
-	    onWordsUpdate: __webpack_require__(81).PropTypes.func.isRequired
+	    children: __webpack_require__(43).PropTypes.any,
+	    onWordsUpdate: __webpack_require__(43).PropTypes.func.isRequired
 	};
 
 
 	module.exports = WordIndexer;
 
 /***/ },
-
-/***/ 392:
+/* 299 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/**
 	 * Utility functions for manipulating highlights.
 	 */
-	var _require = __webpack_require__(520),
+	var _require = __webpack_require__(354),
 	    findFirstAndLastWordIndexes = _require.findFirstAndLastWordIndexes,
 	    unionRanges = _require.unionRanges,
 	    spanRanges = _require.spanRanges,
@@ -29651,13 +29700,13 @@ webpackJsonp([1],{
 	 * existing DOMHighlights, the other Highlights are removed and their ranges
 	 * are merged into the new DOMHighlight.
 	 */
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_SerializedHighlight = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_SerializedHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_SerializedHighlight = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_SerializedHighlight || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
 
 	function addHighlight(existingHighlights, newHighlight) {
 	    var newHighlights = {};
@@ -29853,8 +29902,42 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 409:
+/* 300 */,
+/* 301 */,
+/* 302 */,
+/* 303 */,
+/* 304 */,
+/* 305 */,
+/* 306 */,
+/* 307 */,
+/* 308 */,
+/* 309 */,
+/* 310 */,
+/* 311 */,
+/* 312 */,
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */,
+/* 319 */,
+/* 320 */,
+/* 321 */,
+/* 322 */,
+/* 323 */,
+/* 324 */,
+/* 325 */,
+/* 326 */,
+/* 327 */,
+/* 328 */,
+/* 329 */,
+/* 330 */,
+/* 331 */,
+/* 332 */,
+/* 333 */,
+/* 334 */,
+/* 335 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29874,27 +29957,27 @@ webpackJsonp([1],{
 	 *     we should add a hook to allow the parent to `forceUpdate` the
 	 *     `HighlightingUI`.
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var HighlightSetRenderer = __webpack_require__(534);
-	var HighlightTooltip = __webpack_require__(535);
+	var HighlightSetRenderer = __webpack_require__(392);
+	var HighlightTooltip = __webpack_require__(393);
 
-	var _require = __webpack_require__(520),
+	var _require = __webpack_require__(354),
 	    rangesOverlap = _require.rangesOverlap;
 
-	var SelectionTracker = __webpack_require__(536);
+	var SelectionTracker = __webpack_require__(394);
 
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
 
 	/* global i18n */
 
-	var babelPluginFlowReactPropTypes_proptype_TrackedSelection = __webpack_require__(536).babelPluginFlowReactPropTypes_proptype_TrackedSelection || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_TrackedSelection = __webpack_require__(394).babelPluginFlowReactPropTypes_proptype_TrackedSelection || __webpack_require__(43).PropTypes.any;
 
 	var HighlightingUI = function (_React$PureComponent) {
 	    _inherits(HighlightingUI, _React$PureComponent);
@@ -29993,13 +30076,13 @@ webpackJsonp([1],{
 	}(React.PureComponent);
 
 	HighlightingUI.propTypes = {
-	    buildHighlight: __webpack_require__(81).PropTypes.func.isRequired,
-	    contentNode: __webpack_require__(81).PropTypes.any.isRequired,
-	    editable: __webpack_require__(81).PropTypes.bool.isRequired,
+	    buildHighlight: __webpack_require__(43).PropTypes.func.isRequired,
+	    contentNode: __webpack_require__(43).PropTypes.any.isRequired,
+	    editable: __webpack_require__(43).PropTypes.bool.isRequired,
 	    highlights: babelPluginFlowReactPropTypes_proptype_DOMHighlightSet,
-	    offsetParent: __webpack_require__(81).PropTypes.any.isRequired,
-	    onAddHighlight: __webpack_require__(81).PropTypes.func.isRequired,
-	    onRemoveHighlight: __webpack_require__(81).PropTypes.func.isRequired,
+	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
+	    onAddHighlight: __webpack_require__(43).PropTypes.func.isRequired,
+	    onRemoveHighlight: __webpack_require__(43).PropTypes.func.isRequired,
 	    zIndexes: babelPluginFlowReactPropTypes_proptype_ZIndexes
 	};
 
@@ -30007,8 +30090,25 @@ webpackJsonp([1],{
 	module.exports = HighlightingUI;
 
 /***/ },
-
-/***/ 520:
+/* 336 */,
+/* 337 */,
+/* 338 */,
+/* 339 */,
+/* 340 */,
+/* 341 */,
+/* 342 */,
+/* 343 */,
+/* 344 */,
+/* 345 */,
+/* 346 */,
+/* 347 */,
+/* 348 */,
+/* 349 */,
+/* 350 */,
+/* 351 */,
+/* 352 */,
+/* 353 */,
+/* 354 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -30023,7 +30123,7 @@ webpackJsonp([1],{
 	 *     of the DOM's `compareBoundaryPoints` API, and to cover over a Flow bug
 	 *     documented here: https://github.com/facebook/flow/issues/3734.
 	 */
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 	/**
 	 * Utility functions for manipulating ranges of highlightable content.
 	 */
@@ -30280,8 +30380,44 @@ webpackJsonp([1],{
 	};
 
 /***/ },
-
-/***/ 534:
+/* 355 */,
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */,
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */,
+/* 367 */,
+/* 368 */,
+/* 369 */,
+/* 370 */,
+/* 371 */,
+/* 372 */,
+/* 373 */,
+/* 374 */,
+/* 375 */,
+/* 376 */,
+/* 377 */,
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */,
+/* 383 */,
+/* 384 */,
+/* 385 */,
+/* 386 */,
+/* 387 */,
+/* 388 */,
+/* 389 */,
+/* 390 */,
+/* 391 */,
+/* 392 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30298,18 +30434,18 @@ webpackJsonp([1],{
 	 * determine the currently-hovered highlight, it calls the `isHovered` method
 	 * on each HighlightRenderer.
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var HighlightRenderer = __webpack_require__(605);
-	var HighlightTooltip = __webpack_require__(535);
+	var HighlightRenderer = __webpack_require__(433);
+	var HighlightTooltip = __webpack_require__(393);
 
 	/* global i18n */
 
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(43).PropTypes.any;
 
 	var HighlightSetRenderer = function (_React$PureComponent) {
 	    _inherits(HighlightSetRenderer, _React$PureComponent);
@@ -30463,10 +30599,10 @@ webpackJsonp([1],{
 	}(React.PureComponent);
 
 	HighlightSetRenderer.propTypes = {
-	    editable: __webpack_require__(81).PropTypes.bool.isRequired,
+	    editable: __webpack_require__(43).PropTypes.bool.isRequired,
 	    highlights: babelPluginFlowReactPropTypes_proptype_DOMHighlightSet,
-	    offsetParent: __webpack_require__(81).PropTypes.any.isRequired,
-	    onRemoveHighlight: __webpack_require__(81).PropTypes.func.isRequired,
+	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
+	    onRemoveHighlight: __webpack_require__(43).PropTypes.func.isRequired,
 	    zIndexes: babelPluginFlowReactPropTypes_proptype_ZIndexes
 	};
 
@@ -30474,8 +30610,7 @@ webpackJsonp([1],{
 	module.exports = HighlightSetRenderer;
 
 /***/ },
-
-/***/ 535:
+/* 393 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30487,16 +30622,16 @@ webpackJsonp([1],{
 	/**
 	 * A tooltip to point to the focus of a highlight.
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _require2 = __webpack_require__(606),
+	var _require2 = __webpack_require__(434),
 	    getRelativePosition = _require2.getRelativePosition;
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
 
 	var HighlightTooltip = function (_React$PureComponent) {
 	    _inherits(HighlightTooltip, _React$PureComponent);
@@ -30581,14 +30716,14 @@ webpackJsonp([1],{
 	}(React.PureComponent);
 
 	HighlightTooltip.propTypes = {
-	    label: __webpack_require__(81).PropTypes.string.isRequired,
-	    onClick: __webpack_require__(81).PropTypes.func.isRequired,
-	    onMouseEnter: __webpack_require__(81).PropTypes.func,
-	    onMouseLeave: __webpack_require__(81).PropTypes.func,
-	    focusNode: __webpack_require__(81).PropTypes.any.isRequired,
-	    focusOffset: __webpack_require__(81).PropTypes.number.isRequired,
-	    offsetParent: __webpack_require__(81).PropTypes.any.isRequired,
-	    zIndex: __webpack_require__(81).PropTypes.number.isRequired
+	    label: __webpack_require__(43).PropTypes.string.isRequired,
+	    onClick: __webpack_require__(43).PropTypes.func.isRequired,
+	    onMouseEnter: __webpack_require__(43).PropTypes.func,
+	    onMouseLeave: __webpack_require__(43).PropTypes.func,
+	    focusNode: __webpack_require__(43).PropTypes.any.isRequired,
+	    focusOffset: __webpack_require__(43).PropTypes.number.isRequired,
+	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
+	    zIndex: __webpack_require__(43).PropTypes.number.isRequired
 	};
 
 
@@ -30664,8 +30799,7 @@ webpackJsonp([1],{
 	module.exports = HighlightTooltip;
 
 /***/ },
-
-/***/ 536:
+/* 394 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30678,15 +30812,15 @@ webpackJsonp([1],{
 	 * Tracks the user's current selection, and exposes it to the subtree using the
 	 * function-as-children pattern.
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
 
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_TrackedSelection", __webpack_require__(81).PropTypes.shape({
-	    focusNode: __webpack_require__(81).PropTypes.any.isRequired,
-	    focusOffset: __webpack_require__(81).PropTypes.number.isRequired,
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_TrackedSelection", __webpack_require__(43).PropTypes.shape({
+	    focusNode: __webpack_require__(43).PropTypes.any.isRequired,
+	    focusOffset: __webpack_require__(43).PropTypes.number.isRequired,
 	    proposedHighlight: babelPluginFlowReactPropTypes_proptype_DOMHighlight
 	}));
 
@@ -30836,41 +30970,76 @@ webpackJsonp([1],{
 	}(React.PureComponent);
 
 	SelectionTracker.propTypes = {
-	    buildHighlight: __webpack_require__(81).PropTypes.func.isRequired,
-	    children: __webpack_require__(81).PropTypes.func,
-	    enabled: __webpack_require__(81).PropTypes.bool.isRequired
+	    buildHighlight: __webpack_require__(43).PropTypes.func.isRequired,
+	    children: __webpack_require__(43).PropTypes.func,
+	    enabled: __webpack_require__(43).PropTypes.bool.isRequired
 	};
 
 
 	module.exports = SelectionTracker;
 
 /***/ },
-
-/***/ 537:
+/* 395 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
 	// Import the DOM-related types from the parent directory, and re-export them
 	// to the UI code.
 
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(297).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(281).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
 
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_Position", __webpack_require__(81).PropTypes.shape({
-	    left: __webpack_require__(81).PropTypes.number.isRequired,
-	    top: __webpack_require__(81).PropTypes.number.isRequired
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_Position", __webpack_require__(43).PropTypes.shape({
+	    left: __webpack_require__(43).PropTypes.number.isRequired,
+	    top: __webpack_require__(43).PropTypes.number.isRequired
 	}));
-	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_ZIndexes", __webpack_require__(81).PropTypes.shape({
-	    aboveContent: __webpack_require__(81).PropTypes.number.isRequired,
-	    belowContent: __webpack_require__(81).PropTypes.number.isRequired
+	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_ZIndexes", __webpack_require__(43).PropTypes.shape({
+	    aboveContent: __webpack_require__(43).PropTypes.number.isRequired,
+	    belowContent: __webpack_require__(43).PropTypes.number.isRequired
 	}));
 
 /***/ },
-
-/***/ 605:
+/* 396 */,
+/* 397 */,
+/* 398 */,
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */,
+/* 403 */,
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */,
+/* 409 */,
+/* 410 */,
+/* 411 */,
+/* 412 */,
+/* 413 */,
+/* 414 */,
+/* 415 */,
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */,
+/* 420 */,
+/* 421 */,
+/* 422 */,
+/* 423 */,
+/* 424 */,
+/* 425 */,
+/* 426 */,
+/* 427 */,
+/* 428 */,
+/* 429 */,
+/* 430 */,
+/* 431 */,
+/* 432 */,
+/* 433 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30890,24 +31059,24 @@ webpackJsonp([1],{
 	 *     we should add a hook to allow the parent to `forceUpdate` the
 	 *     `HighlightRenderer`.
 	 */
-	var React = __webpack_require__(81);
+	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(101),
+	var _require = __webpack_require__(72),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _require2 = __webpack_require__(606),
+	var _require2 = __webpack_require__(434),
 	    getClientRectsForTextInRange = _require2.getClientRectsForTextInRange,
 	    getRelativePosition = _require2.getRelativePosition,
 	    getRelativeRect = _require2.getRelativeRect;
 
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
 
 	var HighlightRenderer = function (_React$PureComponent) {
 	    _inherits(HighlightRenderer, _React$PureComponent);
@@ -31036,8 +31205,8 @@ webpackJsonp([1],{
 
 	HighlightRenderer.propTypes = {
 	    highlight: babelPluginFlowReactPropTypes_proptype_DOMHighlight,
-	    highlightKey: __webpack_require__(81).PropTypes.string.isRequired,
-	    offsetParent: __webpack_require__(81).PropTypes.any.isRequired,
+	    highlightKey: __webpack_require__(43).PropTypes.string.isRequired,
+	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
 	    zIndexes: babelPluginFlowReactPropTypes_proptype_ZIndexes
 	};
 
@@ -31051,23 +31220,22 @@ webpackJsonp([1],{
 	module.exports = HighlightRenderer;
 
 /***/ },
-
-/***/ 606:
+/* 434 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(43).PropTypes.any;
 	/**
 	 * Utility functions for highlighting UI.
 	 */
 
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(537).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
-	var _require = __webpack_require__(520),
+	var _require = __webpack_require__(354),
 	    rangesOverlap = _require.rangesOverlap,
 	    intersectRanges = _require.intersectRanges;
 
@@ -31239,5 +31407,4 @@ webpackJsonp([1],{
 	};
 
 /***/ }
-
-});
+]));
