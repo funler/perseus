@@ -80,7 +80,7 @@ webpackJsonp([1],Array(60).concat([
 	    css = _require.css;
 
 	var React = __webpack_require__(81);
-	var classNames = __webpack_require__(103);
+	var classNames = __webpack_require__(102);
 	var Changeable = __webpack_require__(199);
 	var WidgetJsonifyDeprecated = __webpack_require__(256);
 	var _ = __webpack_require__(94);
@@ -960,7 +960,7 @@ webpackJsonp([1],Array(60).concat([
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var classNames = __webpack_require__(103);
+	var classNames = __webpack_require__(102);
 	var React = __webpack_require__(81);
 	var ReactDOM = __webpack_require__(57);
 	var _ = __webpack_require__(94);
@@ -2295,7 +2295,7 @@ webpackJsonp([1],Array(60).concat([
 	var React = __webpack_require__(81);
 	var _ = __webpack_require__(94);
 
-	var Interactive2 = __webpack_require__(257);
+	var Interactive2 = __webpack_require__(258);
 	var SvgImage = __webpack_require__(45);
 	var Util = __webpack_require__(16);
 	var ButtonGroup = __webpack_require__(97);
@@ -2304,20 +2304,20 @@ webpackJsonp([1],Array(60).concat([
 	var Graphie = __webpack_require__(106);
 	var MovablePoint = Graphie.MovablePoint;
 	var MovableLine = Graphie.MovableLine;
-	var WrappedLine = __webpack_require__(258);
+	var WrappedLine = __webpack_require__(259);
 
 	var knumber = __webpack_require__(301).number;
 	var kvector = __webpack_require__(301).vector;
 	var kpoint = __webpack_require__(301).point;
-	var KhanColors = __webpack_require__(259);
+	var KhanColors = __webpack_require__(260);
 
-	var _require = __webpack_require__(184),
+	var _require = __webpack_require__(183),
 	    containerSizeClassPropType = _require.containerSizeClassPropType;
 
 	var _require2 = __webpack_require__(93),
 	    interactiveSizes = _require2.interactiveSizes;
 
-	var _require3 = __webpack_require__(184),
+	var _require3 = __webpack_require__(183),
 	    getInteractiveBoxFromSizeClass = _require3.getInteractiveBoxFromSizeClass;
 
 	/* Mixins. */
@@ -2325,7 +2325,7 @@ webpackJsonp([1],Array(60).concat([
 
 	var Changeable = __webpack_require__(199);
 
-	var _require4 = __webpack_require__(272),
+	var _require4 = __webpack_require__(273),
 	    GrapherUtil = _require4.GrapherUtil,
 	    typeToButton = _require4.typeToButton,
 	    functionForType = _require4.functionForType,
@@ -2830,19 +2830,19 @@ webpackJsonp([1],Array(60).concat([
 
 	var Changeable = __webpack_require__(199);
 
-	var GraphSettings = __webpack_require__(260);
+	var GraphSettings = __webpack_require__(257);
 	var InfoTip = __webpack_require__(111);
 	var MultiButtonGroup = __webpack_require__(201);
 
 	var Grapher = __webpack_require__(123).widget;
 
-	var _require = __webpack_require__(272),
+	var _require = __webpack_require__(273),
 	    GrapherUtil = _require.GrapherUtil,
 	    allTypes = _require.allTypes,
 	    typeToButton = _require.typeToButton,
 	    DEFAULT_GRAPHER_PROPS = _require.DEFAULT_GRAPHER_PROPS;
 
-	var _require2 = __webpack_require__(184),
+	var _require2 = __webpack_require__(183),
 	    containerSizeClass = _require2.containerSizeClass,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
@@ -2994,7 +2994,7 @@ webpackJsonp([1],Array(60).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	/* globals i18n */
-	var classNames = __webpack_require__(103);
+	var classNames = __webpack_require__(102);
 	var React = __webpack_require__(81);
 	var _ = __webpack_require__(94);
 
@@ -3900,7 +3900,7 @@ webpackJsonp([1],Array(60).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var classNames = __webpack_require__(103);
+	var classNames = __webpack_require__(102);
 	var React = __webpack_require__(81);
 	var _ = __webpack_require__(94);
 
@@ -4647,7 +4647,7 @@ webpackJsonp([1],Array(60).concat([
 	    react/jsx-closing-bracket-location
 	*/
 
-	var classNames = __webpack_require__(103);
+	var classNames = __webpack_require__(102);
 
 	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
@@ -5814,18 +5814,18 @@ webpackJsonp([1],Array(60).concat([
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var ArrowPicker = __webpack_require__(273);
-	var ColorPicker = __webpack_require__(274);
-	var ConstraintEditor = __webpack_require__(275);
-	var DashPicker = __webpack_require__(276);
-	var ElementContainer = __webpack_require__(277);
-	var GraphSettings = __webpack_require__(260);
+	var ArrowPicker = __webpack_require__(274);
+	var ColorPicker = __webpack_require__(275);
+	var ConstraintEditor = __webpack_require__(276);
+	var DashPicker = __webpack_require__(277);
+	var ElementContainer = __webpack_require__(278);
+	var GraphSettings = __webpack_require__(257);
 	var MathInput = __webpack_require__(205);
 	var NumberInput = __webpack_require__(202);
 	var TeX = __webpack_require__(99);
 	var TextInput = __webpack_require__(203);
 
-	var KhanColors = __webpack_require__(259);
+	var KhanColors = __webpack_require__(260);
 
 	var defaultInteractionProps = {
 	    graph: {
@@ -7300,25 +7300,25 @@ webpackJsonp([1],Array(60).concat([
 	var React = __webpack_require__(81);
 	var _ = __webpack_require__(94);
 
-	var Graph = __webpack_require__(263);
+	var Graph = __webpack_require__(264);
 	var InfoTip = __webpack_require__(111);
-	var Interactive2 = __webpack_require__(257);
+	var Interactive2 = __webpack_require__(258);
 	var NumberInput = __webpack_require__(202);
 	var Util = __webpack_require__(16);
 
 	var knumber = __webpack_require__(301).number;
 	var kpoint = __webpack_require__(301).point;
-	var KhanColors = __webpack_require__(259);
-	var GraphUtils = __webpack_require__(255);
+	var KhanColors = __webpack_require__(260);
+	var GraphUtils = __webpack_require__(253);
 
 	var _require = __webpack_require__(93),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var _require2 = __webpack_require__(184),
+	var _require2 = __webpack_require__(183),
 	    containerSizeClassPropType = _require2.containerSizeClassPropType,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
-	var WrappedLine = __webpack_require__(258);
+	var WrappedLine = __webpack_require__(259);
 
 	var DeprecationMixin = Util.DeprecationMixin;
 
@@ -9653,7 +9653,7 @@ webpackJsonp([1],Array(60).concat([
 
 	var DeprecationMixin = Util.DeprecationMixin;
 
-	var GraphSettings = __webpack_require__(260);
+	var GraphSettings = __webpack_require__(257);
 	var InfoTip = __webpack_require__(111);
 
 	var InteractiveGraph = __webpack_require__(137).widget;
@@ -9661,7 +9661,7 @@ webpackJsonp([1],Array(60).concat([
 	var _require = __webpack_require__(93),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var _require2 = __webpack_require__(184),
+	var _require2 = __webpack_require__(183),
 	    containerSizeClass = _require2.containerSizeClass,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
@@ -10637,7 +10637,7 @@ webpackJsonp([1],Array(60).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var classNames = __webpack_require__(103);
+	var classNames = __webpack_require__(102);
 	var React = __webpack_require__(81);
 	var ReactDOM = __webpack_require__(57);
 	var _ = __webpack_require__(94);
@@ -10645,15 +10645,15 @@ webpackJsonp([1],Array(60).concat([
 	var NumberInput = __webpack_require__(202);
 	var Renderer = __webpack_require__(37);
 	var TextInput = __webpack_require__(203);
-	var MathOutput = __webpack_require__(265);
+	var MathOutput = __webpack_require__(263);
 	var SimpleKeypadInput = __webpack_require__(195);
 
 	var ApiOptions = __webpack_require__(15).Options;
 	var KhanAnswerTypes = __webpack_require__(69);
 
-	var keypadElementPropType = __webpack_require__(183).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
-	var assert = __webpack_require__(254).assert;
+	var assert = __webpack_require__(252).assert;
 	var stringArrayOfSize = __webpack_require__(16).stringArrayOfSize;
 
 	var _require = __webpack_require__(58),
@@ -11359,7 +11359,7 @@ webpackJsonp([1],Array(60).concat([
 	var _ = __webpack_require__(94);
 
 	var Renderer = __webpack_require__(37);
-	var Sortable = __webpack_require__(264);
+	var Sortable = __webpack_require__(265);
 
 	var ApiOptions = __webpack_require__(15).Options;
 	var shuffle = __webpack_require__(16).shuffle;
@@ -11762,7 +11762,7 @@ webpackJsonp([1],Array(60).concat([
 	var _2 = __webpack_require__(94);
 
 	var ApiOptions = __webpack_require__(15).Options;
-	var GraphUtils = __webpack_require__(255);
+	var GraphUtils = __webpack_require__(253);
 
 	var defaultImage = {
 	    url: null,
@@ -12240,12 +12240,12 @@ webpackJsonp([1],Array(60).concat([
 
 	var React = __webpack_require__(81);
 
-	var draw = __webpack_require__(278);
+	var draw = __webpack_require__(279);
 
-	var _require = __webpack_require__(279),
+	var _require = __webpack_require__(280),
 	    layout = _require.layout;
 
-	var SmilesParser = __webpack_require__(280);
+	var SmilesParser = __webpack_require__(281);
 
 	var parse = SmilesParser.parse;
 	var ParseError = SmilesParser.ParseError;
@@ -12509,12 +12509,12 @@ webpackJsonp([1],Array(60).concat([
 	var Changeable = __webpack_require__(199);
 
 	var NumberInput = __webpack_require__(202);
-	var MathOutput = __webpack_require__(265);
+	var MathOutput = __webpack_require__(263);
 	var SimpleKeypadInput = __webpack_require__(195);
 
 	var ApiOptions = __webpack_require__(15).Options;
 
-	var keypadElementPropType = __webpack_require__(183).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
 	var Graphie = __webpack_require__(106);
 	var MovablePoint = Graphie.MovablePoint;
@@ -12522,12 +12522,12 @@ webpackJsonp([1],Array(60).concat([
 
 	var knumber = __webpack_require__(301).number;
 	var KhanMath = __webpack_require__(187);
-	var KhanColors = __webpack_require__(259);
+	var KhanColors = __webpack_require__(260);
 
 	var bound = function bound(x, gt, lt) {
 	    return Math.min(Math.max(x, gt), lt);
 	};
-	var assert = __webpack_require__(254).assert;
+	var assert = __webpack_require__(252).assert;
 
 	var EN_DASH = "\u2013";
 	var horizontalPadding = 30;
@@ -14571,16 +14571,16 @@ webpackJsonp([1],Array(60).concat([
 	var _ = __webpack_require__(94);
 	var $ = __webpack_require__(96);
 
-	var HighlightableContent = __webpack_require__(281);
+	var HighlightableContent = __webpack_require__(282);
 	var Renderer = __webpack_require__(37);
-	var PassageMarkdown = __webpack_require__(283);
+	var PassageMarkdown = __webpack_require__(284);
 
 	var _require2 = __webpack_require__(58),
 	    linterContextDefault = _require2.linterContextDefault;
 
 	var babelPluginFlowReactPropTypes_proptype_ChangeableProps = __webpack_require__(199).babelPluginFlowReactPropTypes_proptype_ChangeableProps || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(81).PropTypes.any;
 
 	// A fake paragraph to measure the line height of the passage. In CSS we always
 	// set the line height to 22 pixels, but when using the browser zoom feature,
@@ -15527,10 +15527,10 @@ webpackJsonp([1],Array(60).concat([
 
 	var deepEq = __webpack_require__(16).deepEq;
 	var KhanMath = __webpack_require__(187);
-	var KhanColors = __webpack_require__(259);
-	var GraphUtils = __webpack_require__(255);
-	var Interactive2 = __webpack_require__(257);
-	var WrappedLine = __webpack_require__(258);
+	var KhanColors = __webpack_require__(260);
+	var GraphUtils = __webpack_require__(253);
+	var Interactive2 = __webpack_require__(258);
+	var WrappedLine = __webpack_require__(259);
 
 	var BAR = "bar",
 	    LINE = "line",
@@ -17636,7 +17636,7 @@ webpackJsonp([1],Array(60).concat([
 	var Changeable = __webpack_require__(199);
 
 	var ApiOptions = __webpack_require__(15).Options;
-	var assert = __webpack_require__(254).assert;
+	var assert = __webpack_require__(252).assert;
 
 	var Graphie = __webpack_require__(106);
 	var Path = Graphie.Path,
@@ -17648,11 +17648,11 @@ webpackJsonp([1],Array(60).concat([
 	    MovableLine = Graphie.MovableLine;
 
 	var NumberInput = __webpack_require__(202);
-	var MathOutput = __webpack_require__(265);
+	var MathOutput = __webpack_require__(263);
 	var seededRNG = __webpack_require__(16).seededRNG;
 	var Util = __webpack_require__(16);
 	var knumber = __webpack_require__(301).number;
-	var KhanColors = __webpack_require__(259);
+	var KhanColors = __webpack_require__(260);
 	var KhanMath = __webpack_require__(187);
 
 	var defaultBoxSize = 400;
@@ -18578,7 +18578,7 @@ webpackJsonp([1],Array(60).concat([
 	var React = __webpack_require__(81);
 	var _ = __webpack_require__(94);
 
-	var Sortable = __webpack_require__(264);
+	var Sortable = __webpack_require__(265);
 
 	var ApiOptions = __webpack_require__(15).Options;
 	var shuffle = __webpack_require__(16).shuffle;
@@ -18815,12 +18815,12 @@ webpackJsonp([1],Array(60).concat([
 	var ReactDOM = __webpack_require__(57);
 	var _ = __webpack_require__(94);
 
-	var MathOutput = __webpack_require__(265);
+	var MathOutput = __webpack_require__(263);
 	var SimpleKeypadInput = __webpack_require__(195);
 	var Renderer = __webpack_require__(37);
 	var Util = __webpack_require__(16);
 
-	var keypadElementPropType = __webpack_require__(183).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
 	var ApiOptions = __webpack_require__(15).Options;
 	var KhanAnswerTypes = __webpack_require__(69);
@@ -18829,7 +18829,7 @@ webpackJsonp([1],Array(60).concat([
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
-	var assert = __webpack_require__(254).assert;
+	var assert = __webpack_require__(252).assert;
 
 	/* Input handling: Maps a (row, column) pair to a unique ref used by React,
 	 * and extracts (row, column) pairs from input paths, used to allow outsiders
@@ -19364,16 +19364,16 @@ webpackJsonp([1],Array(60).concat([
 	var ReactDOM = __webpack_require__(57);
 	var _ = __webpack_require__(94);
 
-	var Graph = __webpack_require__(263);
+	var Graph = __webpack_require__(264);
 	var InlineIcon = __webpack_require__(47);
 	var NumberInput = __webpack_require__(202);
-	var MathOutput = __webpack_require__(265);
+	var MathOutput = __webpack_require__(263);
 	var TeX = __webpack_require__(99);
 	var SimpleKeypadInput = __webpack_require__(195);
 
 	var ApiOptions = __webpack_require__(15).Options;
 
-	var keypadElementPropType = __webpack_require__(183).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
 	var ROTATE_SNAP_DEGREES = 15;
 	var DEGREE_SIGN = "\xB0";
@@ -19396,9 +19396,9 @@ webpackJsonp([1],Array(60).concat([
 	var kray = __webpack_require__(301).ray;
 	var kline = __webpack_require__(301).line;
 	var KhanMath = __webpack_require__(187);
-	var KhanColors = __webpack_require__(259);
+	var KhanColors = __webpack_require__(260);
 
-	var assert = __webpack_require__(254).assert;
+	var assert = __webpack_require__(252).assert;
 
 	var defaultBoxSize = 400;
 	var defaultBackgroundImage = {
@@ -21817,8 +21817,8 @@ webpackJsonp([1],Array(60).concat([
 
 	var ApiOptions = __webpack_require__(15).Options;
 
-	var Graph = __webpack_require__(263);
-	var GraphSettings = __webpack_require__(260);
+	var Graph = __webpack_require__(264);
+	var GraphSettings = __webpack_require__(257);
 	var InfoTip = __webpack_require__(111);
 	var PropCheckBox = __webpack_require__(53);
 
@@ -21831,7 +21831,7 @@ webpackJsonp([1],Array(60).concat([
 	var kpoint = __webpack_require__(301).point;
 	var kray = __webpack_require__(301).ray;
 	var kvector = __webpack_require__(301).vector;
-	var KhanColors = __webpack_require__(259);
+	var KhanColors = __webpack_require__(260);
 
 	function arraySum(array) {
 	    return _.reduce(array, function (memo, arg) {
@@ -22833,7 +22833,7 @@ webpackJsonp([1],Array(60).concat([
 	// TODO(joel): Allow sigfigs within a range rather than an exact expected
 	// value?
 
-	var lens = __webpack_require__(102);
+	var lens = __webpack_require__(103);
 	var React = __webpack_require__(81);
 	var ReactDOM = __webpack_require__(57);
 	var _ = __webpack_require__(94);
@@ -22841,7 +22841,7 @@ webpackJsonp([1],Array(60).concat([
 	var ApiClassNames = __webpack_require__(15).ClassNames;
 	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
-	var MathOutput = __webpack_require__(265);
+	var MathOutput = __webpack_require__(263);
 
 	var _require = __webpack_require__(266),
 	    SignificantFigures = _require.SignificantFigures,
@@ -24432,10 +24432,7 @@ webpackJsonp([1],Array(60).concat([
 /* 254 */,
 /* 255 */,
 /* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */,
-/* 260 */
+/* 257 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -25080,6 +25077,9 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = GraphSettings;
 
 /***/ },
+/* 258 */,
+/* 259 */,
+/* 260 */,
 /* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -25353,7 +25353,8 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = RangeInput;
 
 /***/ },
-/* 263 */
+/* 263 */,
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable react/forbid-prop-types, react/prop-types, react/sort-comp */
@@ -25363,7 +25364,7 @@ webpackJsonp([1],Array(60).concat([
 	var _ = __webpack_require__(94);
 
 	var Util = __webpack_require__(16);
-	var GraphUtils = __webpack_require__(255);
+	var GraphUtils = __webpack_require__(253);
 
 	var _require = __webpack_require__(93),
 	    interactiveSizes = _require.interactiveSizes;
@@ -25699,7 +25700,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = Graph;
 
 /***/ },
-/* 264 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable react/forbid-prop-types, react/prop-types, react/sort-comp */
@@ -26307,7 +26308,6 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = Sortable;
 
 /***/ },
-/* 265 */,
 /* 266 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -26795,7 +26795,8 @@ webpackJsonp([1],Array(60).concat([
 /* 269 */,
 /* 270 */,
 /* 271 */,
-/* 272 */
+/* 272 */,
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style, comma-dangle, no-var, one-var, space-unary-ops */
@@ -27473,7 +27474,7 @@ webpackJsonp([1],Array(60).concat([
 	};
 
 /***/ },
-/* 273 */
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27528,7 +27529,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = ArrowPicker;
 
 /***/ },
-/* 274 */
+/* 275 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27547,7 +27548,7 @@ webpackJsonp([1],Array(60).concat([
 	var _require = __webpack_require__(199),
 	    ChangeableProps = _require.ChangeableProps;
 
-	var KhanColors = __webpack_require__(259);
+	var KhanColors = __webpack_require__(260);
 
 	var COLORS = [KhanColors.BLACK, KhanColors.BLUE, KhanColors.GREEN, KhanColors.PINK, KhanColors.PURPLE, KhanColors.RED, KhanColors.GRAY];
 
@@ -27597,7 +27598,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = ColorPicker;
 
 /***/ },
-/* 275 */
+/* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27811,7 +27812,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = ConstraintEditor;
 
 /***/ },
-/* 276 */
+/* 277 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27887,7 +27888,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = DashPicker;
 
 /***/ },
-/* 277 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27992,7 +27993,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = ElementContainer;
 
 /***/ },
-/* 278 */
+/* 279 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style */
@@ -28171,7 +28172,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = draw;
 
 /***/ },
-/* 279 */
+/* 280 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style */
@@ -28496,7 +28497,7 @@ webpackJsonp([1],Array(60).concat([
 	};
 
 /***/ },
-/* 280 */
+/* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -28781,7 +28782,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = { parse: parse, ParseError: ParseError };
 
 /***/ },
-/* 281 */
+/* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -28812,22 +28813,22 @@ webpackJsonp([1],Array(60).concat([
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var HighlightingUI = __webpack_require__(356);
-	var WordIndexer = __webpack_require__(334);
+	var HighlightingUI = __webpack_require__(346);
+	var WordIndexer = __webpack_require__(337);
 
-	var _require2 = __webpack_require__(335),
+	var _require2 = __webpack_require__(338),
 	    addHighlight = _require2.addHighlight,
 	    buildHighlight = _require2.buildHighlight,
 	    deserializeHighlight = _require2.deserializeHighlight,
 	    serializeHighlight = _require2.serializeHighlight;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
 
 	var HighlightableContent = function (_React$PureComponent) {
 	    _inherits(HighlightableContent, _React$PureComponent);
@@ -29048,7 +29049,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = HighlightableContent;
 
 /***/ },
-/* 282 */
+/* 283 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -29123,7 +29124,7 @@ webpackJsonp([1],Array(60).concat([
 	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_SerializedHighlightSet", __webpack_require__(81).PropTypes.shape({}));
 
 /***/ },
-/* 283 */
+/* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -29134,7 +29135,7 @@ webpackJsonp([1],Array(60).concat([
 
 	/* globals $_ */
 	var React = __webpack_require__(81);
-	var SimpleMarkdown = __webpack_require__(250);
+	var SimpleMarkdown = __webpack_require__(254);
 	var _ = __webpack_require__(94);
 
 	var START_REF_PREFIX = "start-ref-";
@@ -29517,7 +29518,6 @@ webpackJsonp([1],Array(60).concat([
 	};
 
 /***/ },
-/* 284 */,
 /* 285 */,
 /* 286 */,
 /* 287 */,
@@ -29567,7 +29567,10 @@ webpackJsonp([1],Array(60).concat([
 /* 331 */,
 /* 332 */,
 /* 333 */,
-/* 334 */
+/* 334 */,
+/* 335 */,
+/* 336 */,
+/* 337 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29591,7 +29594,7 @@ webpackJsonp([1],Array(60).concat([
 	 */
 	var React = __webpack_require__(81);
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 
 	var WordIndexer = function (_React$PureComponent) {
 	    _inherits(WordIndexer, _React$PureComponent);
@@ -29728,14 +29731,14 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = WordIndexer;
 
 /***/ },
-/* 335 */
+/* 338 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/**
 	 * Utility functions for manipulating highlights.
 	 */
-	var _require = __webpack_require__(405),
+	var _require = __webpack_require__(404),
 	    findFirstAndLastWordIndexes = _require.findFirstAndLastWordIndexes,
 	    unionRanges = _require.unionRanges,
 	    spanRanges = _require.spanRanges,
@@ -29747,13 +29750,13 @@ webpackJsonp([1],Array(60).concat([
 	 * existing DOMHighlights, the other Highlights are removed and their ranges
 	 * are merged into the new DOMHighlight.
 	 */
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_SerializedHighlight = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_SerializedHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_SerializedHighlight = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_SerializedHighlight || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
 
 	function addHighlight(existingHighlights, newHighlight) {
 	    var newHighlights = {};
@@ -29949,9 +29952,6 @@ webpackJsonp([1],Array(60).concat([
 	};
 
 /***/ },
-/* 336 */,
-/* 337 */,
-/* 338 */,
 /* 339 */,
 /* 340 */,
 /* 341 */,
@@ -29959,17 +29959,7 @@ webpackJsonp([1],Array(60).concat([
 /* 343 */,
 /* 344 */,
 /* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */
+/* 346 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29991,25 +29981,25 @@ webpackJsonp([1],Array(60).concat([
 	 */
 	var React = __webpack_require__(81);
 
-	var HighlightSetRenderer = __webpack_require__(419);
-	var HighlightTooltip = __webpack_require__(420);
+	var HighlightSetRenderer = __webpack_require__(414);
+	var HighlightTooltip = __webpack_require__(415);
 
-	var _require = __webpack_require__(405),
+	var _require = __webpack_require__(404),
 	    rangesOverlap = _require.rangesOverlap;
 
-	var SelectionTracker = __webpack_require__(421);
+	var SelectionTracker = __webpack_require__(416);
 
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
 
 	/* global i18n */
 
-	var babelPluginFlowReactPropTypes_proptype_TrackedSelection = __webpack_require__(421).babelPluginFlowReactPropTypes_proptype_TrackedSelection || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_TrackedSelection = __webpack_require__(416).babelPluginFlowReactPropTypes_proptype_TrackedSelection || __webpack_require__(81).PropTypes.any;
 
 	var HighlightingUI = function (_React$PureComponent) {
 	    _inherits(HighlightingUI, _React$PureComponent);
@@ -30122,6 +30112,16 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = HighlightingUI;
 
 /***/ },
+/* 347 */,
+/* 348 */,
+/* 349 */,
+/* 350 */,
+/* 351 */,
+/* 352 */,
+/* 353 */,
+/* 354 */,
+/* 355 */,
+/* 356 */,
 /* 357 */,
 /* 358 */,
 /* 359 */,
@@ -30169,8 +30169,7 @@ webpackJsonp([1],Array(60).concat([
 /* 401 */,
 /* 402 */,
 /* 403 */,
-/* 404 */,
-/* 405 */
+/* 404 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -30185,7 +30184,7 @@ webpackJsonp([1],Array(60).concat([
 	 *     of the DOM's `compareBoundaryPoints` API, and to cover over a Flow bug
 	 *     documented here: https://github.com/facebook/flow/issues/3734.
 	 */
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 	/**
 	 * Utility functions for manipulating ranges of highlightable content.
 	 */
@@ -30442,6 +30441,7 @@ webpackJsonp([1],Array(60).concat([
 	};
 
 /***/ },
+/* 405 */,
 /* 406 */,
 /* 407 */,
 /* 408 */,
@@ -30450,12 +30450,7 @@ webpackJsonp([1],Array(60).concat([
 /* 411 */,
 /* 412 */,
 /* 413 */,
-/* 414 */,
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */
+/* 414 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30474,16 +30469,16 @@ webpackJsonp([1],Array(60).concat([
 	 */
 	var React = __webpack_require__(81);
 
-	var HighlightRenderer = __webpack_require__(466);
-	var HighlightTooltip = __webpack_require__(420);
+	var HighlightRenderer = __webpack_require__(465);
+	var HighlightTooltip = __webpack_require__(415);
 
 	/* global i18n */
 
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
 
 	var HighlightSetRenderer = function (_React$PureComponent) {
 	    _inherits(HighlightSetRenderer, _React$PureComponent);
@@ -30648,7 +30643,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = HighlightSetRenderer;
 
 /***/ },
-/* 420 */
+/* 415 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30666,10 +30661,10 @@ webpackJsonp([1],Array(60).concat([
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _require2 = __webpack_require__(468),
+	var _require2 = __webpack_require__(466),
 	    getRelativePosition = _require2.getRelativePosition;
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
 
 	var HighlightTooltip = function (_React$PureComponent) {
 	    _inherits(HighlightTooltip, _React$PureComponent);
@@ -30837,7 +30832,7 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = HighlightTooltip;
 
 /***/ },
-/* 421 */
+/* 416 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -30852,9 +30847,9 @@ webpackJsonp([1],Array(60).concat([
 	 */
 	var React = __webpack_require__(81);
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
 
 	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_TrackedSelection", __webpack_require__(81).PropTypes.shape({
 	    focusNode: __webpack_require__(81).PropTypes.any.isRequired,
@@ -31017,18 +31012,18 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = SelectionTracker;
 
 /***/ },
-/* 422 */
+/* 417 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 
 	// Import the DOM-related types from the parent directory, and re-export them
 	// to the UI code.
 
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlightSet = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMHighlightSet || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(282).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(283).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
 
 	Object.defineProperty(module.exports, "babelPluginFlowReactPropTypes_proptype_Position", __webpack_require__(81).PropTypes.shape({
 	    left: __webpack_require__(81).PropTypes.number.isRequired,
@@ -31040,6 +31035,11 @@ webpackJsonp([1],Array(60).concat([
 	}));
 
 /***/ },
+/* 418 */,
+/* 419 */,
+/* 420 */,
+/* 421 */,
+/* 422 */,
 /* 423 */,
 /* 424 */,
 /* 425 */,
@@ -31082,8 +31082,7 @@ webpackJsonp([1],Array(60).concat([
 /* 462 */,
 /* 463 */,
 /* 464 */,
-/* 465 */,
-/* 466 */
+/* 465 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -31109,18 +31108,18 @@ webpackJsonp([1],Array(60).concat([
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _require2 = __webpack_require__(468),
+	var _require2 = __webpack_require__(466),
 	    getClientRectsForTextInRange = _require2.getClientRectsForTextInRange,
 	    getRelativePosition = _require2.getRelativePosition,
 	    getRelativeRect = _require2.getRelativeRect;
 
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(81).PropTypes.any;
 
 	var HighlightRenderer = function (_React$PureComponent) {
 	    _inherits(HighlightRenderer, _React$PureComponent);
@@ -31264,23 +31263,22 @@ webpackJsonp([1],Array(60).concat([
 	module.exports = HighlightRenderer;
 
 /***/ },
-/* 467 */,
-/* 468 */
+/* 466 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(81).PropTypes.any;
 	/**
 	 * Utility functions for highlighting UI.
 	 */
 
 
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(81).PropTypes.any;
 
-	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(422).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
+	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(417).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(81).PropTypes.any;
 
-	var _require = __webpack_require__(405),
+	var _require = __webpack_require__(404),
 	    rangesOverlap = _require.rangesOverlap,
 	    intersectRanges = _require.intersectRanges;
 
