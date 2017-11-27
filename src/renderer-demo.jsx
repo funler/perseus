@@ -163,14 +163,14 @@ const RendererDemo = React.createClass({
     },
 
     _handleResize() {
-        const isMobile = navigator.userAgent.indexOf("Mobile") !== -1;
+        let isMobile = navigator.userAgent.indexOf("Mobile") !== -1;
         if (this.state.isMobile !== isMobile) {
             this.setState({isMobile});
         }
     },
 
     render: function() {
-        const {isMobile} = this.state;
+        let {isMobile} = this.state;
 
         const apiOptions = {
             getAnotherHint: () => {
@@ -222,7 +222,7 @@ const RendererDemo = React.createClass({
         );
 
         const scratchpadEnabled = this.state.scratchpadEnabled;
-
+        isMobile = false; // render answer_area as well
         if (isMobile) {
             const className = "framework-perseus " + ApiClassNames.MOBILE;
             return (

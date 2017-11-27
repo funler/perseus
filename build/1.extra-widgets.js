@@ -1,17 +1,27 @@
-webpackJsonp([1],Array(71).concat([
-/* 71 */
+webpackJsonp([1],Array(61).concat([
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* globals true */
 
 	// As new widgets get added here, please also make sure they get added in
 	// webapp perseus/traversal.py so they can be properly translated.
-	module.exports = [[__webpack_require__(119), true && __webpack_require__(120)], [__webpack_require__(121), true && __webpack_require__(122)], [__webpack_require__(123), true && __webpack_require__(124)], [__webpack_require__(125), true && __webpack_require__(126)], [__webpack_require__(127), true && __webpack_require__(128)], [__webpack_require__(129), true && __webpack_require__(130)], [__webpack_require__(131), true && __webpack_require__(132)], [__webpack_require__(133), true && __webpack_require__(134)], [__webpack_require__(135), true && __webpack_require__(136)], [__webpack_require__(137), true && __webpack_require__(138)], [__webpack_require__(139), true && __webpack_require__(140)], [__webpack_require__(141), true && __webpack_require__(142)], [__webpack_require__(143), true && __webpack_require__(144)], [__webpack_require__(145), true && __webpack_require__(146)], [__webpack_require__(147), true && __webpack_require__(148)], [__webpack_require__(149), true && __webpack_require__(150)], [__webpack_require__(151), true && __webpack_require__(152)], [__webpack_require__(153), true && __webpack_require__(154)], [__webpack_require__(155), true && __webpack_require__(156)], [__webpack_require__(157), true && __webpack_require__(158)], [__webpack_require__(159), true && __webpack_require__(160)], [__webpack_require__(161), true && __webpack_require__(162)], [__webpack_require__(163), true && __webpack_require__(164)], [__webpack_require__(165), true && __webpack_require__(166)], [__webpack_require__(167), true && __webpack_require__(168)], [__webpack_require__(169), true && __webpack_require__(170)], [__webpack_require__(171), true && __webpack_require__(172)], [__webpack_require__(173), true && __webpack_require__(174)], [__webpack_require__(175), true && __webpack_require__(176)], [__webpack_require__(177), true && __webpack_require__(178)], [__webpack_require__(179), true && __webpack_require__(180)], [__webpack_require__(181), true && __webpack_require__(182)],
+	module.exports = [[__webpack_require__(113), true && __webpack_require__(114)], [__webpack_require__(115), true && __webpack_require__(116)], [__webpack_require__(117), true && __webpack_require__(118)], [__webpack_require__(119), true && __webpack_require__(120)], [__webpack_require__(121), true && __webpack_require__(122)], [__webpack_require__(123), true && __webpack_require__(124)], [__webpack_require__(125), true && __webpack_require__(126)], [__webpack_require__(127), true && __webpack_require__(128)], [__webpack_require__(129), true && __webpack_require__(130)], [__webpack_require__(131), true && __webpack_require__(132)], [__webpack_require__(133), true && __webpack_require__(134)], [__webpack_require__(135), true && __webpack_require__(136)], [__webpack_require__(137), true && __webpack_require__(138)], [__webpack_require__(139), true && __webpack_require__(140)], [__webpack_require__(141), true && __webpack_require__(142)], [__webpack_require__(143), true && __webpack_require__(144)], [__webpack_require__(145), true && __webpack_require__(146)], [__webpack_require__(147), true && __webpack_require__(148)], [__webpack_require__(149), true && __webpack_require__(150)], [__webpack_require__(151), true && __webpack_require__(152)], [__webpack_require__(153), true && __webpack_require__(154)], [__webpack_require__(155), true && __webpack_require__(156)], [__webpack_require__(157), true && __webpack_require__(158)], [__webpack_require__(159), true && __webpack_require__(160)], [__webpack_require__(161), true && __webpack_require__(162)], [__webpack_require__(163), true && __webpack_require__(164)], [__webpack_require__(165), true && __webpack_require__(166)], [__webpack_require__(167), true && __webpack_require__(168)], [__webpack_require__(169), true && __webpack_require__(170)], [__webpack_require__(171), true && __webpack_require__(172)], [__webpack_require__(173), true && __webpack_require__(174)], [__webpack_require__(175), true && __webpack_require__(176)],
 	// These widgets are only used when testing things, so remove them in the
 	// non-editor bundle.
-	true && [__webpack_require__(183), __webpack_require__(184)], true && [__webpack_require__(185), __webpack_require__(186)], true && [__webpack_require__(187), __webpack_require__(188)]];
+	true && [__webpack_require__(177), __webpack_require__(178)], true && [__webpack_require__(179), __webpack_require__(180)], true && [__webpack_require__(181), __webpack_require__(182)]];
 
 /***/ },
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
 /* 72 */,
 /* 73 */,
 /* 74 */,
@@ -53,13 +63,7 @@ webpackJsonp([1],Array(71).concat([
 /* 110 */,
 /* 111 */,
 /* 112 */,
-/* 113 */,
-/* 114 */,
-/* 115 */,
-/* 116 */,
-/* 117 */,
-/* 118 */,
-/* 119 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _fullBleedContainer;
@@ -70,30 +74,30 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
 	var React = __webpack_require__(43);
-	var classNames = __webpack_require__(104);
+	var classNames = __webpack_require__(103);
 	var Changeable = __webpack_require__(199);
 	var WidgetJsonifyDeprecated = __webpack_require__(255);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiClassNames = __webpack_require__(12).ClassNames;
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiClassNames = __webpack_require__(15).ClassNames;
+	var ApiOptions = __webpack_require__(15).Options;
 
-	var _require2 = __webpack_require__(46),
+	var _require2 = __webpack_require__(49),
 	    iconCircle = _require2.iconCircle,
 	    iconCircleThin = _require2.iconCircleThin;
 
-	var InlineIcon = __webpack_require__(47);
-	var Renderer = __webpack_require__(28);
+	var InlineIcon = __webpack_require__(50);
+	var Renderer = __webpack_require__(37);
 	var Util = __webpack_require__(16);
-	var mediaQueries = __webpack_require__(83);
-	var sharedStyles = __webpack_require__(85);
+	var mediaQueries = __webpack_require__(94);
+	var sharedStyles = __webpack_require__(95);
 
-	var _require3 = __webpack_require__(58),
+	var _require3 = __webpack_require__(59),
 	    linterContextProps = _require3.linterContextProps,
 	    linterContextDefault = _require3.linterContextDefault;
 
@@ -357,7 +361,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 120 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -368,14 +372,14 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var Changeable = __webpack_require__(199);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var EditorJsonify = __webpack_require__(200);
-	var PropCheckBox = __webpack_require__(68);
-	var TextListEditor = __webpack_require__(105);
+	var PropCheckBox = __webpack_require__(55);
+	var TextListEditor = __webpack_require__(104);
 
-	var Categorizer = __webpack_require__(119).widget;
+	var Categorizer = __webpack_require__(113).widget;
 
 	var CategorizerEditor = React.createClass({
 	    displayName: "CategorizerEditor",
@@ -470,7 +474,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = CategorizerEditor;
 
 /***/ },
-/* 121 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -484,7 +488,7 @@ webpackJsonp([1],Array(71).concat([
 	 */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var updateQueryString = __webpack_require__(16).updateQueryString;
@@ -669,7 +673,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 122 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -679,14 +683,14 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var BlurInput = __webpack_require__(194);
-	var InfoTip = __webpack_require__(103);
-	var PropCheckBox = __webpack_require__(68);
+	var BlurInput = __webpack_require__(198);
+	var InfoTip = __webpack_require__(111);
+	var PropCheckBox = __webpack_require__(55);
 
 	var DEFAULT_WIDTH = 400;
 	var DEFAULT_HEIGHT = 400;
@@ -942,7 +946,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = CSProgramEditor;
 
 /***/ },
-/* 123 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -951,21 +955,21 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var classNames = __webpack_require__(104);
+	var classNames = __webpack_require__(103);
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiClassNames = __webpack_require__(12).ClassNames;
-	var ApiOptions = __webpack_require__(12).Options;
-	var InlineIcon = __webpack_require__(47);
-	var styleConstants = __webpack_require__(84);
+	var ApiClassNames = __webpack_require__(15).ClassNames;
+	var ApiOptions = __webpack_require__(15).Options;
+	var InlineIcon = __webpack_require__(50);
+	var styleConstants = __webpack_require__(96);
 
-	var _require2 = __webpack_require__(46),
+	var _require2 = __webpack_require__(49),
 	    iconDropdownArrow = _require2.iconDropdownArrow;
 
 	var dropdownArrowSize = 24;
@@ -1136,7 +1140,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 124 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, max-len, no-var, react/jsx-closing-bracket-location, react/jsx-indent-props, react/prop-types, react/sort-comp, semi, space-before-function-paren */
@@ -1145,14 +1149,14 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconPlus = _require.iconPlus,
 	    iconTrash = _require.iconTrash;
 
-	var InfoTip = __webpack_require__(103);
-	var InlineIcon = __webpack_require__(47);
+	var InfoTip = __webpack_require__(111);
+	var InlineIcon = __webpack_require__(50);
 	var EditorJsonify = __webpack_require__(200);
 
 	var DropdownEditor = React.createClass({
@@ -1336,7 +1340,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = DropdownEditor;
 
 /***/ },
-/* 125 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _explanationLink, _mobileExplanationLin;
@@ -1347,20 +1351,20 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
-	var PerseusApi = __webpack_require__(12);
-	var Renderer = __webpack_require__(28);
-	var mediaQueries = __webpack_require__(83);
-	var styleConstants = __webpack_require__(84);
+	var PerseusApi = __webpack_require__(15);
+	var Renderer = __webpack_require__(37);
+	var mediaQueries = __webpack_require__(94);
+	var styleConstants = __webpack_require__(96);
 
-	var _require2 = __webpack_require__(58),
+	var _require2 = __webpack_require__(59),
 	    linterContextProps = _require2.linterContextProps,
 	    linterContextDefault = _require2.linterContextDefault;
 
@@ -1619,7 +1623,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 126 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -1629,12 +1633,12 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(38);
+	var Editor = __webpack_require__(23);
 	var TextInput = __webpack_require__(203);
 
 	var defaultExplanationProps = {
@@ -1738,25 +1742,25 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = ExplanationEditor;
 
 /***/ },
-/* 127 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _mobileDefinitionLink;
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
-	var PerseusApi = __webpack_require__(12);
-	var Renderer = __webpack_require__(28);
-	var mediaQueries = __webpack_require__(83);
-	var styleConstants = __webpack_require__(84);
+	var PerseusApi = __webpack_require__(15);
+	var Renderer = __webpack_require__(37);
+	var mediaQueries = __webpack_require__(94);
+	var styleConstants = __webpack_require__(96);
 
 	var Definition = React.createClass({
 	    displayName: "Definition",
@@ -2183,18 +2187,18 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 128 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(38);
+	var Editor = __webpack_require__(23);
 	var TextInput = __webpack_require__(203);
 
 	var DefinitionEditor = React.createClass({
@@ -2278,7 +2282,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = DefinitionEditor;
 
 /***/ },
-/* 129 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -2288,31 +2292,31 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var Interactive2 = __webpack_require__(261);
-	var SvgImage = __webpack_require__(50);
+	var Interactive2 = __webpack_require__(257);
+	var SvgImage = __webpack_require__(47);
 	var Util = __webpack_require__(16);
-	var ButtonGroup = __webpack_require__(98);
+	var ButtonGroup = __webpack_require__(97);
 
 	/* Graphie and relevant components. */
-	var Graphie = __webpack_require__(107);
+	var Graphie = __webpack_require__(106);
 	var MovablePoint = Graphie.MovablePoint;
 	var MovableLine = Graphie.MovableLine;
-	var WrappedLine = __webpack_require__(262);
+	var WrappedLine = __webpack_require__(258);
 
 	var knumber = __webpack_require__(289).number;
 	var kvector = __webpack_require__(289).vector;
 	var kpoint = __webpack_require__(289).point;
-	var KhanColors = __webpack_require__(263);
+	var KhanColors = __webpack_require__(259);
 
-	var _require = __webpack_require__(190),
+	var _require = __webpack_require__(183),
 	    containerSizeClassPropType = _require.containerSizeClassPropType;
 
-	var _require2 = __webpack_require__(84),
+	var _require2 = __webpack_require__(96),
 	    interactiveSizes = _require2.interactiveSizes;
 
-	var _require3 = __webpack_require__(190),
+	var _require3 = __webpack_require__(183),
 	    getInteractiveBoxFromSizeClass = _require3.getInteractiveBoxFromSizeClass;
 
 	/* Mixins. */
@@ -2811,7 +2815,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 130 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -2821,15 +2825,15 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 
-	var GraphSettings = __webpack_require__(260);
-	var InfoTip = __webpack_require__(103);
+	var GraphSettings = __webpack_require__(256);
+	var InfoTip = __webpack_require__(111);
 	var MultiButtonGroup = __webpack_require__(201);
 
-	var Grapher = __webpack_require__(129).widget;
+	var Grapher = __webpack_require__(123).widget;
 
 	var _require = __webpack_require__(271),
 	    GrapherUtil = _require.GrapherUtil,
@@ -2837,7 +2841,7 @@ webpackJsonp([1],Array(71).concat([
 	    typeToButton = _require.typeToButton,
 	    DEFAULT_GRAPHER_PROPS = _require.DEFAULT_GRAPHER_PROPS;
 
-	var _require2 = __webpack_require__(190),
+	var _require2 = __webpack_require__(183),
 	    containerSizeClass = _require2.containerSizeClass,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
@@ -2980,7 +2984,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = GrapherEditor;
 
 /***/ },
-/* 131 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -2989,33 +2993,33 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	/* globals i18n */
-	var classNames = __webpack_require__(104);
+	var classNames = __webpack_require__(103);
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconOk = _require.iconOk,
 	    iconRemove = _require.iconRemove;
 
-	var InlineIcon = __webpack_require__(47);
-	var Renderer = __webpack_require__(28);
-	var GradedGroupAnswerBar = __webpack_require__(259);
+	var InlineIcon = __webpack_require__(50);
+	var Renderer = __webpack_require__(37);
+	var GradedGroupAnswerBar = __webpack_require__(260);
 
-	var _require2 = __webpack_require__(84),
+	var _require2 = __webpack_require__(96),
 	    gray76 = _require2.gray76,
 	    phoneMargin = _require2.phoneMargin,
 	    negativePhoneMargin = _require2.negativePhoneMargin,
 	    tableBackgroundAccent = _require2.tableBackgroundAccent,
 	    kaGreen = _require2.kaGreen;
 
-	var _require3 = __webpack_require__(72),
+	var _require3 = __webpack_require__(101),
 	    StyleSheet = _require3.StyleSheet,
 	    css = _require3.css;
 
-	var _require4 = __webpack_require__(58),
+	var _require4 = __webpack_require__(59),
 	    linterContextProps = _require4.linterContextProps,
 	    linterContextDefault = _require4.linterContextDefault;
 
@@ -3360,7 +3364,7 @@ webpackJsonp([1],Array(71).concat([
 	});
 
 /***/ },
-/* 132 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3370,19 +3374,19 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
-	var Editor = __webpack_require__(38);
+	var Editor = __webpack_require__(23);
 	var TextInput = __webpack_require__(203);
-	var InlineIcon = __webpack_require__(47);
+	var InlineIcon = __webpack_require__(50);
 
-	var _require2 = __webpack_require__(46),
+	var _require2 = __webpack_require__(49),
 	    iconPlus = _require2.iconPlus,
 	    iconTrash = _require2.iconTrash;
 
@@ -3542,7 +3546,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = GradedGroupEditor;
 
 /***/ },
-/* 133 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3551,17 +3555,17 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
-	var GradedGroup = __webpack_require__(131).widget;
+	var GradedGroup = __webpack_require__(125).widget;
 
-	var _require2 = __webpack_require__(84),
+	var _require2 = __webpack_require__(96),
 	    grayLight = _require2.grayLight,
 	    gray76 = _require2.gray76,
 	    tableBackgroundAccent = _require2.tableBackgroundAccent,
@@ -3569,7 +3573,7 @@ webpackJsonp([1],Array(71).concat([
 	    phoneMargin = _require2.phoneMargin,
 	    negativePhoneMargin = _require2.negativePhoneMargin;
 
-	var _require3 = __webpack_require__(58),
+	var _require3 = __webpack_require__(59),
 	    linterContextProps = _require3.linterContextProps,
 	    linterContextDefault = _require3.linterContextDefault;
 
@@ -3788,7 +3792,7 @@ webpackJsonp([1],Array(71).concat([
 	});
 
 /***/ },
-/* 134 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3797,11 +3801,11 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
-	var GradedGroupEditor = __webpack_require__(132);
+	var GradedGroupEditor = __webpack_require__(126);
 
 	var GradedGroupSetEditor = React.createClass({
 	    displayName: "GradedGroupSetEditor",
@@ -3886,7 +3890,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = GradedGroupSetEditor;
 
 /***/ },
-/* 135 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -3895,15 +3899,15 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var classNames = __webpack_require__(104);
+	var classNames = __webpack_require__(103);
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
-	var Renderer = __webpack_require__(28);
+	var Renderer = __webpack_require__(37);
 
-	var _require = __webpack_require__(58),
+	var _require = __webpack_require__(59),
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
@@ -4090,7 +4094,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 136 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4100,12 +4104,12 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
 
-	var Editor = __webpack_require__(38);
+	var Editor = __webpack_require__(23);
 
 	var GroupEditor = React.createClass({
 	    displayName: "GroupEditor",
@@ -4182,7 +4186,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = GroupEditor;
 
 /***/ },
-/* 137 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4202,7 +4206,7 @@ webpackJsonp([1],Array(71).concat([
 
 	/* globals KA */
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var WidgetJsonifyDeprecated = __webpack_require__(255);
@@ -4387,7 +4391,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 138 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4397,13 +4401,13 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var BlurInput = __webpack_require__(194);
-	var PropCheckBox = __webpack_require__(68);
+	var BlurInput = __webpack_require__(198);
+	var PropCheckBox = __webpack_require__(55);
 
 	/**
 	 * This is used for editing a name/value pair.
@@ -4626,7 +4630,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = IframeEditor;
 
 /***/ },
-/* 139 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _caption;
@@ -4642,26 +4646,26 @@ webpackJsonp([1],Array(71).concat([
 	    react/jsx-closing-bracket-location
 	*/
 
-	var classNames = __webpack_require__(104);
+	var classNames = __webpack_require__(103);
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 
-	var _require2 = __webpack_require__(84),
+	var _require2 = __webpack_require__(96),
 	    baseUnitPx = _require2.baseUnitPx;
 
 	var Changeable = __webpack_require__(199);
-	var mediaQueries = __webpack_require__(83);
-	var Renderer = __webpack_require__(28);
-	var SvgImage = __webpack_require__(50);
+	var mediaQueries = __webpack_require__(94);
+	var Renderer = __webpack_require__(37);
+	var SvgImage = __webpack_require__(47);
 
-	var _require3 = __webpack_require__(58),
+	var _require3 = __webpack_require__(59),
 	    linterContextProps = _require3.linterContextProps,
 	    linterContextDefault = _require3.linterContextDefault;
 
@@ -4966,7 +4970,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 140 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -4976,9 +4980,9 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconTrash = _require.iconTrash;
 
 	var Util = __webpack_require__(16);
@@ -4986,11 +4990,11 @@ webpackJsonp([1],Array(71).concat([
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var BlurInput = __webpack_require__(194);
-	var Editor = __webpack_require__(38);
-	var InfoTip = __webpack_require__(103);
-	var InlineIcon = __webpack_require__(47);
-	var RangeInput = __webpack_require__(264);
+	var BlurInput = __webpack_require__(198);
+	var Editor = __webpack_require__(23);
+	var InfoTip = __webpack_require__(111);
+	var InlineIcon = __webpack_require__(50);
+	var RangeInput = __webpack_require__(261);
 
 	var defaultBoxSize = 400;
 	var defaultRange = [0, 10];
@@ -5307,7 +5311,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = ImageEditor;
 
 /***/ },
-/* 141 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -5317,11 +5321,11 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 
-	var Graphie = __webpack_require__(107);
+	var Graphie = __webpack_require__(106);
 
 	var Label = Graphie.Label;
 	var Line = Graphie.Line;
@@ -5794,7 +5798,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 142 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -5804,7 +5808,7 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
@@ -5814,13 +5818,13 @@ webpackJsonp([1],Array(71).concat([
 	var ConstraintEditor = __webpack_require__(274);
 	var DashPicker = __webpack_require__(275);
 	var ElementContainer = __webpack_require__(276);
-	var GraphSettings = __webpack_require__(260);
-	var MathInput = __webpack_require__(209);
+	var GraphSettings = __webpack_require__(256);
+	var MathInput = __webpack_require__(205);
 	var NumberInput = __webpack_require__(202);
-	var TeX = __webpack_require__(100);
+	var TeX = __webpack_require__(99);
 	var TextInput = __webpack_require__(203);
 
-	var KhanColors = __webpack_require__(263);
+	var KhanColors = __webpack_require__(259);
 
 	var defaultInteractionProps = {
 	    graph: {
@@ -7283,7 +7287,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = InteractionEditor;
 
 /***/ },
-/* 143 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -7293,27 +7297,27 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var Graph = __webpack_require__(265);
-	var InfoTip = __webpack_require__(103);
-	var Interactive2 = __webpack_require__(261);
+	var Graph = __webpack_require__(262);
+	var InfoTip = __webpack_require__(111);
+	var Interactive2 = __webpack_require__(257);
 	var NumberInput = __webpack_require__(202);
 	var Util = __webpack_require__(16);
 
 	var knumber = __webpack_require__(289).number;
 	var kpoint = __webpack_require__(289).point;
-	var KhanColors = __webpack_require__(263);
-	var GraphUtils = __webpack_require__(253);
+	var KhanColors = __webpack_require__(259);
+	var GraphUtils = __webpack_require__(252);
 
-	var _require = __webpack_require__(84),
+	var _require = __webpack_require__(96),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var _require2 = __webpack_require__(190),
+	var _require2 = __webpack_require__(183),
 	    containerSizeClassPropType = _require2.containerSizeClassPropType,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
-	var WrappedLine = __webpack_require__(262);
+	var WrappedLine = __webpack_require__(258);
 
 	var DeprecationMixin = Util.DeprecationMixin;
 
@@ -9632,7 +9636,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 144 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -9642,21 +9646,21 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Util = __webpack_require__(16);
 
 	var DeprecationMixin = Util.DeprecationMixin;
 
-	var GraphSettings = __webpack_require__(260);
-	var InfoTip = __webpack_require__(103);
+	var GraphSettings = __webpack_require__(256);
+	var InfoTip = __webpack_require__(111);
 
-	var InteractiveGraph = __webpack_require__(143).widget;
+	var InteractiveGraph = __webpack_require__(137).widget;
 
-	var _require = __webpack_require__(84),
+	var _require = __webpack_require__(96),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var _require2 = __webpack_require__(190),
+	var _require2 = __webpack_require__(183),
 	    containerSizeClass = _require2.containerSizeClass,
 	    getInteractiveBoxFromSizeClass = _require2.getInteractiveBoxFromSizeClass;
 
@@ -9982,7 +9986,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = InteractiveGraphEditor;
 
 /***/ },
-/* 145 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -9992,7 +9996,7 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var WidgetJsonifyDeprecated = __webpack_require__(255);
@@ -10334,7 +10338,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 146 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -10344,14 +10348,14 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
 	var NumberInput = __webpack_require__(202);
-	var PropCheckBox = __webpack_require__(68);
-	var InfoTip = __webpack_require__(103);
+	var PropCheckBox = __webpack_require__(55);
+	var InfoTip = __webpack_require__(111);
 
 	var MAX_SIZE = 8;
 
@@ -10623,7 +10627,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = LightsPuzzleEditor;
 
 /***/ },
-/* 147 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -10632,26 +10636,26 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var classNames = __webpack_require__(104);
+	var classNames = __webpack_require__(103);
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var NumberInput = __webpack_require__(202);
-	var Renderer = __webpack_require__(28);
+	var Renderer = __webpack_require__(37);
 	var TextInput = __webpack_require__(203);
-	var MathOutput = __webpack_require__(267);
-	var SimpleKeypadInput = __webpack_require__(196);
+	var MathOutput = __webpack_require__(263);
+	var SimpleKeypadInput = __webpack_require__(195);
 
-	var ApiOptions = __webpack_require__(12).Options;
-	var KhanAnswerTypes = __webpack_require__(55);
+	var ApiOptions = __webpack_require__(15).Options;
+	var KhanAnswerTypes = __webpack_require__(71);
 
-	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
-	var assert = __webpack_require__(252).assert;
+	var assert = __webpack_require__(251).assert;
 	var stringArrayOfSize = __webpack_require__(16).stringArrayOfSize;
 
-	var _require = __webpack_require__(58),
+	var _require = __webpack_require__(59),
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
@@ -11169,7 +11173,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 148 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -11179,15 +11183,15 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(38);
-	var RangeInput = __webpack_require__(264);
+	var Editor = __webpack_require__(23);
+	var RangeInput = __webpack_require__(261);
 
-	var Matrix = __webpack_require__(147).widget;
+	var Matrix = __webpack_require__(141).widget;
 
 	// Really large matrices will cause issues with question formatting, so we
 	// have to cap it at some point.
@@ -11338,7 +11342,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = MatrixEditor;
 
 /***/ },
-/* 149 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/forbid-prop-types, react/sort-comp */
@@ -11347,20 +11351,20 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var Renderer = __webpack_require__(28);
-	var Sortable = __webpack_require__(266);
+	var Renderer = __webpack_require__(37);
+	var Sortable = __webpack_require__(264);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var shuffle = __webpack_require__(16).shuffle;
 	var seededRNG = __webpack_require__(16).seededRNG;
 
-	var _require2 = __webpack_require__(58),
+	var _require2 = __webpack_require__(59),
 	    linterContextProps = _require2.linterContextProps,
 	    linterContextDefault = _require2.linterContextDefault;
 
@@ -11575,7 +11579,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 150 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/prop-types, react/sort-comp */
@@ -11583,11 +11587,11 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var InfoTip = __webpack_require__(103);
-	var PropCheckBox = __webpack_require__(68);
-	var TextListEditor = __webpack_require__(105);
+	var InfoTip = __webpack_require__(111);
+	var PropCheckBox = __webpack_require__(55);
+	var TextListEditor = __webpack_require__(104);
 
 	var MatcherEditor = React.createClass({
 	    displayName: "MatcherEditor",
@@ -11745,7 +11749,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = MatcherEditor;
 
 /***/ },
-/* 151 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, indent, no-var, react/jsx-closing-bracket-location, react/jsx-indent-props, react/sort-comp */
@@ -11754,10 +11758,10 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _2 = __webpack_require__(54);
+	var _2 = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
-	var GraphUtils = __webpack_require__(253);
+	var ApiOptions = __webpack_require__(15).Options;
+	var GraphUtils = __webpack_require__(252);
 
 	var defaultImage = {
 	    url: null,
@@ -11922,7 +11926,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 152 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -11932,15 +11936,15 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(103);
+	var InfoTip = __webpack_require__(111);
 	var NumberInput = __webpack_require__(202);
-	var PropCheckBox = __webpack_require__(68);
-	var RangeInput = __webpack_require__(264);
+	var PropCheckBox = __webpack_require__(55);
+	var RangeInput = __webpack_require__(261);
 
 	var defaultImage = {
 	    url: null,
@@ -12226,7 +12230,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = MeasurerEditor;
 
 /***/ },
-/* 153 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style, object-curly-spacing */
@@ -12408,7 +12412,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 154 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -12487,7 +12491,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = MoleculeWidgetEditor;
 
 /***/ },
-/* 155 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -12499,30 +12503,30 @@ webpackJsonp([1],Array(71).concat([
 	/* globals i18n, $_ */
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 
 	var NumberInput = __webpack_require__(202);
-	var MathOutput = __webpack_require__(267);
-	var SimpleKeypadInput = __webpack_require__(196);
+	var MathOutput = __webpack_require__(263);
+	var SimpleKeypadInput = __webpack_require__(195);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 
-	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
-	var Graphie = __webpack_require__(107);
+	var Graphie = __webpack_require__(106);
 	var MovablePoint = Graphie.MovablePoint;
 	var Line = Graphie.Line;
 
 	var knumber = __webpack_require__(289).number;
-	var KhanMath = __webpack_require__(114);
-	var KhanColors = __webpack_require__(263);
+	var KhanMath = __webpack_require__(187);
+	var KhanColors = __webpack_require__(259);
 
 	var bound = function bound(x, gt, lt) {
 	    return Math.min(Math.max(x, gt), lt);
 	};
-	var assert = __webpack_require__(252).assert;
+	var assert = __webpack_require__(251).assert;
 
 	var EN_DASH = "\u2013";
 	var horizontalPadding = 30;
@@ -13191,7 +13195,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 156 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable no-var */
@@ -13199,15 +13203,15 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var EditorJsonify = __webpack_require__(200);
 
-	var ButtonGroup = __webpack_require__(98);
-	var InfoTip = __webpack_require__(103);
+	var ButtonGroup = __webpack_require__(97);
+	var InfoTip = __webpack_require__(111);
 	var NumberInput = __webpack_require__(202);
-	var PropCheckBox = __webpack_require__(68);
-	var RangeInput = __webpack_require__(264);
+	var PropCheckBox = __webpack_require__(55);
+	var RangeInput = __webpack_require__(261);
 
 	var knumber = __webpack_require__(289).number;
 	var bound = function bound(x, gt, lt) {
@@ -13753,7 +13757,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = NumberLineEditor;
 
 /***/ },
-/* 157 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -13764,14 +13768,14 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var Renderer = __webpack_require__(28);
+	var Renderer = __webpack_require__(37);
 	var Util = __webpack_require__(16);
 
-	var ApiClassNames = __webpack_require__(12).ClassNames;
+	var ApiClassNames = __webpack_require__(15).ClassNames;
 
-	var _require = __webpack_require__(58),
+	var _require = __webpack_require__(59),
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
@@ -14338,7 +14342,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 158 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable brace-style, comma-dangle, max-len, no-var, object-curly-spacing, one-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/jsx-indent-props, react/sort-comp */
@@ -14346,10 +14350,10 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var InfoTip = __webpack_require__(103);
-	var TextListEditor = __webpack_require__(105);
+	var InfoTip = __webpack_require__(111);
+	var TextListEditor = __webpack_require__(104);
 
 	var NORMAL = "normal",
 	    AUTO = "auto",
@@ -14546,7 +14550,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = OrdererEditor;
 
 /***/ },
-/* 159 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -14557,20 +14561,20 @@ webpackJsonp([1],Array(71).concat([
 
 	/* globals KA */
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
-	var $ = __webpack_require__(95);
+	var _ = __webpack_require__(70);
+	var $ = __webpack_require__(75);
 
 	var HighlightableContent = __webpack_require__(280);
-	var Renderer = __webpack_require__(28);
+	var Renderer = __webpack_require__(37);
 	var PassageMarkdown = __webpack_require__(282);
 
-	var _require2 = __webpack_require__(58),
+	var _require2 = __webpack_require__(59),
 	    linterContextDefault = _require2.linterContextDefault;
 
 	var babelPluginFlowReactPropTypes_proptype_ChangeableProps = __webpack_require__(199).babelPluginFlowReactPropTypes_proptype_ChangeableProps || __webpack_require__(43).PropTypes.any;
@@ -15104,7 +15108,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 160 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15114,14 +15118,14 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var Editor = __webpack_require__(38);
-	var InfoTip = __webpack_require__(103);
-	var PropCheckBox = __webpack_require__(68);
+	var Editor = __webpack_require__(23);
+	var InfoTip = __webpack_require__(111);
+	var PropCheckBox = __webpack_require__(55);
 
 	var PassageEditor = React.createClass({
 	    displayName: "PassageEditor",
@@ -15245,8 +15249,8 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = PassageEditor;
 
 /***/ },
-/* 161 */,
-/* 162 */
+/* 155 */,
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15260,7 +15264,7 @@ webpackJsonp([1],Array(71).concat([
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(103);
+	var InfoTip = __webpack_require__(111);
 	var NumberInput = __webpack_require__(202);
 	var TextInput = __webpack_require__(203);
 
@@ -15358,7 +15362,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = PassageRefEditor;
 
 /***/ },
-/* 163 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15368,13 +15372,13 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var WidgetJsonifyDeprecated = __webpack_require__(255);
-	var Renderer = __webpack_require__(28);
+	var Renderer = __webpack_require__(37);
 
-	var _require = __webpack_require__(58),
+	var _require = __webpack_require__(59),
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
@@ -15445,7 +15449,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 164 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -15455,7 +15459,7 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
@@ -15507,7 +15511,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = PassageRefTargetEditor;
 
 /***/ },
-/* 165 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, indent, max-lines, no-redeclare, no-unused-vars, no-var, object-curly-spacing, one-var, react/prop-types, react/sort-comp, space-before-function-paren */
@@ -15516,16 +15520,16 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiClassNames = __webpack_require__(12).ClassNames;
+	var ApiClassNames = __webpack_require__(15).ClassNames;
 
 	var deepEq = __webpack_require__(16).deepEq;
-	var KhanMath = __webpack_require__(114);
-	var KhanColors = __webpack_require__(263);
-	var GraphUtils = __webpack_require__(253);
-	var Interactive2 = __webpack_require__(261);
-	var WrappedLine = __webpack_require__(262);
+	var KhanMath = __webpack_require__(187);
+	var KhanColors = __webpack_require__(259);
+	var GraphUtils = __webpack_require__(252);
+	var Interactive2 = __webpack_require__(257);
+	var WrappedLine = __webpack_require__(258);
 
 	var BAR = "bar",
 	    LINE = "line",
@@ -16399,7 +16403,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 166 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -16410,16 +16414,16 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var BlurInput = __webpack_require__(194);
-	var InfoTip = __webpack_require__(103);
+	var BlurInput = __webpack_require__(198);
+	var InfoTip = __webpack_require__(111);
 	var NumberInput = __webpack_require__(202);
-	var RangeInput = __webpack_require__(264);
-	var SvgImage = __webpack_require__(50);
-	var TextListEditor = __webpack_require__(105);
+	var RangeInput = __webpack_require__(261);
+	var SvgImage = __webpack_require__(47);
+	var TextListEditor = __webpack_require__(104);
 
-	var Plotter = __webpack_require__(165).widget;
+	var Plotter = __webpack_require__(159).widget;
 
 	var knumber = __webpack_require__(289).number;
 
@@ -16951,12 +16955,12 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = PlotterEditor;
 
 /***/ },
-/* 167 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(43);
 
-	var Molecule = __webpack_require__(153).molecule;
+	var Molecule = __webpack_require__(147).molecule;
 
 	var Separator = React.createClass({
 	    displayName: "Separator",
@@ -17097,7 +17101,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 168 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -17263,7 +17267,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = ReactionDiagramWidgetEditor;
 
 /***/ },
-/* 169 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -17273,19 +17277,19 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconOk = _require.iconOk;
 
-	var InlineIcon = __webpack_require__(47);
-	var Renderer = __webpack_require__(28);
+	var InlineIcon = __webpack_require__(50);
+	var Renderer = __webpack_require__(37);
 	var Util = __webpack_require__(16);
 
-	var _require2 = __webpack_require__(58),
+	var _require2 = __webpack_require__(59),
 	    linterContextProps = _require2.linterContextProps,
 	    linterContextDefault = _require2.linterContextDefault;
 
@@ -17412,7 +17416,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 170 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-alert, no-var, react/jsx-closing-bracket-location, react/jsx-indent-props, react/prop-types, react/sort-comp, space-infix-ops */
@@ -17420,18 +17424,18 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
-	var Editor = __webpack_require__(38);
+	var ApiOptions = __webpack_require__(15).Options;
+	var Editor = __webpack_require__(23);
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconCircleArrowDown = _require.iconCircleArrowDown,
 	    iconCircleArrowUp = _require.iconCircleArrowUp,
 	    iconPlus = _require.iconPlus,
 	    iconTrash = _require.iconTrash;
 
-	var InlineIcon = __webpack_require__(47);
+	var InlineIcon = __webpack_require__(50);
 
 	var StepControlButton = React.createClass({
 	    displayName: "StepControlButton",
@@ -17613,7 +17617,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = SequenceEditor;
 
 /***/ },
-/* 171 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -17623,17 +17627,17 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	/* globals $_, i18n */
-	var InfoTip = __webpack_require__(103);
+	var InfoTip = __webpack_require__(111);
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 
-	var ApiOptions = __webpack_require__(12).Options;
-	var assert = __webpack_require__(252).assert;
+	var ApiOptions = __webpack_require__(15).Options;
+	var assert = __webpack_require__(251).assert;
 
-	var Graphie = __webpack_require__(107);
+	var Graphie = __webpack_require__(106);
 	var Path = Graphie.Path,
 	    Arc = Graphie.Arc,
 	    Circle = Graphie.Circle,
@@ -17643,12 +17647,12 @@ webpackJsonp([1],Array(71).concat([
 	    MovableLine = Graphie.MovableLine;
 
 	var NumberInput = __webpack_require__(202);
-	var MathOutput = __webpack_require__(267);
+	var MathOutput = __webpack_require__(263);
 	var seededRNG = __webpack_require__(16).seededRNG;
 	var Util = __webpack_require__(16);
 	var knumber = __webpack_require__(289).number;
-	var KhanColors = __webpack_require__(263);
-	var KhanMath = __webpack_require__(114);
+	var KhanColors = __webpack_require__(259);
+	var KhanMath = __webpack_require__(187);
 
 	var defaultBoxSize = 400;
 	var maxSampleSize = 1000;
@@ -18393,7 +18397,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 172 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -18404,12 +18408,12 @@ webpackJsonp([1],Array(71).concat([
 
 	/* globals i18n */
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(103);
+	var InfoTip = __webpack_require__(111);
 	var NumberInput = __webpack_require__(202);
 
 	var maxTrials = 5000;
@@ -18563,7 +18567,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = SimulatorEditor;
 
 /***/ },
-/* 173 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, one-var, react/forbid-prop-types, react/sort-comp */
@@ -18571,14 +18575,14 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var Sortable = __webpack_require__(266);
+	var Sortable = __webpack_require__(264);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var shuffle = __webpack_require__(16).shuffle;
 
-	var _require = __webpack_require__(58),
+	var _require = __webpack_require__(59),
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
@@ -18666,7 +18670,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 174 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/forbid-prop-types, react/jsx-closing-bracket-location, react/jsx-indent-props, react/prop-types, react/sort-comp */
@@ -18674,11 +18678,11 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var InfoTip = __webpack_require__(103);
-	var PropCheckBox = __webpack_require__(68);
-	var TextListEditor = __webpack_require__(105);
+	var InfoTip = __webpack_require__(111);
+	var PropCheckBox = __webpack_require__(55);
+	var TextListEditor = __webpack_require__(104);
 
 	var HORIZONTAL = "horizontal";
 	var VERTICAL = "vertical";
@@ -18799,7 +18803,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = SorterEditor;
 
 /***/ },
-/* 175 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/jsx-closing-bracket-location, react/prop-types, react/sort-comp, space-before-function-paren */
@@ -18808,23 +18812,23 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var MathOutput = __webpack_require__(267);
-	var SimpleKeypadInput = __webpack_require__(196);
-	var Renderer = __webpack_require__(28);
+	var MathOutput = __webpack_require__(263);
+	var SimpleKeypadInput = __webpack_require__(195);
+	var Renderer = __webpack_require__(37);
 	var Util = __webpack_require__(16);
 
-	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
-	var ApiOptions = __webpack_require__(12).Options;
-	var KhanAnswerTypes = __webpack_require__(55);
+	var ApiOptions = __webpack_require__(15).Options;
+	var KhanAnswerTypes = __webpack_require__(71);
 
-	var _require = __webpack_require__(58),
+	var _require = __webpack_require__(59),
 	    linterContextProps = _require.linterContextProps,
 	    linterContextDefault = _require.linterContextDefault;
 
-	var assert = __webpack_require__(252).assert;
+	var assert = __webpack_require__(251).assert;
 
 	/* Input handling: Maps a (row, column) pair to a unique ref used by React,
 	 * and extracts (row, column) pairs from input paths, used to allow outsiders
@@ -19167,7 +19171,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 176 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable comma-dangle, no-var, react/jsx-closing-bracket-location, react/prop-types, react/sort-comp */
@@ -19176,15 +19180,15 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Util = __webpack_require__(16);
 
-	var InfoTip = __webpack_require__(103);
+	var InfoTip = __webpack_require__(111);
 	var NumberInput = __webpack_require__(202);
-	var Editor = __webpack_require__(38);
+	var Editor = __webpack_require__(23);
 
-	var Table = __webpack_require__(175).widget;
+	var Table = __webpack_require__(169).widget;
 
 	var TableEditor = React.createClass({
 	    displayName: "TableEditor",
@@ -19346,7 +19350,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = TableEditor;
 
 /***/ },
-/* 177 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -19357,18 +19361,18 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var Graph = __webpack_require__(265);
-	var InlineIcon = __webpack_require__(47);
+	var Graph = __webpack_require__(262);
+	var InlineIcon = __webpack_require__(50);
 	var NumberInput = __webpack_require__(202);
-	var MathOutput = __webpack_require__(267);
-	var TeX = __webpack_require__(100);
-	var SimpleKeypadInput = __webpack_require__(196);
+	var MathOutput = __webpack_require__(263);
+	var TeX = __webpack_require__(99);
+	var SimpleKeypadInput = __webpack_require__(195);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 
-	var keypadElementPropType = __webpack_require__(191).propTypes.keypadElementPropType;
+	var keypadElementPropType = __webpack_require__(184).propTypes.keypadElementPropType;
 
 	var ROTATE_SNAP_DEGREES = 15;
 	var DEGREE_SIGN = "\xB0";
@@ -19377,7 +19381,7 @@ webpackJsonp([1],Array(71).concat([
 	var REFLECT_ROTATE_HANDLE_DIST = 2;
 	var REFLECT_BUTTON_SIZE = 1;
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconPlus = _require.iconPlus,
 	    iconUndo = _require.iconUndo;
 
@@ -19390,10 +19394,10 @@ webpackJsonp([1],Array(71).concat([
 	var kpoint = __webpack_require__(289).point;
 	var kray = __webpack_require__(289).ray;
 	var kline = __webpack_require__(289).line;
-	var KhanMath = __webpack_require__(114);
-	var KhanColors = __webpack_require__(263);
+	var KhanMath = __webpack_require__(187);
+	var KhanColors = __webpack_require__(259);
 
-	var assert = __webpack_require__(252).assert;
+	var assert = __webpack_require__(251).assert;
 
 	var defaultBoxSize = 400;
 	var defaultBackgroundImage = {
@@ -21798,7 +21802,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 178 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -21808,16 +21812,16 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 
-	var Graph = __webpack_require__(265);
-	var GraphSettings = __webpack_require__(260);
-	var InfoTip = __webpack_require__(103);
-	var PropCheckBox = __webpack_require__(68);
+	var Graph = __webpack_require__(262);
+	var GraphSettings = __webpack_require__(256);
+	var InfoTip = __webpack_require__(111);
+	var PropCheckBox = __webpack_require__(55);
 
-	var Transformer = __webpack_require__(177).widget;
+	var Transformer = __webpack_require__(171).widget;
 
 	var deepEq = __webpack_require__(16).deepEq;
 	var getGridStep = __webpack_require__(16).getGridStep;
@@ -21826,7 +21830,7 @@ webpackJsonp([1],Array(71).concat([
 	var kpoint = __webpack_require__(289).point;
 	var kray = __webpack_require__(289).ray;
 	var kvector = __webpack_require__(289).vector;
-	var KhanColors = __webpack_require__(263);
+	var KhanColors = __webpack_require__(259);
 
 	function arraySum(array) {
 	    return _.reduce(array, function (memo, arg) {
@@ -22814,7 +22818,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = TransformerEditor;
 
 /***/ },
-/* 179 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -22831,14 +22835,14 @@ webpackJsonp([1],Array(71).concat([
 	var lens = __webpack_require__(102);
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiClassNames = __webpack_require__(12).ClassNames;
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiClassNames = __webpack_require__(15).ClassNames;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
-	var MathOutput = __webpack_require__(267);
+	var MathOutput = __webpack_require__(263);
 
-	var _require = __webpack_require__(268),
+	var _require = __webpack_require__(265),
 	    SignificantFigures = _require.SignificantFigures,
 	    displaySigFigs = _require.displaySigFigs;
 
@@ -23103,7 +23107,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 180 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23118,19 +23122,19 @@ webpackJsonp([1],Array(71).concat([
 	// value?
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var InlineIcon = __webpack_require__(47);
+	var InlineIcon = __webpack_require__(50);
 	var NumberInput = __webpack_require__(202);
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconOk = _require.iconOk,
 	    iconRemove = _require.iconRemove;
 
-	var _require2 = __webpack_require__(268),
+	var _require2 = __webpack_require__(265),
 	    displaySigFigs = _require2.displaySigFigs;
 
 	var ALL = "all";
@@ -23438,7 +23442,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = UnitInputEditor;
 
 /***/ },
-/* 181 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23452,10 +23456,10 @@ webpackJsonp([1],Array(71).concat([
 	 */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
-	var FixedToResponsive = __webpack_require__(106);
+	var FixedToResponsive = __webpack_require__(105);
 
 	// Current default is 720p, based on the typical videos we upload currently
 	var DEFAULT_WIDTH = 1280;
@@ -23559,7 +23563,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 182 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23569,13 +23573,13 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var InfoTip = __webpack_require__(103);
-	var BlurInput = __webpack_require__(194);
+	var InfoTip = __webpack_require__(111);
+	var BlurInput = __webpack_require__(198);
 
 	var KA_VIDEO_URL = /khanacademy\.org\/.*\/v\/(.*)$/;
 
@@ -23652,7 +23656,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = VideoEditor;
 
 /***/ },
-/* 183 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23668,14 +23672,14 @@ webpackJsonp([1],Array(71).concat([
 	 */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
-	var ApiOptions = __webpack_require__(12).Options;
+	var ApiOptions = __webpack_require__(15).Options;
 	var Util = __webpack_require__(16);
 	var Changeable = __webpack_require__(199);
 	var WidgetJsonifyDeprecated = __webpack_require__(255);
 
-	var Graphie = __webpack_require__(107);
+	var Graphie = __webpack_require__(106);
 	var MovablePoint = Graphie.MovablePoint;
 
 	var knumber = __webpack_require__(289).number;
@@ -23822,7 +23826,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 184 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23836,7 +23840,7 @@ webpackJsonp([1],Array(71).concat([
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var ExampleGraphieWidget = __webpack_require__(183).widget;
+	var ExampleGraphieWidget = __webpack_require__(177).widget;
 
 	/**
 	 * This is the widget's editor. This is what shows up on the left side
@@ -23902,7 +23906,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = ExampleGraphieWidgetEditor;
 
 /***/ },
-/* 185 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23922,7 +23926,7 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var Changeable = __webpack_require__(199);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var TextInput = React.createClass({
 	    displayName: "TextInput",
@@ -24066,7 +24070,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 186 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24140,7 +24144,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = ExampleWidgetEditor;
 
 /***/ },
-/* 187 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24150,11 +24154,11 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 
-	var PerseusMarkdown = __webpack_require__(66);
+	var PerseusMarkdown = __webpack_require__(51);
 	var mdParse = PerseusMarkdown.parse;
 	var mdOutput = PerseusMarkdown.basicOutput;
 
@@ -24253,7 +24257,7 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 188 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24353,6 +24357,12 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = SimpleMarkdownTesterEditor;
 
 /***/ },
+/* 183 */,
+/* 184 */,
+/* 185 */,
+/* 186 */,
+/* 187 */,
+/* 188 */,
 /* 189 */,
 /* 190 */,
 /* 191 */,
@@ -24420,211 +24430,7 @@ webpackJsonp([1],Array(71).concat([
 /* 253 */,
 /* 254 */,
 /* 255 */,
-/* 256 */,
-/* 257 */,
-/* 258 */,
-/* 259 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-	/* globals i18n */
-	/**
-	 * Renders answer bar for mobile graded groups. [STATELESS]
-	 */
-	var React = __webpack_require__(43);
-
-	var ApiOptions = __webpack_require__(12).Options;
-	var InlineIcon = __webpack_require__(47);
-
-	var _require = __webpack_require__(46),
-	    iconStar = _require.iconStar,
-	    iconTryAgain = _require.iconTryAgain;
-
-	var _require2 = __webpack_require__(84),
-	    boldFontFamily = _require2.boldFontFamily,
-	    gray68 = _require2.gray68,
-	    gray76 = _require2.gray76,
-	    gray85 = _require2.gray85,
-	    gray95 = _require2.gray95,
-	    kaGreen = _require2.kaGreen,
-	    phoneMargin = _require2.phoneMargin,
-	    negativePhoneMargin = _require2.negativePhoneMargin;
-
-	var ANSWER_BAR_STATES = {
-	    // Initial state before the question is answerable.  The user must complete
-	    // each of the widgets before the answer bar becomes visible.
-	    HIDDEN: Symbol("HIDDEN"),
-
-	    // The 'Check' button is active whenever the question is answerable or any
-	    // of the input widgets have been modified after getting the answer wrong.
-	    ACTIVE: Symbol("ACTIVE"),
-
-	    // The 'Check' button is disabled and there is no message.  This occurs when
-	    // some of the widgets haven't been filled in after the has already become
-	    // visible.
-	    INACTIVE: Symbol("INACTIVE"),
-
-	    // This happens immediately after clicking 'Check' with a wrong answer.
-	    // The 'Check' button is disabled and the 'Try Again' message is displayed.
-	    INCORRECT: Symbol("INCORRECT"),
-
-	    // Final state.  This occurs after the user submits the correct answer.
-	    // The widgets in this grade-group are disabled.
-	    CORRECT: Symbol("CORRECT")
-	};
-
-	var GradedGroupAnswerBar = React.createClass({
-	    displayName: "GradedGroupAnswerBar",
-
-	    propTypes: {
-	        // TODO(kevinb) update to oneOf once we update to 15.2
-	        answerBarState: React.PropTypes.any.isRequired,
-	        apiOptions: ApiOptions.propTypes,
-	        onCheckAnswer: React.PropTypes.func.isRequired,
-
-	        // The function to call when clicking "Next question" after correctly
-	        // answering one graded group out of a set. If this is null, the
-	        // "Next question" button will not appear.
-	        onNextQuestion: React.PropTypes.func
-	    },
-
-	    render: function render() {
-	        var _props = this.props,
-	            apiOptions = _props.apiOptions,
-	            answerBarState = _props.answerBarState,
-	            onCheckAnswer = _props.onCheckAnswer,
-	            onNextQuestion = _props.onNextQuestion;
-
-
-	        var answerBarStyle = _extends({}, styles.answerBar, {
-	            backgroundColor: answerBarState === ANSWER_BAR_STATES.CORRECT ? gray95 : "white",
-	            // Center the "Correct!" message only when there's no next question
-	            justifyContent: answerBarState === ANSWER_BAR_STATES.CORRECT && !onNextQuestion ? "center" : "space-between"
-	        });
-
-	        var buttonStyle = _extends({}, styles.button, {
-	            // "Check" and "Next question" buttons should both be green
-	            backgroundColor: answerBarState === ANSWER_BAR_STATES.ACTIVE || answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray85
-	        });
-
-	        var textStyle = _extends({}, styles.text, {
-	            color: answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray68
-	        });
-
-	        var message = answerBarState === ANSWER_BAR_STATES.INCORRECT ? React.createElement(
-	            "span",
-	            { style: textStyle },
-	            React.createElement(
-	                "span",
-	                { style: styles.tryAgainIcon },
-	                React.createElement(InlineIcon, iconTryAgain)
-	            ),
-	            React.createElement(
-	                "span",
-	                { style: { marginLeft: 8 } },
-	                i18n._("Keep trying")
-	            )
-	        ) : React.createElement("span", null); // empty span keeps the button on the right side
-
-	        if (answerBarState !== ANSWER_BAR_STATES.CORRECT) {
-	            var buttonLabel = answerBarState === ANSWER_BAR_STATES.INCORRECT ? i18n._("Try again") : i18n._("Check");
-
-	            // Use <button> instead of <input> b/c iOS 9.3 on iPhone 6 renders
-	            // the <input> as a faded out green button instead of using our
-	            // styles.
-	            return React.createElement(
-	                "div",
-	                { style: answerBarStyle },
-	                message,
-	                React.createElement(
-	                    "button",
-	                    {
-	                        style: buttonStyle,
-	                        disabled: apiOptions.readOnly || answerBarState !== ANSWER_BAR_STATES.ACTIVE,
-	                        onClick: onCheckAnswer
-	                    },
-	                    buttonLabel
-	                )
-	            );
-	        } else {
-	            return React.createElement(
-	                "div",
-	                { style: answerBarStyle },
-	                React.createElement(
-	                    "span",
-	                    { style: textStyle },
-	                    React.createElement(
-	                        "span",
-	                        { style: { fontSize: 28, color: "#FFB300" } },
-	                        React.createElement(InlineIcon, _extends({}, iconStar, {
-	                            style: { marginBottom: 5 }
-	                        }))
-	                    ),
-	                    React.createElement(
-	                        "span",
-	                        { style: { marginLeft: 8 } },
-	                        i18n._("Correct!")
-	                    )
-	                ),
-	                onNextQuestion && React.createElement(
-	                    "button",
-	                    { style: buttonStyle, onClick: onNextQuestion },
-	                    i18n._("Next question")
-	                )
-	            );
-	        }
-	    }
-	});
-
-	var fontSize = 17;
-
-	var styles = {
-	    answerBar: {
-	        display: "flex",
-	        alignItems: "center",
-	        height: 68, // so that we don't have calculate the vertical padding
-	        marginLeft: negativePhoneMargin,
-	        marginRight: negativePhoneMargin,
-	        marginBottom: negativePhoneMargin,
-	        marginTop: phoneMargin,
-	        paddingLeft: phoneMargin,
-	        paddingRight: 10,
-	        borderTop: "1px solid " + gray76
-	    },
-
-	    // TODO(kevinb) figure out a way inject styles/components from webapp
-	    button: {
-	        height: 48,
-	        width: 143,
-	        borderRadius: 4,
-	        color: "white",
-	        fontFamily: boldFontFamily,
-	        fontSize: fontSize,
-	        border: "none"
-	    },
-
-	    tryAgainIcon: {
-	        fontSize: 28,
-	        color: "#63D9EA",
-	        transform: "scale(-1,1) rotate(-268deg)"
-	    },
-
-	    text: {
-	        display: "flex",
-	        flexDirection: "row",
-	        alignItems: "center",
-	        fontFamily: boldFontFamily,
-	        fontSize: fontSize
-	    }
-	};
-
-	GradedGroupAnswerBar.ANSWER_BAR_STATES = ANSWER_BAR_STATES;
-
-	module.exports = GradedGroupAnswerBar;
-
-/***/ },
-/* 260 */
+/* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -24633,19 +24439,19 @@ webpackJsonp([1],Array(71).concat([
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Changeable = __webpack_require__(199);
 
-	var ButtonGroup = __webpack_require__(98);
-	var InfoTip = __webpack_require__(103);
-	var PropCheckBox = __webpack_require__(68);
-	var RangeInput = __webpack_require__(264);
-	var TeX = __webpack_require__(100);
+	var ButtonGroup = __webpack_require__(97);
+	var InfoTip = __webpack_require__(111);
+	var PropCheckBox = __webpack_require__(55);
+	var RangeInput = __webpack_require__(261);
+	var TeX = __webpack_require__(99);
 	var Util = __webpack_require__(16);
-	var KhanMath = __webpack_require__(114);
+	var KhanMath = __webpack_require__(187);
 
-	var _require = __webpack_require__(84),
+	var _require = __webpack_require__(96),
 	    interactiveSizes = _require.interactiveSizes;
 
 	var defaultBackgroundImage = {
@@ -25269,10 +25075,211 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = GraphSettings;
 
 /***/ },
-/* 261 */,
-/* 262 */,
-/* 263 */,
-/* 264 */
+/* 257 */,
+/* 258 */,
+/* 259 */,
+/* 260 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	/* globals i18n */
+	/**
+	 * Renders answer bar for mobile graded groups. [STATELESS]
+	 */
+	var React = __webpack_require__(43);
+
+	var ApiOptions = __webpack_require__(15).Options;
+	var InlineIcon = __webpack_require__(50);
+
+	var _require = __webpack_require__(49),
+	    iconStar = _require.iconStar,
+	    iconTryAgain = _require.iconTryAgain;
+
+	var _require2 = __webpack_require__(96),
+	    boldFontFamily = _require2.boldFontFamily,
+	    gray68 = _require2.gray68,
+	    gray76 = _require2.gray76,
+	    gray85 = _require2.gray85,
+	    gray95 = _require2.gray95,
+	    kaGreen = _require2.kaGreen,
+	    phoneMargin = _require2.phoneMargin,
+	    negativePhoneMargin = _require2.negativePhoneMargin;
+
+	var ANSWER_BAR_STATES = {
+	    // Initial state before the question is answerable.  The user must complete
+	    // each of the widgets before the answer bar becomes visible.
+	    HIDDEN: Symbol("HIDDEN"),
+
+	    // The 'Check' button is active whenever the question is answerable or any
+	    // of the input widgets have been modified after getting the answer wrong.
+	    ACTIVE: Symbol("ACTIVE"),
+
+	    // The 'Check' button is disabled and there is no message.  This occurs when
+	    // some of the widgets haven't been filled in after the has already become
+	    // visible.
+	    INACTIVE: Symbol("INACTIVE"),
+
+	    // This happens immediately after clicking 'Check' with a wrong answer.
+	    // The 'Check' button is disabled and the 'Try Again' message is displayed.
+	    INCORRECT: Symbol("INCORRECT"),
+
+	    // Final state.  This occurs after the user submits the correct answer.
+	    // The widgets in this grade-group are disabled.
+	    CORRECT: Symbol("CORRECT")
+	};
+
+	var GradedGroupAnswerBar = React.createClass({
+	    displayName: "GradedGroupAnswerBar",
+
+	    propTypes: {
+	        // TODO(kevinb) update to oneOf once we update to 15.2
+	        answerBarState: React.PropTypes.any.isRequired,
+	        apiOptions: ApiOptions.propTypes,
+	        onCheckAnswer: React.PropTypes.func.isRequired,
+
+	        // The function to call when clicking "Next question" after correctly
+	        // answering one graded group out of a set. If this is null, the
+	        // "Next question" button will not appear.
+	        onNextQuestion: React.PropTypes.func
+	    },
+
+	    render: function render() {
+	        var _props = this.props,
+	            apiOptions = _props.apiOptions,
+	            answerBarState = _props.answerBarState,
+	            onCheckAnswer = _props.onCheckAnswer,
+	            onNextQuestion = _props.onNextQuestion;
+
+
+	        var answerBarStyle = _extends({}, styles.answerBar, {
+	            backgroundColor: answerBarState === ANSWER_BAR_STATES.CORRECT ? gray95 : "white",
+	            // Center the "Correct!" message only when there's no next question
+	            justifyContent: answerBarState === ANSWER_BAR_STATES.CORRECT && !onNextQuestion ? "center" : "space-between"
+	        });
+
+	        var buttonStyle = _extends({}, styles.button, {
+	            // "Check" and "Next question" buttons should both be green
+	            backgroundColor: answerBarState === ANSWER_BAR_STATES.ACTIVE || answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray85
+	        });
+
+	        var textStyle = _extends({}, styles.text, {
+	            color: answerBarState === ANSWER_BAR_STATES.CORRECT ? kaGreen : gray68
+	        });
+
+	        var message = answerBarState === ANSWER_BAR_STATES.INCORRECT ? React.createElement(
+	            "span",
+	            { style: textStyle },
+	            React.createElement(
+	                "span",
+	                { style: styles.tryAgainIcon },
+	                React.createElement(InlineIcon, iconTryAgain)
+	            ),
+	            React.createElement(
+	                "span",
+	                { style: { marginLeft: 8 } },
+	                i18n._("Keep trying")
+	            )
+	        ) : React.createElement("span", null); // empty span keeps the button on the right side
+
+	        if (answerBarState !== ANSWER_BAR_STATES.CORRECT) {
+	            var buttonLabel = answerBarState === ANSWER_BAR_STATES.INCORRECT ? i18n._("Try again") : i18n._("Check");
+
+	            // Use <button> instead of <input> b/c iOS 9.3 on iPhone 6 renders
+	            // the <input> as a faded out green button instead of using our
+	            // styles.
+	            return React.createElement(
+	                "div",
+	                { style: answerBarStyle },
+	                message,
+	                React.createElement(
+	                    "button",
+	                    {
+	                        style: buttonStyle,
+	                        disabled: apiOptions.readOnly || answerBarState !== ANSWER_BAR_STATES.ACTIVE,
+	                        onClick: onCheckAnswer
+	                    },
+	                    buttonLabel
+	                )
+	            );
+	        } else {
+	            return React.createElement(
+	                "div",
+	                { style: answerBarStyle },
+	                React.createElement(
+	                    "span",
+	                    { style: textStyle },
+	                    React.createElement(
+	                        "span",
+	                        { style: { fontSize: 28, color: "#FFB300" } },
+	                        React.createElement(InlineIcon, _extends({}, iconStar, {
+	                            style: { marginBottom: 5 }
+	                        }))
+	                    ),
+	                    React.createElement(
+	                        "span",
+	                        { style: { marginLeft: 8 } },
+	                        i18n._("Correct!")
+	                    )
+	                ),
+	                onNextQuestion && React.createElement(
+	                    "button",
+	                    { style: buttonStyle, onClick: onNextQuestion },
+	                    i18n._("Next question")
+	                )
+	            );
+	        }
+	    }
+	});
+
+	var fontSize = 17;
+
+	var styles = {
+	    answerBar: {
+	        display: "flex",
+	        alignItems: "center",
+	        height: 68, // so that we don't have calculate the vertical padding
+	        marginLeft: negativePhoneMargin,
+	        marginRight: negativePhoneMargin,
+	        marginBottom: negativePhoneMargin,
+	        marginTop: phoneMargin,
+	        paddingLeft: phoneMargin,
+	        paddingRight: 10,
+	        borderTop: "1px solid " + gray76
+	    },
+
+	    // TODO(kevinb) figure out a way inject styles/components from webapp
+	    button: {
+	        height: 48,
+	        width: 143,
+	        borderRadius: 4,
+	        color: "white",
+	        fontFamily: boldFontFamily,
+	        fontSize: fontSize,
+	        border: "none"
+	    },
+
+	    tryAgainIcon: {
+	        fontSize: 28,
+	        color: "#63D9EA",
+	        transform: "scale(-1,1) rotate(-268deg)"
+	    },
+
+	    text: {
+	        display: "flex",
+	        flexDirection: "row",
+	        alignItems: "center",
+	        fontFamily: boldFontFamily,
+	        fontSize: fontSize
+	    }
+	};
+
+	GradedGroupAnswerBar.ANSWER_BAR_STATES = ANSWER_BAR_STATES;
+
+	module.exports = GradedGroupAnswerBar;
+
+/***/ },
+/* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -25344,22 +25351,22 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = RangeInput;
 
 /***/ },
-/* 265 */
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable react/forbid-prop-types, react/prop-types, react/sort-comp */
 
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Util = __webpack_require__(16);
-	var GraphUtils = __webpack_require__(253);
+	var GraphUtils = __webpack_require__(252);
 
-	var _require = __webpack_require__(84),
+	var _require = __webpack_require__(96),
 	    interactiveSizes = _require.interactiveSizes;
 
-	var SvgImage = __webpack_require__(50);
+	var SvgImage = __webpack_require__(47);
 
 	var defaultBackgroundImage = {
 	    url: null
@@ -25690,7 +25697,8 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = Graph;
 
 /***/ },
-/* 266 */
+/* 263 */,
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable react/forbid-prop-types, react/prop-types, react/sort-comp */
@@ -25698,20 +25706,20 @@ webpackJsonp([1],Array(71).concat([
 	var React = __webpack_require__(43);
 	var ReactDOM = __webpack_require__(44);
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Util = __webpack_require__(16);
-	var Renderer = __webpack_require__(28);
+	var Renderer = __webpack_require__(37);
 
-	var ApiClassNames = __webpack_require__(12).ClassNames;
+	var ApiClassNames = __webpack_require__(15).ClassNames;
 
-	var Gorgon = __webpack_require__(42);
+	var Gorgon = __webpack_require__(41);
 
-	var _require2 = __webpack_require__(58),
+	var _require2 = __webpack_require__(59),
 	    linterContextProps = _require2.linterContextProps,
 	    linterContextDefault = _require2.linterContextDefault;
 
@@ -26298,8 +26306,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = Sortable;
 
 /***/ },
-/* 267 */,
-/* 268 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* eslint-disable eqeqeq, indent, keyword-spacing, max-len, no-mixed-spaces-and-tabs, no-unused-vars, no-var, semi, space-infix-ops */
@@ -26781,6 +26788,9 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
+/* 266 */,
+/* 267 */,
+/* 268 */,
 /* 269 */,
 /* 270 */,
 /* 271 */
@@ -26790,10 +26800,10 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var Util = __webpack_require__(16);
-	var Graphie = __webpack_require__(107);
+	var Graphie = __webpack_require__(106);
 	var Plot = Graphie.Plot;
 	var kpoint = __webpack_require__(289).point;
 
@@ -27473,7 +27483,7 @@ webpackJsonp([1],Array(71).concat([
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var ButtonGroup = __webpack_require__(98);
+	var ButtonGroup = __webpack_require__(97);
 	var React = __webpack_require__(43);
 
 	var _require = __webpack_require__(199),
@@ -27528,14 +27538,14 @@ webpackJsonp([1],Array(71).concat([
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var ButtonGroup = __webpack_require__(98);
+	var ButtonGroup = __webpack_require__(97);
 	var React = __webpack_require__(43);
-	var _ = __webpack_require__(54);
+	var _ = __webpack_require__(70);
 
 	var _require = __webpack_require__(199),
 	    ChangeableProps = _require.ChangeableProps;
 
-	var KhanColors = __webpack_require__(263);
+	var KhanColors = __webpack_require__(259);
 
 	var COLORS = [KhanColors.BLACK, KhanColors.BLUE, KhanColors.GREEN, KhanColors.PINK, KhanColors.PURPLE, KhanColors.RED, KhanColors.GRAY];
 
@@ -27598,15 +27608,15 @@ webpackJsonp([1],Array(71).concat([
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	var React = __webpack_require__(43);
-	var TeX = __webpack_require__(100);
+	var TeX = __webpack_require__(99);
 
-	var ButtonGroup = __webpack_require__(98);
+	var ButtonGroup = __webpack_require__(97);
 
 	var _require = __webpack_require__(199),
 	    ChangeableProps = _require.ChangeableProps,
 	    change = _require.change;
 
-	var MathInput = __webpack_require__(209);
+	var MathInput = __webpack_require__(205);
 	var NumberInput = __webpack_require__(202);
 
 	var ConstraintEditor = function (_React$Component) {
@@ -27811,7 +27821,7 @@ webpackJsonp([1],Array(71).concat([
 	/* eslint-disable react/sort-comp */
 	/* TODO(csilvers): fix these lint errors (http://eslint.org/docs/rules): */
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
-	var ButtonGroup = __webpack_require__(98);
+	var ButtonGroup = __webpack_require__(97);
 	var React = __webpack_require__(43);
 
 	var _require = __webpack_require__(199),
@@ -27889,14 +27899,14 @@ webpackJsonp([1],Array(71).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(46),
+	var _require = __webpack_require__(49),
 	    iconChevronDown = _require.iconChevronDown,
 	    iconChevronRight = _require.iconChevronRight,
 	    iconCircleArrowDown = _require.iconCircleArrowDown,
 	    iconCircleArrowUp = _require.iconCircleArrowUp,
 	    iconTrash = _require.iconTrash;
 
-	var InlineIcon = __webpack_require__(47);
+	var InlineIcon = __webpack_require__(50);
 
 	var ElementContainer = function (_React$Component) {
 	    _inherits(ElementContainer, _React$Component);
@@ -28796,14 +28806,14 @@ webpackJsonp([1],Array(71).concat([
 	 */
 	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var HighlightingUI = __webpack_require__(335);
-	var WordIndexer = __webpack_require__(298);
+	var HighlightingUI = __webpack_require__(334);
+	var WordIndexer = __webpack_require__(322);
 
-	var _require2 = __webpack_require__(299),
+	var _require2 = __webpack_require__(323),
 	    addHighlight = _require2.addHighlight,
 	    buildHighlight = _require2.buildHighlight,
 	    deserializeHighlight = _require2.deserializeHighlight,
@@ -29122,8 +29132,8 @@ webpackJsonp([1],Array(71).concat([
 
 	/* globals $_ */
 	var React = __webpack_require__(43);
-	var SimpleMarkdown = __webpack_require__(254);
-	var _ = __webpack_require__(54);
+	var SimpleMarkdown = __webpack_require__(253);
+	var _ = __webpack_require__(70);
 
 	var START_REF_PREFIX = "start-ref-";
 	var END_REF_PREFIX = "end-ref-";
@@ -29520,7 +29530,31 @@ webpackJsonp([1],Array(71).concat([
 /* 295 */,
 /* 296 */,
 /* 297 */,
-/* 298 */
+/* 298 */,
+/* 299 */,
+/* 300 */,
+/* 301 */,
+/* 302 */,
+/* 303 */,
+/* 304 */,
+/* 305 */,
+/* 306 */,
+/* 307 */,
+/* 308 */,
+/* 309 */,
+/* 310 */,
+/* 311 */,
+/* 312 */,
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */,
+/* 319 */,
+/* 320 */,
+/* 321 */,
+/* 322 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29681,14 +29715,14 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = WordIndexer;
 
 /***/ },
-/* 299 */
+/* 323 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/**
 	 * Utility functions for manipulating highlights.
 	 */
-	var _require = __webpack_require__(354),
+	var _require = __webpack_require__(383),
 	    findFirstAndLastWordIndexes = _require.findFirstAndLastWordIndexes,
 	    unionRanges = _require.unionRanges,
 	    spanRanges = _require.spanRanges,
@@ -29902,30 +29936,6 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 300 */,
-/* 301 */,
-/* 302 */,
-/* 303 */,
-/* 304 */,
-/* 305 */,
-/* 306 */,
-/* 307 */,
-/* 308 */,
-/* 309 */,
-/* 310 */,
-/* 311 */,
-/* 312 */,
-/* 313 */,
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */,
-/* 322 */,
-/* 323 */,
 /* 324 */,
 /* 325 */,
 /* 326 */,
@@ -29936,8 +29946,7 @@ webpackJsonp([1],Array(71).concat([
 /* 331 */,
 /* 332 */,
 /* 333 */,
-/* 334 */,
-/* 335 */
+/* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29962,7 +29971,7 @@ webpackJsonp([1],Array(71).concat([
 	var HighlightSetRenderer = __webpack_require__(392);
 	var HighlightTooltip = __webpack_require__(393);
 
-	var _require = __webpack_require__(354),
+	var _require = __webpack_require__(383),
 	    rangesOverlap = _require.rangesOverlap;
 
 	var SelectionTracker = __webpack_require__(394);
@@ -30090,6 +30099,7 @@ webpackJsonp([1],Array(71).concat([
 	module.exports = HighlightingUI;
 
 /***/ },
+/* 335 */,
 /* 336 */,
 /* 337 */,
 /* 338 */,
@@ -30108,7 +30118,36 @@ webpackJsonp([1],Array(71).concat([
 /* 351 */,
 /* 352 */,
 /* 353 */,
-/* 354 */
+/* 354 */,
+/* 355 */,
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */,
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */,
+/* 367 */,
+/* 368 */,
+/* 369 */,
+/* 370 */,
+/* 371 */,
+/* 372 */,
+/* 373 */,
+/* 374 */,
+/* 375 */,
+/* 376 */,
+/* 377 */,
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */,
+/* 383 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
@@ -30380,35 +30419,6 @@ webpackJsonp([1],Array(71).concat([
 	};
 
 /***/ },
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */,
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */,
-/* 382 */,
-/* 383 */,
 /* 384 */,
 /* 385 */,
 /* 386 */,
@@ -30436,7 +30446,7 @@ webpackJsonp([1],Array(71).concat([
 	 */
 	var React = __webpack_require__(43);
 
-	var HighlightRenderer = __webpack_require__(433);
+	var HighlightRenderer = __webpack_require__(452);
 	var HighlightTooltip = __webpack_require__(393);
 
 	/* global i18n */
@@ -30624,11 +30634,11 @@ webpackJsonp([1],Array(71).concat([
 	 */
 	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(72),
+	var _require = __webpack_require__(101),
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _require2 = __webpack_require__(434),
+	var _require2 = __webpack_require__(451),
 	    getRelativePosition = _require2.getRelativePosition;
 
 	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
@@ -31039,188 +31049,25 @@ webpackJsonp([1],Array(71).concat([
 /* 430 */,
 /* 431 */,
 /* 432 */,
-/* 433 */
-/***/ function(module, exports, __webpack_require__) {
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	/**
-	 * This component, given a single DOMHighlight, draws highlight rectangles in
-	 * the same absolute position as the highlighted content, as computed via
-	 * `getClientRects`.
-	 *
-	 * TODO(mdr): Many things can affect the correct positioning of highlighting,
-	 *     and this component does not attempt to anticipate them. If we start
-	 *     using this highlighting library on content with a more dynamic layout,
-	 *     we should add a hook to allow the parent to `forceUpdate` the
-	 *     `HighlightRenderer`.
-	 */
-	var React = __webpack_require__(43);
-
-	var _require = __webpack_require__(72),
-	    StyleSheet = _require.StyleSheet,
-	    css = _require.css;
-
-	var _require2 = __webpack_require__(434),
-	    getClientRectsForTextInRange = _require2.getClientRectsForTextInRange,
-	    getRelativePosition = _require2.getRelativePosition,
-	    getRelativeRect = _require2.getRelativeRect;
-
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(43).PropTypes.any;
-
-	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(43).PropTypes.any;
-
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
-
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
-
-	var HighlightRenderer = function (_React$PureComponent) {
-	    _inherits(HighlightRenderer, _React$PureComponent);
-
-	    function HighlightRenderer() {
-	        var _temp, _this, _ret;
-
-	        _classCallCheck(this, HighlightRenderer);
-
-	        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	            args[_key] = arguments[_key];
-	        }
-
-	        return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$PureComponent.call.apply(_React$PureComponent, [this].concat(args))), _this), _this.state = {
-	            cachedHighlightRects: _this._computeRects(_this.props),
-	            tooltipIsHovered: false
-	        }, _temp), _possibleConstructorReturn(_this, _ret);
-	    }
-
-	    HighlightRenderer.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-	        if (this.props.highlight !== nextProps.highlight || this.props.offsetParent !== nextProps.offsetParent) {
-	            this.setState({
-	                cachedHighlightRects: this._computeRects(nextProps)
-	            });
-	        }
-	    };
-
-	    /**
-	     * Compute the set of rectangles that cover the highlighted content, with
-	     * coordinates relative to the offset parent. That way, we can use them
-	     * for CSS positioning.
-	     */
-
-
-	    HighlightRenderer.prototype._computeRects = function _computeRects(props) {
-	        var highlight = props.highlight,
-	            offsetParent = props.offsetParent;
-
-	        // Get the set of rectangles that covers the range's text, relative to
-	        // the offset parent.
-
-	        var clientRects = getClientRectsForTextInRange(highlight.domRange);
-	        var offsetParentRect = offsetParent.getBoundingClientRect();
-	        var relativeRects = clientRects.map(function (rect) {
-	            return getRelativeRect(rect, offsetParentRect);
-	        });
-
-	        return relativeRects;
-	    };
-
-	    /**
-	     * Return whether the given mouse position (coordinates relative to this
-	     * component's offset parent) is hovering over the given rectangle
-	     * (coordinates also relative to this component's offset parent).
-	     */
-
-
-	    HighlightRenderer.prototype._rectIsHovered = function _rectIsHovered(rect, mouseOffsetPosition) {
-	        var positionWithinRect = getRelativePosition(mouseOffsetPosition, rect);
-
-	        return 0 <= positionWithinRect.left && positionWithinRect.left < rect.width && 0 <= positionWithinRect.top && positionWithinRect.top < rect.height;
-	    };
-
-	    /**
-	     * Return whether the given mouse position (coordinates relative to the
-	     * viewport) is hovering over this highlight.
-	     */
-
-
-	    HighlightRenderer.prototype.isHovered = function isHovered(mouseClientPosition) {
-	        var _this2 = this;
-
-	        if (!mouseClientPosition) {
-	            return false;
-	        }
-
-	        var offsetParent = this.props.offsetParent;
-	        var cachedHighlightRects = this.state.cachedHighlightRects;
-
-	        // Convert the client-relative mouse coordinates to be relative to the
-	        // offset parent. That way, we can compare them to the cached highlight
-	        // rectangles.
-
-	        var offsetParentRect = offsetParent.getBoundingClientRect();
-	        var mouseOffsetPosition = getRelativePosition(mouseClientPosition, offsetParentRect);
-
-	        return cachedHighlightRects.some(function (rect) {
-	            return _this2._rectIsHovered(rect, mouseOffsetPosition);
-	        });
-	    };
-
-	    HighlightRenderer.prototype.render = function render() {
-	        var _this3 = this;
-
-	        var rects = this.state.cachedHighlightRects;
-
-	        return React.createElement(
-	            "div",
-	            null,
-	            rects.map(function (rect, index) {
-	                return React.createElement("div", {
-	                    key: index,
-	                    className: css(styles.highlightRect),
-	                    style: {
-	                        // NOTE(mdr): We apply `position: absolute` here
-	                        //     rather than in Aphrodite styles, because
-	                        //     Aphrodite styles are delayed. If this
-	                        //     element temporarily has `position: static`,
-	                        //     then it'll displace the content, and other
-	                        //     highlights rendering during this update will
-	                        //     measure the displaced content instead, oops!
-	                        position: "absolute",
-	                        width: rect.width,
-	                        height: rect.height,
-	                        top: rect.top,
-	                        left: rect.left,
-	                        zIndex: _this3.props.zIndexes.belowContent
-	                    }
-	                });
-	            })
-	        );
-	    };
-
-	    return HighlightRenderer;
-	}(React.PureComponent);
-
-	HighlightRenderer.propTypes = {
-	    highlight: babelPluginFlowReactPropTypes_proptype_DOMHighlight,
-	    highlightKey: __webpack_require__(43).PropTypes.string.isRequired,
-	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
-	    zIndexes: babelPluginFlowReactPropTypes_proptype_ZIndexes
-	};
-
-
-	var styles = StyleSheet.create({
-	    highlightRect: {
-	        background: "#fffabe" // highlighter yellow :)
-	    }
-	});
-
-	module.exports = HighlightRenderer;
-
-/***/ },
-/* 434 */
+/* 433 */,
+/* 434 */,
+/* 435 */,
+/* 436 */,
+/* 437 */,
+/* 438 */,
+/* 439 */,
+/* 440 */,
+/* 441 */,
+/* 442 */,
+/* 443 */,
+/* 444 */,
+/* 445 */,
+/* 446 */,
+/* 447 */,
+/* 448 */,
+/* 449 */,
+/* 450 */,
+/* 451 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -31235,7 +31082,7 @@ webpackJsonp([1],Array(71).concat([
 
 	var babelPluginFlowReactPropTypes_proptype_DOMRange = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMRange || __webpack_require__(43).PropTypes.any;
 
-	var _require = __webpack_require__(354),
+	var _require = __webpack_require__(383),
 	    rangesOverlap = _require.rangesOverlap,
 	    intersectRanges = _require.intersectRanges;
 
@@ -31405,6 +31252,187 @@ webpackJsonp([1],Array(71).concat([
 	    getRelativePosition: getRelativePosition,
 	    getRelativeRect: getRelativeRect
 	};
+
+/***/ },
+/* 452 */
+/***/ function(module, exports, __webpack_require__) {
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	/**
+	 * This component, given a single DOMHighlight, draws highlight rectangles in
+	 * the same absolute position as the highlighted content, as computed via
+	 * `getClientRects`.
+	 *
+	 * TODO(mdr): Many things can affect the correct positioning of highlighting,
+	 *     and this component does not attempt to anticipate them. If we start
+	 *     using this highlighting library on content with a more dynamic layout,
+	 *     we should add a hook to allow the parent to `forceUpdate` the
+	 *     `HighlightRenderer`.
+	 */
+	var React = __webpack_require__(43);
+
+	var _require = __webpack_require__(101),
+	    StyleSheet = _require.StyleSheet,
+	    css = _require.css;
+
+	var _require2 = __webpack_require__(451),
+	    getClientRectsForTextInRange = _require2.getClientRectsForTextInRange,
+	    getRelativePosition = _require2.getRelativePosition,
+	    getRelativeRect = _require2.getRelativeRect;
+
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(43).PropTypes.any;
+
+	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(43).PropTypes.any;
+
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
+
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
+
+	var HighlightRenderer = function (_React$PureComponent) {
+	    _inherits(HighlightRenderer, _React$PureComponent);
+
+	    function HighlightRenderer() {
+	        var _temp, _this, _ret;
+
+	        _classCallCheck(this, HighlightRenderer);
+
+	        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	            args[_key] = arguments[_key];
+	        }
+
+	        return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$PureComponent.call.apply(_React$PureComponent, [this].concat(args))), _this), _this.state = {
+	            cachedHighlightRects: _this._computeRects(_this.props),
+	            tooltipIsHovered: false
+	        }, _temp), _possibleConstructorReturn(_this, _ret);
+	    }
+
+	    HighlightRenderer.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+	        if (this.props.highlight !== nextProps.highlight || this.props.offsetParent !== nextProps.offsetParent) {
+	            this.setState({
+	                cachedHighlightRects: this._computeRects(nextProps)
+	            });
+	        }
+	    };
+
+	    /**
+	     * Compute the set of rectangles that cover the highlighted content, with
+	     * coordinates relative to the offset parent. That way, we can use them
+	     * for CSS positioning.
+	     */
+
+
+	    HighlightRenderer.prototype._computeRects = function _computeRects(props) {
+	        var highlight = props.highlight,
+	            offsetParent = props.offsetParent;
+
+	        // Get the set of rectangles that covers the range's text, relative to
+	        // the offset parent.
+
+	        var clientRects = getClientRectsForTextInRange(highlight.domRange);
+	        var offsetParentRect = offsetParent.getBoundingClientRect();
+	        var relativeRects = clientRects.map(function (rect) {
+	            return getRelativeRect(rect, offsetParentRect);
+	        });
+
+	        return relativeRects;
+	    };
+
+	    /**
+	     * Return whether the given mouse position (coordinates relative to this
+	     * component's offset parent) is hovering over the given rectangle
+	     * (coordinates also relative to this component's offset parent).
+	     */
+
+
+	    HighlightRenderer.prototype._rectIsHovered = function _rectIsHovered(rect, mouseOffsetPosition) {
+	        var positionWithinRect = getRelativePosition(mouseOffsetPosition, rect);
+
+	        return 0 <= positionWithinRect.left && positionWithinRect.left < rect.width && 0 <= positionWithinRect.top && positionWithinRect.top < rect.height;
+	    };
+
+	    /**
+	     * Return whether the given mouse position (coordinates relative to the
+	     * viewport) is hovering over this highlight.
+	     */
+
+
+	    HighlightRenderer.prototype.isHovered = function isHovered(mouseClientPosition) {
+	        var _this2 = this;
+
+	        if (!mouseClientPosition) {
+	            return false;
+	        }
+
+	        var offsetParent = this.props.offsetParent;
+	        var cachedHighlightRects = this.state.cachedHighlightRects;
+
+	        // Convert the client-relative mouse coordinates to be relative to the
+	        // offset parent. That way, we can compare them to the cached highlight
+	        // rectangles.
+
+	        var offsetParentRect = offsetParent.getBoundingClientRect();
+	        var mouseOffsetPosition = getRelativePosition(mouseClientPosition, offsetParentRect);
+
+	        return cachedHighlightRects.some(function (rect) {
+	            return _this2._rectIsHovered(rect, mouseOffsetPosition);
+	        });
+	    };
+
+	    HighlightRenderer.prototype.render = function render() {
+	        var _this3 = this;
+
+	        var rects = this.state.cachedHighlightRects;
+
+	        return React.createElement(
+	            "div",
+	            null,
+	            rects.map(function (rect, index) {
+	                return React.createElement("div", {
+	                    key: index,
+	                    className: css(styles.highlightRect),
+	                    style: {
+	                        // NOTE(mdr): We apply `position: absolute` here
+	                        //     rather than in Aphrodite styles, because
+	                        //     Aphrodite styles are delayed. If this
+	                        //     element temporarily has `position: static`,
+	                        //     then it'll displace the content, and other
+	                        //     highlights rendering during this update will
+	                        //     measure the displaced content instead, oops!
+	                        position: "absolute",
+	                        width: rect.width,
+	                        height: rect.height,
+	                        top: rect.top,
+	                        left: rect.left,
+	                        zIndex: _this3.props.zIndexes.belowContent
+	                    }
+	                });
+	            })
+	        );
+	    };
+
+	    return HighlightRenderer;
+	}(React.PureComponent);
+
+	HighlightRenderer.propTypes = {
+	    highlight: babelPluginFlowReactPropTypes_proptype_DOMHighlight,
+	    highlightKey: __webpack_require__(43).PropTypes.string.isRequired,
+	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
+	    zIndexes: babelPluginFlowReactPropTypes_proptype_ZIndexes
+	};
+
+
+	var styles = StyleSheet.create({
+	    highlightRect: {
+	        background: "#fffabe" // highlighter yellow :)
+	    }
+	});
+
+	module.exports = HighlightRenderer;
 
 /***/ }
 ]));
