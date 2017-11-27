@@ -127,7 +127,7 @@ const PreviewFrame = React.createClass({
             const perseusClass =
                 "framework-perseus fonts-loaded " +
                 (isExercise ? "bibliotron-exercise " : "bibliotron-article ") +
-                (false ? "perseus-mobile" : "");
+                (this.props.isMobile ? "perseus-mobile" : "");
 
             const linterContext = this.state.data.linterContext;
 
