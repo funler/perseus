@@ -244,10 +244,8 @@ const RendererDemo = React.createClass({
                             <div id="scratchpad">
                               <div style={{zIndex:1, left:0}}></div>
                             </div>
-                            <div id="workarea-wrapper">
-                                <div id="workarea" />
-                                <div id="hintsarea" />
-                            </div>
+                            <div id="workarea" />
+                            <div id="hintsarea" />
                         </div>
                         <div className={css(styles.answerAreaWrap)}>
                             <div id="answer_area">
