@@ -87,11 +87,11 @@ webpackJsonp([1],Array(61).concat([
 	var ApiClassNames = __webpack_require__(15).ClassNames;
 	var ApiOptions = __webpack_require__(15).Options;
 
-	var _require2 = __webpack_require__(49),
+	var _require2 = __webpack_require__(48),
 	    iconCircle = _require2.iconCircle,
 	    iconCircleThin = _require2.iconCircleThin;
 
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var Renderer = __webpack_require__(37);
 	var Util = __webpack_require__(16);
 	var mediaQueries = __webpack_require__(94);
@@ -966,10 +966,10 @@ webpackJsonp([1],Array(61).concat([
 
 	var ApiClassNames = __webpack_require__(15).ClassNames;
 	var ApiOptions = __webpack_require__(15).Options;
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var styleConstants = __webpack_require__(96);
 
-	var _require2 = __webpack_require__(49),
+	var _require2 = __webpack_require__(48),
 	    iconDropdownArrow = _require2.iconDropdownArrow;
 
 	var dropdownArrowSize = 24;
@@ -1151,12 +1151,12 @@ webpackJsonp([1],Array(61).concat([
 	var ReactDOM = __webpack_require__(44);
 	var _ = __webpack_require__(70);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconPlus = _require.iconPlus,
 	    iconTrash = _require.iconTrash;
 
 	var InfoTip = __webpack_require__(111);
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var EditorJsonify = __webpack_require__(200);
 
 	var DropdownEditor = React.createClass({
@@ -3000,11 +3000,11 @@ webpackJsonp([1],Array(61).concat([
 	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconOk = _require.iconOk,
 	    iconRemove = _require.iconRemove;
 
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var Renderer = __webpack_require__(37);
 	var GradedGroupAnswerBar = __webpack_require__(260);
 
@@ -3384,9 +3384,9 @@ webpackJsonp([1],Array(61).concat([
 	var Changeable = __webpack_require__(199);
 	var Editor = __webpack_require__(23);
 	var TextInput = __webpack_require__(203);
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 
-	var _require2 = __webpack_require__(49),
+	var _require2 = __webpack_require__(48),
 	    iconPlus = _require2.iconPlus,
 	    iconTrash = _require2.iconTrash;
 
@@ -4982,7 +4982,7 @@ webpackJsonp([1],Array(61).concat([
 	var React = __webpack_require__(43);
 	var _ = __webpack_require__(70);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconTrash = _require.iconTrash;
 
 	var Util = __webpack_require__(16);
@@ -4993,7 +4993,7 @@ webpackJsonp([1],Array(61).concat([
 	var BlurInput = __webpack_require__(198);
 	var Editor = __webpack_require__(23);
 	var InfoTip = __webpack_require__(111);
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var RangeInput = __webpack_require__(261);
 
 	var defaultBoxSize = 400;
@@ -17282,10 +17282,10 @@ webpackJsonp([1],Array(61).concat([
 	var ApiOptions = __webpack_require__(15).Options;
 	var Changeable = __webpack_require__(199);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconOk = _require.iconOk;
 
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var Renderer = __webpack_require__(37);
 	var Util = __webpack_require__(16);
 
@@ -17429,13 +17429,13 @@ webpackJsonp([1],Array(61).concat([
 	var ApiOptions = __webpack_require__(15).Options;
 	var Editor = __webpack_require__(23);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconCircleArrowDown = _require.iconCircleArrowDown,
 	    iconCircleArrowUp = _require.iconCircleArrowUp,
 	    iconPlus = _require.iconPlus,
 	    iconTrash = _require.iconTrash;
 
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 
 	var StepControlButton = React.createClass({
 	    displayName: "StepControlButton",
@@ -19364,7 +19364,7 @@ webpackJsonp([1],Array(61).concat([
 	var _ = __webpack_require__(70);
 
 	var Graph = __webpack_require__(262);
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var NumberInput = __webpack_require__(202);
 	var MathOutput = __webpack_require__(263);
 	var TeX = __webpack_require__(99);
@@ -19381,7 +19381,7 @@ webpackJsonp([1],Array(61).concat([
 	var REFLECT_ROTATE_HANDLE_DIST = 2;
 	var REFLECT_BUTTON_SIZE = 1;
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconPlus = _require.iconPlus,
 	    iconUndo = _require.iconUndo;
 
@@ -23127,10 +23127,10 @@ webpackJsonp([1],Array(61).concat([
 	var Changeable = __webpack_require__(199);
 	var EditorJsonify = __webpack_require__(200);
 
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 	var NumberInput = __webpack_require__(202);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconOk = _require.iconOk,
 	    iconRemove = _require.iconRemove;
 
@@ -25090,9 +25090,9 @@ webpackJsonp([1],Array(61).concat([
 	var React = __webpack_require__(43);
 
 	var ApiOptions = __webpack_require__(15).Options;
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconStar = _require.iconStar,
 	    iconTryAgain = _require.iconTryAgain;
 
@@ -27899,14 +27899,14 @@ webpackJsonp([1],Array(61).concat([
 	/* To fix, remove an entry above, run ka-lint, and fix errors. */
 	var React = __webpack_require__(43);
 
-	var _require = __webpack_require__(49),
+	var _require = __webpack_require__(48),
 	    iconChevronDown = _require.iconChevronDown,
 	    iconChevronRight = _require.iconChevronRight,
 	    iconCircleArrowDown = _require.iconCircleArrowDown,
 	    iconCircleArrowUp = _require.iconCircleArrowUp,
 	    iconTrash = _require.iconTrash;
 
-	var InlineIcon = __webpack_require__(50);
+	var InlineIcon = __webpack_require__(49);
 
 	var ElementContainer = function (_React$Component) {
 	    _inherits(ElementContainer, _React$Component);
@@ -30446,7 +30446,7 @@ webpackJsonp([1],Array(61).concat([
 	 */
 	var React = __webpack_require__(43);
 
-	var HighlightRenderer = __webpack_require__(452);
+	var HighlightRenderer = __webpack_require__(451);
 	var HighlightTooltip = __webpack_require__(393);
 
 	/* global i18n */
@@ -30638,7 +30638,7 @@ webpackJsonp([1],Array(61).concat([
 	    StyleSheet = _require.StyleSheet,
 	    css = _require.css;
 
-	var _require2 = __webpack_require__(451),
+	var _require2 = __webpack_require__(452),
 	    getRelativePosition = _require2.getRelativePosition;
 
 	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
@@ -31070,6 +31070,187 @@ webpackJsonp([1],Array(61).concat([
 /* 451 */
 /***/ function(module, exports, __webpack_require__) {
 
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	/**
+	 * This component, given a single DOMHighlight, draws highlight rectangles in
+	 * the same absolute position as the highlighted content, as computed via
+	 * `getClientRects`.
+	 *
+	 * TODO(mdr): Many things can affect the correct positioning of highlighting,
+	 *     and this component does not attempt to anticipate them. If we start
+	 *     using this highlighting library on content with a more dynamic layout,
+	 *     we should add a hook to allow the parent to `forceUpdate` the
+	 *     `HighlightRenderer`.
+	 */
+	var React = __webpack_require__(43);
+
+	var _require = __webpack_require__(101),
+	    StyleSheet = _require.StyleSheet,
+	    css = _require.css;
+
+	var _require2 = __webpack_require__(452),
+	    getClientRectsForTextInRange = _require2.getClientRectsForTextInRange,
+	    getRelativePosition = _require2.getRelativePosition,
+	    getRelativeRect = _require2.getRelativeRect;
+
+	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(43).PropTypes.any;
+
+	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(43).PropTypes.any;
+
+	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
+
+	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
+
+	var HighlightRenderer = function (_React$PureComponent) {
+	    _inherits(HighlightRenderer, _React$PureComponent);
+
+	    function HighlightRenderer() {
+	        var _temp, _this, _ret;
+
+	        _classCallCheck(this, HighlightRenderer);
+
+	        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	            args[_key] = arguments[_key];
+	        }
+
+	        return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$PureComponent.call.apply(_React$PureComponent, [this].concat(args))), _this), _this.state = {
+	            cachedHighlightRects: _this._computeRects(_this.props),
+	            tooltipIsHovered: false
+	        }, _temp), _possibleConstructorReturn(_this, _ret);
+	    }
+
+	    HighlightRenderer.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+	        if (this.props.highlight !== nextProps.highlight || this.props.offsetParent !== nextProps.offsetParent) {
+	            this.setState({
+	                cachedHighlightRects: this._computeRects(nextProps)
+	            });
+	        }
+	    };
+
+	    /**
+	     * Compute the set of rectangles that cover the highlighted content, with
+	     * coordinates relative to the offset parent. That way, we can use them
+	     * for CSS positioning.
+	     */
+
+
+	    HighlightRenderer.prototype._computeRects = function _computeRects(props) {
+	        var highlight = props.highlight,
+	            offsetParent = props.offsetParent;
+
+	        // Get the set of rectangles that covers the range's text, relative to
+	        // the offset parent.
+
+	        var clientRects = getClientRectsForTextInRange(highlight.domRange);
+	        var offsetParentRect = offsetParent.getBoundingClientRect();
+	        var relativeRects = clientRects.map(function (rect) {
+	            return getRelativeRect(rect, offsetParentRect);
+	        });
+
+	        return relativeRects;
+	    };
+
+	    /**
+	     * Return whether the given mouse position (coordinates relative to this
+	     * component's offset parent) is hovering over the given rectangle
+	     * (coordinates also relative to this component's offset parent).
+	     */
+
+
+	    HighlightRenderer.prototype._rectIsHovered = function _rectIsHovered(rect, mouseOffsetPosition) {
+	        var positionWithinRect = getRelativePosition(mouseOffsetPosition, rect);
+
+	        return 0 <= positionWithinRect.left && positionWithinRect.left < rect.width && 0 <= positionWithinRect.top && positionWithinRect.top < rect.height;
+	    };
+
+	    /**
+	     * Return whether the given mouse position (coordinates relative to the
+	     * viewport) is hovering over this highlight.
+	     */
+
+
+	    HighlightRenderer.prototype.isHovered = function isHovered(mouseClientPosition) {
+	        var _this2 = this;
+
+	        if (!mouseClientPosition) {
+	            return false;
+	        }
+
+	        var offsetParent = this.props.offsetParent;
+	        var cachedHighlightRects = this.state.cachedHighlightRects;
+
+	        // Convert the client-relative mouse coordinates to be relative to the
+	        // offset parent. That way, we can compare them to the cached highlight
+	        // rectangles.
+
+	        var offsetParentRect = offsetParent.getBoundingClientRect();
+	        var mouseOffsetPosition = getRelativePosition(mouseClientPosition, offsetParentRect);
+
+	        return cachedHighlightRects.some(function (rect) {
+	            return _this2._rectIsHovered(rect, mouseOffsetPosition);
+	        });
+	    };
+
+	    HighlightRenderer.prototype.render = function render() {
+	        var _this3 = this;
+
+	        var rects = this.state.cachedHighlightRects;
+
+	        return React.createElement(
+	            "div",
+	            null,
+	            rects.map(function (rect, index) {
+	                return React.createElement("div", {
+	                    key: index,
+	                    className: css(styles.highlightRect),
+	                    style: {
+	                        // NOTE(mdr): We apply `position: absolute` here
+	                        //     rather than in Aphrodite styles, because
+	                        //     Aphrodite styles are delayed. If this
+	                        //     element temporarily has `position: static`,
+	                        //     then it'll displace the content, and other
+	                        //     highlights rendering during this update will
+	                        //     measure the displaced content instead, oops!
+	                        position: "absolute",
+	                        width: rect.width,
+	                        height: rect.height,
+	                        top: rect.top,
+	                        left: rect.left,
+	                        zIndex: _this3.props.zIndexes.belowContent
+	                    }
+	                });
+	            })
+	        );
+	    };
+
+	    return HighlightRenderer;
+	}(React.PureComponent);
+
+	HighlightRenderer.propTypes = {
+	    highlight: babelPluginFlowReactPropTypes_proptype_DOMHighlight,
+	    highlightKey: __webpack_require__(43).PropTypes.string.isRequired,
+	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
+	    zIndexes: babelPluginFlowReactPropTypes_proptype_ZIndexes
+	};
+
+
+	var styles = StyleSheet.create({
+	    highlightRect: {
+	        background: "#fffabe" // highlighter yellow :)
+	    }
+	});
+
+	module.exports = HighlightRenderer;
+
+/***/ },
+/* 452 */
+/***/ function(module, exports, __webpack_require__) {
+
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(43).PropTypes.any;
@@ -31252,187 +31433,6 @@ webpackJsonp([1],Array(61).concat([
 	    getRelativePosition: getRelativePosition,
 	    getRelativeRect: getRelativeRect
 	};
-
-/***/ },
-/* 452 */
-/***/ function(module, exports, __webpack_require__) {
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	/**
-	 * This component, given a single DOMHighlight, draws highlight rectangles in
-	 * the same absolute position as the highlighted content, as computed via
-	 * `getClientRects`.
-	 *
-	 * TODO(mdr): Many things can affect the correct positioning of highlighting,
-	 *     and this component does not attempt to anticipate them. If we start
-	 *     using this highlighting library on content with a more dynamic layout,
-	 *     we should add a hook to allow the parent to `forceUpdate` the
-	 *     `HighlightRenderer`.
-	 */
-	var React = __webpack_require__(43);
-
-	var _require = __webpack_require__(101),
-	    StyleSheet = _require.StyleSheet,
-	    css = _require.css;
-
-	var _require2 = __webpack_require__(451),
-	    getClientRectsForTextInRange = _require2.getClientRectsForTextInRange,
-	    getRelativePosition = _require2.getRelativePosition,
-	    getRelativeRect = _require2.getRelativeRect;
-
-	var babelPluginFlowReactPropTypes_proptype_ZIndexes = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_ZIndexes || __webpack_require__(43).PropTypes.any;
-
-	var babelPluginFlowReactPropTypes_proptype_Rect = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Rect || __webpack_require__(43).PropTypes.any;
-
-	var babelPluginFlowReactPropTypes_proptype_Position = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_Position || __webpack_require__(43).PropTypes.any;
-
-	var babelPluginFlowReactPropTypes_proptype_DOMHighlight = __webpack_require__(395).babelPluginFlowReactPropTypes_proptype_DOMHighlight || __webpack_require__(43).PropTypes.any;
-
-	var HighlightRenderer = function (_React$PureComponent) {
-	    _inherits(HighlightRenderer, _React$PureComponent);
-
-	    function HighlightRenderer() {
-	        var _temp, _this, _ret;
-
-	        _classCallCheck(this, HighlightRenderer);
-
-	        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	            args[_key] = arguments[_key];
-	        }
-
-	        return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$PureComponent.call.apply(_React$PureComponent, [this].concat(args))), _this), _this.state = {
-	            cachedHighlightRects: _this._computeRects(_this.props),
-	            tooltipIsHovered: false
-	        }, _temp), _possibleConstructorReturn(_this, _ret);
-	    }
-
-	    HighlightRenderer.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
-	        if (this.props.highlight !== nextProps.highlight || this.props.offsetParent !== nextProps.offsetParent) {
-	            this.setState({
-	                cachedHighlightRects: this._computeRects(nextProps)
-	            });
-	        }
-	    };
-
-	    /**
-	     * Compute the set of rectangles that cover the highlighted content, with
-	     * coordinates relative to the offset parent. That way, we can use them
-	     * for CSS positioning.
-	     */
-
-
-	    HighlightRenderer.prototype._computeRects = function _computeRects(props) {
-	        var highlight = props.highlight,
-	            offsetParent = props.offsetParent;
-
-	        // Get the set of rectangles that covers the range's text, relative to
-	        // the offset parent.
-
-	        var clientRects = getClientRectsForTextInRange(highlight.domRange);
-	        var offsetParentRect = offsetParent.getBoundingClientRect();
-	        var relativeRects = clientRects.map(function (rect) {
-	            return getRelativeRect(rect, offsetParentRect);
-	        });
-
-	        return relativeRects;
-	    };
-
-	    /**
-	     * Return whether the given mouse position (coordinates relative to this
-	     * component's offset parent) is hovering over the given rectangle
-	     * (coordinates also relative to this component's offset parent).
-	     */
-
-
-	    HighlightRenderer.prototype._rectIsHovered = function _rectIsHovered(rect, mouseOffsetPosition) {
-	        var positionWithinRect = getRelativePosition(mouseOffsetPosition, rect);
-
-	        return 0 <= positionWithinRect.left && positionWithinRect.left < rect.width && 0 <= positionWithinRect.top && positionWithinRect.top < rect.height;
-	    };
-
-	    /**
-	     * Return whether the given mouse position (coordinates relative to the
-	     * viewport) is hovering over this highlight.
-	     */
-
-
-	    HighlightRenderer.prototype.isHovered = function isHovered(mouseClientPosition) {
-	        var _this2 = this;
-
-	        if (!mouseClientPosition) {
-	            return false;
-	        }
-
-	        var offsetParent = this.props.offsetParent;
-	        var cachedHighlightRects = this.state.cachedHighlightRects;
-
-	        // Convert the client-relative mouse coordinates to be relative to the
-	        // offset parent. That way, we can compare them to the cached highlight
-	        // rectangles.
-
-	        var offsetParentRect = offsetParent.getBoundingClientRect();
-	        var mouseOffsetPosition = getRelativePosition(mouseClientPosition, offsetParentRect);
-
-	        return cachedHighlightRects.some(function (rect) {
-	            return _this2._rectIsHovered(rect, mouseOffsetPosition);
-	        });
-	    };
-
-	    HighlightRenderer.prototype.render = function render() {
-	        var _this3 = this;
-
-	        var rects = this.state.cachedHighlightRects;
-
-	        return React.createElement(
-	            "div",
-	            null,
-	            rects.map(function (rect, index) {
-	                return React.createElement("div", {
-	                    key: index,
-	                    className: css(styles.highlightRect),
-	                    style: {
-	                        // NOTE(mdr): We apply `position: absolute` here
-	                        //     rather than in Aphrodite styles, because
-	                        //     Aphrodite styles are delayed. If this
-	                        //     element temporarily has `position: static`,
-	                        //     then it'll displace the content, and other
-	                        //     highlights rendering during this update will
-	                        //     measure the displaced content instead, oops!
-	                        position: "absolute",
-	                        width: rect.width,
-	                        height: rect.height,
-	                        top: rect.top,
-	                        left: rect.left,
-	                        zIndex: _this3.props.zIndexes.belowContent
-	                    }
-	                });
-	            })
-	        );
-	    };
-
-	    return HighlightRenderer;
-	}(React.PureComponent);
-
-	HighlightRenderer.propTypes = {
-	    highlight: babelPluginFlowReactPropTypes_proptype_DOMHighlight,
-	    highlightKey: __webpack_require__(43).PropTypes.string.isRequired,
-	    offsetParent: __webpack_require__(43).PropTypes.any.isRequired,
-	    zIndexes: babelPluginFlowReactPropTypes_proptype_ZIndexes
-	};
-
-
-	var styles = StyleSheet.create({
-	    highlightRect: {
-	        background: "#fffabe" // highlighter yellow :)
-	    }
-	});
-
-	module.exports = HighlightRenderer;
 
 /***/ }
 ]));
