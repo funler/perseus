@@ -170,6 +170,24 @@ const RendererDemo = React.createClass({
     },
 
     render: function() {
+
+      // TODO: This custom event should be removed. It needed for sending perseus state to angular
+      var customEvent = new CustomEvent("stateFromPerseus", {
+        detail: { perseusState: this.state }
+      });
+      document.dispatchEvent(customEvent);
+
+      // Events from angular
+      document.addEventListener('toggleScratchpad', function () {
+        this.toggleScratchpad();
+      });
+      document.addEventListener('takeHint', function () {
+        this.takeHint();
+      });
+      document.addEventListener('checkAnswer', function () {
+        this.checkAnswer();
+      });
+
         let {isMobile} = this.state;
 
         const apiOptions = {
