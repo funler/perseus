@@ -48,7 +48,7 @@ const RendererDemo = React.createClass({
             // Matches ItemRenderer.showInput
             answer: {empty: true, correct: null},
             scratchpadEnabled: true,
-            isMobile: navigator.userAgent.indexOf("Mobile") !== -1,
+            isMobile: false,//navigator.userAgent.indexOf("Mobile") !== -1,
         };
     },
 
@@ -163,14 +163,14 @@ const RendererDemo = React.createClass({
     },
 
     _handleResize() {
-        let isMobile = navigator.userAgent.indexOf("Mobile") !== -1;
+        let isMobile = false;//navigator.userAgent.indexOf("Mobile") !== -1;
         if (this.state.isMobile !== isMobile) {
             this.setState({isMobile});
         }
     },
 
     render: function() {
-        let {isMobile} = this.state;
+        let {isMobile} = {isMobile: false};//this.state;
 
         const apiOptions = {
             getAnotherHint: () => {
